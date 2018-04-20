@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.version       = "1.0"
   s.summary       = "UizaSDK Framework by Nam Kennic"
   s.description   = "A framework that handles API connect to Uiza OTT system"
-  s.homepage      = "https://github.com/kennic/UizaSDK"
+  s.homepage      = "https://github.com/uizaio/uiza-sdk-player-ios"
 
   s.license       = { :type => 'BSD', :file => 'LICENSE' }
   s.author        = { 'Nam Kennic' => 'namkennic@me.com' }
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.platform      = :tvos, "10.0"
   s.requires_arc  = true
   s.swift_version = '4.0'
-  s.source        = { :git => "https://github.com/kennic/UizaSDK.git", :branch => 'origin', :tag => s.version }
-  s.documentation_url   = 'https://kennic.github.io/UizaSDK/'
+  s.source        = { :git => "https://github.com/uizaio/uiza-sdk-player-ios.git", :branch => 'origin', :tag => s.version }
+  s.documentation_url   = 'https://github.com/uizaio/uiza-sdk-player-ios/'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
   
   s.ios.deployment_target     = '10.0'
