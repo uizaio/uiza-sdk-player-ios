@@ -124,4 +124,4 @@ namnh@uiza.io
 
 ## License
 
-UizaSDK is released under the BSD license. See [LICENSE](https://github.com/kennic/UizaSDK/blob/master/LICENSE) for details.
+UizaSDK is released under the BSD license. See [LICENSE](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/LICENSE) for details.
