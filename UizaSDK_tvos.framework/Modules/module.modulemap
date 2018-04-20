@@ -1,0 +1,11 @@
+framework module UizaSDK_tvos {
+  umbrella header "UizaSDK_tvos.h"
+
+  export *
+  module * { export * }
+}
+
+module UizaSDK_tvos.Swift {
+    header "UizaSDK_tvos-Swift.h"
+    requires objc
+}
