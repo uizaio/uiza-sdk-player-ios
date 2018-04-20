@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks   = 'UizaSDK.framework'
 
   s.tvos.deployment_target    = '10.0'
-  s.tvos.vendored_frameworks  = 'UizaSDKTVOS.framework'
+  s.tvos.vendored_frameworks  = 'UizaSDK_tvos.framework'
 
   s.dependency "Alamofire"
   s.dependency "AFDateHelper"
