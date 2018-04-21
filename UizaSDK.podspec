@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
   s.swift_version = '4.0'
   s.source        = { :git => "https://github.com/uizaio/uiza-sdk-player-ios.git", :branch => 'origin', :tag => s.version }
-  s.documentation_url   = 'https://github.com/uizaio/uiza-sdk-player-ios/'
+  s.documentation_url   = 'https://uizaio.github.io/uiza-sdk-player-ios/'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
   
   s.ios.deployment_target     = '10.0'
