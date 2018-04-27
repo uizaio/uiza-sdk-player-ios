@@ -13,7 +13,7 @@
     <a title="  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html"> Docs</a> (100% documented)</p>
+        <p><a href="index.html"> Docs</a> (46% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -57,6 +57,21 @@
                 <a href="Classes/UZModelObject.html">UZModelObject</a>
               </li>
               <li class="nav-group-task">
+                <a href="Classes/UZPlayer.html">UZPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UZPlayerControlView.html">UZPlayerControlView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UZPlayerLayerView.html">UZPlayerLayerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UZPlayerViewController.html">UZPlayerViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UZSlider.html">UZSlider</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Classes/UZToken.html">UZToken</a>
               </li>
               <li class="nav-group-task">
@@ -77,7 +92,41 @@
                 <a href="Enums/CellDisplayMode.html">CellDisplayMode</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/UZButtonTag.html">UZButtonTag</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/UZEnviroment.html">UZEnviroment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UZPlayerAspectRatio.html">UZPlayerAspectRatio</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UZPlayerState.html">UZPlayerState</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/UZPlayerControlViewDelegate.html">UZPlayerControlViewDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/UZPlayerDelegate.html">UZPlayerDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/UZPlayerLayerViewDelegate.html">UZPlayerLayerViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/UZPlayerResource.html">UZPlayerResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/UZPlayerResourceDefinition.html">UZPlayerResourceDefinition</a>
               </li>
             </ul>
           </li>
@@ -152,7 +201,7 @@
 <span class="p">}</span>
 </code></pre>
 
-<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/">Tài liệu API</a></p>
+<p><a href="https://uizaio.github.io/uiza-sdk-player-ios/">Tài liệu API</a></p>
 <h2 id='h-tr' class='heading'>Hỗ Trợ</h2>
 
 <p><a href="mailto:namnh@uiza.io">namnh@uiza.io</a></p>
@@ -185,7 +234,7 @@
 <span class="kt">UizaSDK</span><span class="o">.</span><span class="nf">initWith</span><span class="p">(</span><span class="nv">accessKey</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_CLIENT_KEY</span><span class="p">],</span> <span class="nv">secretKey</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_SECRET_KEY</span><span class="p">],</span> <span class="nv">enviroment</span><span class="p">:</span> <span class="o">.</span><span class="n">production</span><span class="p">)</span>
 </code></pre>
 
-<p>Then call this authorize function to generate token in order to make other API functions to work</p>
+<p>Then call this authorize function to generate token in order to make other API functions to work:</p>
 <pre class="highlight swift"><code><span class="kt">UZAccountServices</span><span class="p">()</span><span class="o">.</span><span class="n">authorize</span> <span class="p">{</span> <span class="p">(</span><span class="nv">token</span><span class="p">:</span> <span class="kt">UZToken</span><span class="p">?,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span> <span class="k">in</span>
     <span class="k">if</span> <span class="n">error</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
         <span class="c1">// error</span>
@@ -196,7 +245,7 @@
 <span class="p">}</span>
 </code></pre>
 
-<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/">API Document</a></p>
+<p><a href="https://uizaio.github.io/uiza-sdk-player-ios/">API Document</a></p>
 <h2 id='support' class='heading'>Support</h2>
 
 <p><a href="mailto:namnh@uiza.io">namnh@uiza.io</a></p>
@@ -207,7 +256,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Nam Kennic</a>. All rights reserved. (Last updated: 2018-04-20)</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Nam Kennic</a>. All rights reserved. (Last updated: 2018-04-27)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

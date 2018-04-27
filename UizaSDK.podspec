@@ -30,9 +30,16 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target    = '10.0'
   s.tvos.vendored_frameworks  = 'UizaSDK_tvos.framework'
 
-  s.dependency "Alamofire"
-  s.dependency "AFDateHelper"
-  s.dependency "CryptoSwift"
-  s.dependency "SwiftyJSON"
+  s.ios.dependency "Alamofire"
+  s.ios.dependency "AFDateHelper"
+  s.ios.dependency "SwiftyJSON"
+  s.ios.dependency "NKFrameLayoutKit"
+  s.ios.dependency "NVActivityIndicatorView"
+  s.ios.dependency "SwiftIcons"
+  
+  s.tvos.dependency "Alamofire"
+  s.tvos.dependency "AFDateHelper"
+  s.tvos.dependency "SwiftyJSON"
+  
 
 end
