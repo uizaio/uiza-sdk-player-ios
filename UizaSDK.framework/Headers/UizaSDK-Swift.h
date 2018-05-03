@@ -315,6 +315,16 @@ SWIFT_CLASS("_TtC7UizaSDK22UZPlayerViewController")
 @end
 
 
+SWIFT_CLASS("_TtC7UizaSDK11UZShareView")
+@interface UZShareView : UIView
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
 SWIFT_CLASS("_TtC7UizaSDK8UZSlider")
 @interface UZSlider : UISlider
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
