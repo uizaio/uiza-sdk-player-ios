@@ -306,7 +306,9 @@ SWIFT_CLASS("_TtC7UizaSDK17UZPlayerLayerView")
 
 SWIFT_CLASS("_TtC7UizaSDK22UZPlayerViewController")
 @interface UZPlayerViewController : UIViewController
-- (void)loadView;
+- (void)viewDidLoad;
+- (void)viewDidLayoutSubviews;
+@property (nonatomic, readonly) BOOL prefersStatusBarHidden;
 @property (nonatomic, readonly) BOOL shouldAutorotate;
 @property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
 @property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
