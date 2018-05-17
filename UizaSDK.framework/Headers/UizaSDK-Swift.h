@@ -286,9 +286,6 @@ SWIFT_CLASS("_TtC7UizaSDK19UZPlayerControlView")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
-/// Call when some action button Pressed
-/// \param button action Button
-///
 - (void)onButtonPressed:(UIButton * _Nonnull)button;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
