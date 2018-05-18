@@ -168,6 +168,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 @import ObjectiveC;
 @import CoreGraphics;
+@import AVKit;
 @import GoogleInteractiveMediaAds;
 #endif
 
@@ -185,6 +186,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="UizaSDK",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+
 
 
 
@@ -256,6 +259,14 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init;
 - (void)layoutSubviews;
+- (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
+@end
+
+@class AVPictureInPictureController;
+
+@interface UZPlayer (SWIFT_EXTENSION(UizaSDK)) <AVPictureInPictureControllerDelegate>
+- (void)pictureInPictureControllerWillStartPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
+- (void)pictureInPictureControllerDidStopPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
 @end
 
 
