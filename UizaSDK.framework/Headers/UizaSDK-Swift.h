@@ -166,8 +166,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVFoundation;
 @import Foundation;
 @import UIKit;
-@import ObjectiveC;
+@import MediaPlayer;
 @import CoreGraphics;
+@import ObjectiveC;
 @import AVKit;
 @import GoogleInteractiveMediaAds;
 #endif
@@ -206,6 +207,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @class NSCoder;
+
+SWIFT_CLASS("_TtC7UizaSDK15UZAirPlayButton")
+@interface UZAirPlayButton : MPVolumeView
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 
 /// Class model nền tảng được dùng bởi tất cả các model khác trong framework. Bạn không cần để ý tới class này.
 SWIFT_CLASS("_TtC7UizaSDK13UZModelObject")
