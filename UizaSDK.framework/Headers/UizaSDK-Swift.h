@@ -206,6 +206,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7UizaSDK15UZAirPlayButton")
@@ -273,8 +275,6 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 @end
 
-
-
 @class AVPictureInPictureController;
 
 @interface UZPlayer (SWIFT_EXTENSION(UizaSDK)) <AVPictureInPictureControllerDelegate>
@@ -282,6 +282,8 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (void)pictureInPictureControllerDidStartPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
 - (void)pictureInPictureControllerDidStopPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
 @end
+
+
 
 
 
