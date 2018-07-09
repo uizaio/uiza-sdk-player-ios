@@ -257,6 +257,17 @@ SWIFT_CLASS("_TtC7UizaSDK10UZHomeData")
 @end
 
 
+SWIFT_CLASS("_TtC7UizaSDK15UZLiveBadgeView")
+@interface UZLiveBadgeView : UIView
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
 /// Class chứa thông tin của menu item
 SWIFT_CLASS("_TtC7UizaSDK10UZMenuItem")
 @interface UZMenuItem : UZModelObject
@@ -264,6 +275,13 @@ SWIFT_CLASS("_TtC7UizaSDK10UZMenuItem")
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+SWIFT_CLASS("_TtC7UizaSDK12UZPagination")
+@interface UZPagination : UZModelObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
@@ -275,6 +293,8 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 @end
 
+
+
 @class AVPictureInPictureController;
 
 @interface UZPlayer (SWIFT_EXTENSION(UizaSDK)) <AVPictureInPictureControllerDelegate>
@@ -282,8 +302,6 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (void)pictureInPictureControllerDidStartPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
 - (void)pictureInPictureControllerDidStopPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
 @end
-
-
 
 
 

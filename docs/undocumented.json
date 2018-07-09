@@ -1,6 +1,48 @@
 {
   "warnings": [
     {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Controls/UZAirPlayButton.swift",
+      "line": 12,
+      "symbol": "UZAirPlayButton",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Controls/UZAirPlayButton.swift",
+      "line": 14,
+      "symbol": "UZAirPlayButton.isEnabled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Controls/UZAirPlayButton.swift",
+      "line": 35,
+      "symbol": "UZAirPlayButton.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Controls/UZAirPlayButton.swift",
+      "line": 39,
+      "symbol": "UZAirPlayButton.setupDefaultIcon(iconSize:offColor:onColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Controls/UZAirPlayButton.swift",
+      "line": 47,
+      "symbol": "UZAirPlayButton.setImage(image:for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Controls/UZAirPlayButton.swift",
+      "line": 51,
+      "symbol": "UZAirPlayButton.sizeThatFits(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Controls/UZSlider.swift",
       "line": 11,
       "symbol": "UZSlider",
@@ -44,22 +86,29 @@
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZMediaResource.swift",
-      "line": 12,
+      "line": 11,
       "symbol": "UZPlayerResource",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZMediaResource.swift",
-      "line": 13,
+      "line": 12,
       "symbol": "UZPlayerResource.name",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZMediaResource.swift",
-      "line": 14,
+      "line": 13,
       "symbol": "UZPlayerResource.cover",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZMediaResource.swift",
+      "line": 14,
+      "symbol": "UZPlayerResource.subtitles",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -71,366 +120,422 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZMediaResource.swift",
-      "line": 45,
-      "symbol": "UZPlayerResourceDefinition",
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZSubtitles.swift",
+      "line": 11,
+      "symbol": "UZSubtitles",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZSubtitles.swift",
+      "line": 12,
+      "symbol": "UZSubtitles.groups",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZSubtitles.swift",
+      "line": 14,
+      "symbol": "UZSubtitles.UZSubtitleGroup",
       "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZMediaResource.swift",
-      "line": 46,
-      "symbol": "UZPlayerResourceDefinition.url",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZMediaResource.swift",
-      "line": 47,
-      "symbol": "UZPlayerResourceDefinition.definition",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Models/UZSubtitles.swift",
+      "line": 45,
+      "symbol": "UZSubtitles.init(url:encoding:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme1.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "UZTheme1",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme1.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "UZTheme1.controlView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme1.swift",
-      "line": 26,
+      "line": 31,
       "symbol": "UZTheme1.init(iconSize:centerIconSize:seekThumbSize:iconColor:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme1.swift",
-      "line": 35,
+      "line": 40,
       "symbol": "UZTheme1.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme1.swift",
-      "line": 39,
+      "line": 44,
       "symbol": "UZTheme1.updateUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme1.swift",
-      "line": 174,
+      "line": 203,
       "symbol": "UZTheme1.layoutControls(rect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme1.swift",
-      "line": 181,
+      "line": 224,
       "symbol": "UZTheme1.cleanUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme1.swift",
+      "line": 229,
+      "symbol": "UZTheme1.allButtons()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme2.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "UZTheme2",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme2.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "UZTheme2.controlView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme2.swift",
-      "line": 26,
+      "line": 31,
       "symbol": "UZTheme2.init(iconSize:centerIconSize:seekThumbSize:iconColor:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme2.swift",
-      "line": 35,
+      "line": 40,
       "symbol": "UZTheme2.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme2.swift",
-      "line": 39,
+      "line": 44,
       "symbol": "UZTheme2.updateUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme2.swift",
-      "line": 174,
+      "line": 203,
       "symbol": "UZTheme2.layoutControls(rect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme2.swift",
-      "line": 182,
+      "line": 224,
       "symbol": "UZTheme2.cleanUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme2.swift",
+      "line": 229,
+      "symbol": "UZTheme2.allButtons()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme3.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "UZTheme3",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme3.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "UZTheme3.controlView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme3.swift",
-      "line": 26,
+      "line": 30,
       "symbol": "UZTheme3.init(iconSize:centerIconSize:seekThumbSize:iconColor:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme3.swift",
-      "line": 35,
+      "line": 39,
       "symbol": "UZTheme3.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme3.swift",
-      "line": 39,
+      "line": 43,
       "symbol": "UZTheme3.updateUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme3.swift",
-      "line": 181,
+      "line": 212,
       "symbol": "UZTheme3.layoutControls(rect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme3.swift",
-      "line": 188,
+      "line": 232,
       "symbol": "UZTheme3.cleanUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme3.swift",
+      "line": 236,
+      "symbol": "UZTheme3.allButtons()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme4.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "UZTheme4",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme4.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "UZTheme4.controlView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme4.swift",
-      "line": 26,
+      "line": 30,
       "symbol": "UZTheme4.init(iconSize:centerIconSize:seekThumbSize:iconColor:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme4.swift",
-      "line": 35,
+      "line": 39,
       "symbol": "UZTheme4.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme4.swift",
-      "line": 39,
+      "line": 43,
       "symbol": "UZTheme4.updateUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme4.swift",
-      "line": 180,
+      "line": 222,
       "symbol": "UZTheme4.layoutControls(rect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme4.swift",
-      "line": 191,
+      "line": 244,
       "symbol": "UZTheme4.cleanUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme4.swift",
+      "line": 248,
+      "symbol": "UZTheme4.allButtons()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme5.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "UZTheme5",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme5.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "UZTheme5.controlView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme5.swift",
-      "line": 28,
+      "line": 31,
       "symbol": "UZTheme5.init(iconSize:centerIconSize:seekThumbSize:iconColor:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme5.swift",
-      "line": 37,
+      "line": 40,
       "symbol": "UZTheme5.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme5.swift",
-      "line": 41,
+      "line": 44,
       "symbol": "UZTheme5.updateUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme5.swift",
-      "line": 183,
+      "line": 212,
       "symbol": "UZTheme5.layoutControls(rect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme5.swift",
-      "line": 195,
+      "line": 235,
       "symbol": "UZTheme5.cleanUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme5.swift",
+      "line": 240,
+      "symbol": "UZTheme5.allButtons()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme6.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "UZTheme6",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme6.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "UZTheme6.controlView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme6.swift",
-      "line": 27,
+      "line": 31,
       "symbol": "UZTheme6.init(iconSize:centerIconSize:seekThumbSize:iconColor:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme6.swift",
-      "line": 36,
+      "line": 40,
       "symbol": "UZTheme6.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme6.swift",
-      "line": 40,
+      "line": 44,
       "symbol": "UZTheme6.updateUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme6.swift",
-      "line": 183,
+      "line": 211,
       "symbol": "UZTheme6.layoutControls(rect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme6.swift",
-      "line": 196,
+      "line": 235,
       "symbol": "UZTheme6.cleanUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme6.swift",
+      "line": 239,
+      "symbol": "UZTheme6.allButtons()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme7.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "UZTheme7",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme7.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "UZTheme7.controlView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme7.swift",
-      "line": 27,
+      "line": 31,
       "symbol": "UZTheme7.init(iconSize:centerIconSize:seekThumbSize:iconColor:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme7.swift",
-      "line": 36,
+      "line": 40,
       "symbol": "UZTheme7.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme7.swift",
-      "line": 40,
+      "line": 44,
       "symbol": "UZTheme7.updateUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme7.swift",
-      "line": 184,
+      "line": 212,
       "symbol": "UZTheme7.layoutControls(rect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme7.swift",
-      "line": 197,
+      "line": 236,
       "symbol": "UZTheme7.cleanUI()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Themes/UZTheme7.swift",
+      "line": 240,
+      "symbol": "UZTheme7.allButtons()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -457,1043 +562,1365 @@
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 16,
+      "line": null,
+      "symbol": "UZPlayer",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 17,
       "symbol": "UZPlayerDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 17,
+      "line": 18,
       "symbol": "UZPlayerDelegate.UZPlayer(player:playerStateDidChange:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 18,
+      "line": 19,
       "symbol": "UZPlayerDelegate.UZPlayer(player:loadedTimeDidChange:totalDuration:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 19,
+      "line": 20,
       "symbol": "UZPlayerDelegate.UZPlayer(player:playTimeDidChange:totalTime:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 20,
+      "line": 21,
       "symbol": "UZPlayerDelegate.UZPlayer(player:playerIsPlaying:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 23,
+      "line": 24,
       "symbol": "UZPlayerControlViewDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 25,
+      "line": 26,
       "symbol": "UZPlayerControlViewDelegate.controlView(controlView:didChooseDefinition:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 26,
+      "line": 27,
       "symbol": "UZPlayerControlViewDelegate.controlView(controlView:didSelectButton:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 27,
+      "line": 28,
       "symbol": "UZPlayerControlViewDelegate.controlView(controlView:slider:onSliderEvent:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 31,
+      "line": 56,
       "symbol": "UZPlayer",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 33,
+      "line": 58,
       "symbol": "UZPlayer.delegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 35,
+      "line": 60,
       "symbol": "UZPlayer.backBlock",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 36,
+      "line": 61,
       "symbol": "UZPlayer.videoChangedBlock",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 37,
+      "line": 62,
       "symbol": "UZPlayer.fullscreenBlock",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 38,
+      "line": 63,
       "symbol": "UZPlayer.buttonSelectionBlock",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 40,
+      "line": 65,
       "symbol": "UZPlayer.playTimeDidChange",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 41,
+      "line": 66,
       "symbol": "UZPlayer.playStateDidChange",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 43,
+      "line": 68,
       "symbol": "UZPlayer.videoGravity",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 49,
+      "line": 74,
       "symbol": "UZPlayer.aspectRatio",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 55,
+      "line": 80,
       "symbol": "UZPlayer.isPlaying",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 61,
+      "line": 86,
       "symbol": "UZPlayer.avPlayer",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 65,
+      "line": 90,
+      "symbol": "UZPlayer.subtitleOptions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 96,
+      "symbol": "UZPlayer.audioOptions",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 102,
       "symbol": "UZPlayer.currentVideo",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 67,
+      "line": 103,
+      "symbol": "UZPlayer.currentLinkPlay",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 105,
       "symbol": "UZPlayer.shouldAutoPlay",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 69,
+      "line": 106,
+      "symbol": "UZPlayer.shouldShowsControlViewAfterStoppingPiP",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 107,
+      "symbol": "UZPlayer.autoTryNextDefinitionIfError",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 108,
       "symbol": "UZPlayer.controlView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 144,
+      "line": 212,
       "symbol": "UZPlayer.autoPlay()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 150,
+      "line": 218,
       "symbol": "UZPlayer.play()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 172,
-      "symbol": "UZPlayer.stop()",
+      "line": 365,
+      "symbol": "UZPlayer.togglePiP()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 278,
+      "line": 378,
+      "symbol": "UZPlayer.switchVideoDefinition(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 495,
       "symbol": "UZPlayer.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 286,
+      "line": 503,
       "symbol": "UZPlayer.init(customControllView:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 299,
+      "line": 516,
       "symbol": "UZPlayer.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 351,
+      "line": 568,
       "symbol": "UZPlayer.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 358,
-      "symbol": "UZPlayer.showShare()",
+      "line": 586,
+      "symbol": "UZPlayer.showShare(from:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 367,
+      "line": 604,
       "symbol": "UZPlayer.showRelates()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 397,
+      "line": 625,
+      "symbol": "UZPlayer.showQualitySelector()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 640,
+      "symbol": "UZPlayer.showMediaOptionSelector()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 666,
+      "symbol": "UZPlayer.observeValue(forKeyPath:of:change:context:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 696,
       "symbol": "UZPlayer.UZPlayer(player:playerIsPlaying:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 403,
+      "line": 702,
       "symbol": "UZPlayer.UZPlayer(player:loadedTimeDidChange:totalDuration:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 410,
+      "line": 709,
       "symbol": "UZPlayer.UZPlayer(player:playerStateDidChange:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 431,
+      "line": 742,
       "symbol": "UZPlayer.UZPlayer(player:playTimeDidChange:totalTime:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 450,
+      "line": 761,
       "symbol": "UZPlayer.controlView(controlView:didChooseDefinition:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 457,
+      "line": 766,
       "symbol": "UZPlayer.controlView(controlView:didSelectButton:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 521,
+      "line": 836,
       "symbol": "UZPlayer.controlView(controlView:slider:onSliderEvent:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 552,
+      "line": 868,
+      "symbol": "UZPlayer.pictureInPictureControllerWillStartPictureInPicture(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 872,
+      "symbol": "UZPlayer.pictureInPictureControllerDidStartPictureInPicture(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 876,
+      "symbol": "UZPlayer.pictureInPictureControllerDidStopPictureInPicture(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 888,
       "symbol": "UZPlayer.adsLoader(_:adsLoadedWith:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 562,
+      "line": 898,
       "symbol": "UZPlayer.adsLoader(_:failedWith:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 569,
+      "line": 905,
       "symbol": "UZPlayer.adsManager(_:didReceive:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 575,
+      "line": 911,
       "symbol": "UZPlayer.adsManager(_:didReceive:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 580,
+      "line": 916,
       "symbol": "UZPlayer.adsManagerDidRequestContentPause(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 584,
+      "line": 920,
       "symbol": "UZPlayer.adsManagerDidRequestContentResume(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 603,
+      "line": 939,
       "symbol": "UZPlayerState.notSetURL",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 604,
+      "line": 940,
       "symbol": "UZPlayerState.readyToPlay",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 605,
+      "line": 941,
       "symbol": "UZPlayerState.buffering",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 606,
+      "line": 942,
       "symbol": "UZPlayerState.bufferFinished",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 607,
+      "line": 943,
       "symbol": "UZPlayerState.playedToTheEnd",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 608,
+      "line": 944,
       "symbol": "UZPlayerState.error",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 619,
+      "line": 955,
       "symbol": "UZPlayerAspectRatio.default",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 620,
+      "line": 956,
       "symbol": "UZPlayerAspectRatio.sixteen2Nine",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 621,
+      "line": 957,
       "symbol": "UZPlayerAspectRatio.four2Three",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 624,
+      "line": 960,
       "symbol": "UZPlayerLayerViewDelegate",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 625,
+      "line": 961,
       "symbol": "UZPlayerLayerViewDelegate.UZPlayer(player:playerStateDidChange:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 626,
+      "line": 962,
       "symbol": "UZPlayerLayerViewDelegate.UZPlayer(player:loadedTimeDidChange:totalDuration:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 627,
+      "line": 963,
       "symbol": "UZPlayerLayerViewDelegate.UZPlayer(player:playTimeDidChange:totalTime:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 628,
+      "line": 964,
       "symbol": "UZPlayerLayerViewDelegate.UZPlayer(player:playerIsPlaying:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 631,
+      "line": 969,
       "symbol": "UZPlayerLayerView",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 633,
+      "line": 971,
       "symbol": "UZPlayerLayerView.delegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 634,
-      "symbol": "UZPlayerLayerView.seekTime",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 635,
+      "line": 972,
       "symbol": "UZPlayerLayerView.playerItem",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 641,
+      "line": 978,
       "symbol": "UZPlayerLayerView.player",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 649,
+      "line": 986,
       "symbol": "UZPlayerLayerView.videoGravity",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 655,
+      "line": 992,
       "symbol": "UZPlayerLayerView.isPlaying",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 690,
+      "line": 1028,
       "symbol": "UZPlayerLayerView.playURL(url:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 695,
-      "symbol": "UZPlayerLayerView.playAsset(asset:)",
+      "line": 1033,
+      "symbol": "UZPlayerLayerView.playAsset(asset:subtitleURL:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 702,
+      "line": 1041,
+      "symbol": "UZPlayerLayerView.replaceAsset(asset:subtitleURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
+      "line": 1050,
       "symbol": "UZPlayerLayerView.play()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 711,
+      "line": 1059,
       "symbol": "UZPlayerLayerView.pause()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 717,
+      "line": 1065,
       "symbol": "UZPlayerLayerView.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 745,
+      "line": 1093,
       "symbol": "UZPlayerLayerView.resetPlayer()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 759,
+      "line": 1106,
       "symbol": "UZPlayerLayerView.prepareToDeinit()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 763,
+      "line": 1110,
       "symbol": "UZPlayerLayerView.onTimeSliderBegan()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 771,
+      "line": 1118,
       "symbol": "UZPlayerLayerView.seek(to:completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayer.swift",
-      "line": 896,
+      "line": 1273,
       "symbol": "UZPlayerLayerView.observeValue(forKeyPath:of:change:context:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 13,
+      "line": null,
+      "symbol": "UZPlayerControlView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 14,
       "symbol": "UZButtonTag",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "UZButtonTag.play",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 15,
+      "line": 16,
       "symbol": "UZButtonTag.pause",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 16,
+      "line": 17,
       "symbol": "UZButtonTag.back",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 17,
+      "line": 18,
       "symbol": "UZButtonTag.fullscreen",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 18,
+      "line": 19,
       "symbol": "UZButtonTag.replay",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 19,
+      "line": 20,
       "symbol": "UZButtonTag.settings",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 20,
+      "line": 21,
       "symbol": "UZButtonTag.help",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 21,
+      "line": 22,
       "symbol": "UZButtonTag.playlist",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 22,
+      "line": 23,
       "symbol": "UZButtonTag.caption",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 23,
+      "line": 24,
       "symbol": "UZButtonTag.volume",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 24,
+      "line": 25,
       "symbol": "UZButtonTag.forward",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 25,
+      "line": 26,
       "symbol": "UZButtonTag.backward",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 26,
+      "line": 27,
       "symbol": "UZButtonTag.share",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 27,
+      "line": 28,
       "symbol": "UZButtonTag.relates",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 29,
+      "symbol": "UZButtonTag.pip",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
       "line": 30,
+      "symbol": "UZButtonTag.chromecast",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 31,
+      "symbol": "UZButtonTag.airplay",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 34,
       "symbol": "UZPlayerTheme",
       "symbol_kind": "source.lang.swift.decl.protocol",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 31,
+      "line": 35,
       "symbol": "UZPlayerTheme.controlView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 33,
+      "line": 37,
       "symbol": "UZPlayerTheme.updateUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 34,
+      "line": 38,
       "symbol": "UZPlayerTheme.layoutControls(rect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 35,
+      "line": 39,
       "symbol": "UZPlayerTheme.cleanUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 39,
+      "line": 40,
+      "symbol": "UZPlayerTheme.allButtons()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 44,
       "symbol": "UZPlayerControlView",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 40,
+      "line": 45,
       "symbol": "UZPlayerControlView.delegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 41,
+      "line": 46,
       "symbol": "UZPlayerControlView.resource",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 42,
-      "symbol": "UZPlayerControlView.autoHideControlsInterval",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 44,
-      "symbol": "UZPlayerControlView.isMaskShowing",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 46,
-      "symbol": "UZPlayerControlView.seekedTime",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
       "line": 47,
-      "symbol": "UZPlayerControlView.totalDuration",
+      "symbol": "UZPlayerControlView.currentVideo",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
       "line": 48,
-      "symbol": "UZPlayerControlView.delayItem",
+      "symbol": "UZPlayerControlView.autoHideControlsInterval",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
       "line": 50,
+      "symbol": "UZPlayerControlView.totalDuration",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 54,
       "symbol": "UZPlayerControlView.tapGesture",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 51,
+      "line": 55,
       "symbol": "UZPlayerControlView.doubleTapGesture",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 53,
+      "line": 57,
       "symbol": "UZPlayerControlView.theme",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 74,
+      "line": 88,
       "symbol": "UZPlayerControlView.allButtons",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 82,
+      "line": 97,
       "symbol": "UZPlayerControlView.containerView",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 112,
+      "line": 132,
       "symbol": "UZPlayerControlView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 116,
+      "line": 136,
       "symbol": "UZPlayerControlView.configUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 202,
+      "line": 225,
       "symbol": "UZPlayerControlView.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 212,
+      "line": 243,
       "symbol": "UZPlayerControlView.playTimeDidChange(currentTime:totalTime:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 244,
+      "line": 275,
       "symbol": "UZPlayerControlView.loadedTimeDidChange(loadedDuration:totalDuration:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 249,
+      "line": 280,
       "symbol": "UZPlayerControlView.playerStateDidChange(state:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 277,
-      "symbol": "UZPlayerControlView.prepareUI(for:)",
+      "line": 308,
+      "symbol": "UZPlayerControlView.prepareUI(for:video:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 285,
+      "line": 321,
       "symbol": "UZPlayerControlView.playStateDidChange(isPlaying:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 291,
+      "line": 327,
       "symbol": "UZPlayerControlView.autoFadeOutControlView(after:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 303,
+      "line": 339,
       "symbol": "UZPlayerControlView.cancelAutoFadeOutAnimation()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 307,
-      "symbol": "UZPlayerControlView.controlViewAnimation(isShow:)",
+      "line": 343,
+      "symbol": "UZPlayerControlView.showControlView(duration:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 335,
+      "line": 362,
+      "symbol": "UZPlayerControlView.hideControlView(duration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 374,
+      "symbol": "UZPlayerControlView.showMessage(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 391,
+      "symbol": "UZPlayerControlView.hideMessage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 397,
       "symbol": "UZPlayerControlView.updateUI(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 339,
+      "line": 401,
       "symbol": "UZPlayerControlView.showEndScreen()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 343,
+      "line": 406,
       "symbol": "UZPlayerControlView.hideEndScreen()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 347,
+      "line": 411,
       "symbol": "UZPlayerControlView.showLoader()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 354,
+      "line": 418,
       "symbol": "UZPlayerControlView.hideLoader()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 359,
+      "line": 423,
       "symbol": "UZPlayerControlView.showCoverWithLink(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 363,
+      "line": 427,
       "symbol": "UZPlayerControlView.showCover(url:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 379,
+      "line": 443,
       "symbol": "UZPlayerControlView.hideCoverImageView()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
-      "line": 385,
+      "line": 447,
+      "symbol": "UZPlayerControlView.showCastingScreen()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 459,
+      "symbol": "UZPlayerControlView.hideCastingScreen()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 468,
       "symbol": "UZPlayerControlView.onButtonPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 531,
+      "symbol": "UZPlayerControlView.gestureRecognizer(_:shouldReceive:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 540,
+      "symbol": "UZLiveBadgeView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 542,
+      "symbol": "UZLiveBadgeView.views",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 590,
+      "symbol": "UZLiveBadgeView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 594,
+      "symbol": "UZLiveBadgeView.sizeThatFits(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 598,
+      "symbol": "UZLiveBadgeView.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
       "line": 12,
+      "symbol": "UZFullscreenPresentationMode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
+      "line": 13,
+      "symbol": "UZFullscreenPresentationMode.modal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
+      "line": 14,
+      "symbol": "UZFullscreenPresentationMode.fullscreen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
+      "line": 17,
       "symbol": "UZPlayerViewController",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
-      "line": 14,
+      "line": 19,
       "symbol": "UZPlayerViewController.player",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
-      "line": 20,
+      "line": 25,
+      "symbol": "UZPlayerViewController.fullscreenPresentationMode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
+      "line": 26,
       "symbol": "UZPlayerViewController.autoFullscreenWhenRotateDevice",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
-      "line": 22,
+      "line": 27,
+      "symbol": "UZPlayerViewController.autoFullscreenDelay",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
+      "line": 29,
       "symbol": "UZPlayerViewController.isFullscreen",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
-      "line": 42,
+      "line": 38,
       "symbol": "UZPlayerViewController.setFullscreen(fullscreen:completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
-      "line": 60,
+      "line": 73,
       "symbol": "UZPlayerViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
-      "line": 72,
+      "line": 85,
       "symbol": "UZPlayerViewController.viewDidLayoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
-      "line": 92,
+      "line": 112,
       "symbol": "UZPlayerViewController.prefersStatusBarHidden",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
-      "line": 96,
+      "line": 116,
       "symbol": "UZPlayerViewController.shouldAutorotate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
-      "line": 100,
+      "line": 120,
       "symbol": "UZPlayerViewController.supportedInterfaceOrientations",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerViewController.swift",
-      "line": 104,
+      "line": 124,
       "symbol": "UZPlayerViewController.preferredInterfaceOrientationForPresentation",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZShareView.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "UZShareView",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZShareView.swift",
-      "line": 19,
+      "line": 20,
       "symbol": "UZShareView.allButtons",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZShareView.swift",
-      "line": 25,
+      "line": 26,
       "symbol": "UZShareView.title",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZShareView.swift",
-      "line": 40,
+      "line": 41,
       "symbol": "UZShareView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZShareView.swift",
-      "line": 44,
+      "line": 45,
       "symbol": "UZShareView.setupUI()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZShareView.swift",
-      "line": 73,
+      "line": 84,
       "symbol": "UZShareView.layoutSubviews()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZPagination.swift",
+      "line": 11,
+      "symbol": "UZPagination",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZPagination.swift",
+      "line": 12,
+      "symbol": "UZPagination.page",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZPagination.swift",
+      "line": 13,
+      "symbol": "UZPagination.limit",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZPagination.swift",
+      "line": 14,
+      "symbol": "UZPagination.result",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZPagination.swift",
+      "line": 15,
+      "symbol": "UZPagination.totalItem",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
+      "line": 12,
+      "symbol": "UZVideoLinkPlay",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
+      "line": 13,
+      "symbol": "UZVideoLinkPlay.definition",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
+      "line": 14,
+      "symbol": "UZVideoLinkPlay.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
+      "line": 19,
+      "symbol": "UZVideoLinkPlay.avURLAsset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
+      "line": 51,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
+      "line": 85,
+      "symbol": "UZVideoItem.subtitleURLs",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
+      "line": 132,
+      "symbol": "UZVideoItem.activityViewController(_:itemForActivityType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
+      "line": 141,
+      "symbol": "UZVideoItem.activityViewControllerPlaceholderItem(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/UZContentServices.swift",
+      "line": 377,
+      "symbol": "UZContentServices.loadViews(video:completionBlock:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/UZLogger.swift",
-      "line": 28,
+      "line": 17,
       "symbol": "UZLogger.log(event:video:params:completionBlock:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/UZLogger.swift",
-      "line": 43,
+      "line": 32,
       "symbol": "UZLogger.log(event:params:completionBlock:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
