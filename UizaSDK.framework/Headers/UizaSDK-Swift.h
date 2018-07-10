@@ -293,8 +293,6 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 @end
 
-
-
 @class AVPictureInPictureController;
 
 @interface UZPlayer (SWIFT_EXTENSION(UizaSDK)) <AVPictureInPictureControllerDelegate>
@@ -302,6 +300,8 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (void)pictureInPictureControllerDidStartPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
 - (void)pictureInPictureControllerDidStopPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
 @end
+
+
 
 
 
@@ -384,14 +384,6 @@ SWIFT_CLASS("_TtC7UizaSDK8UZSlider")
 - (CGRect)thumbRectForBounds:(CGRect)bounds trackRect:(CGRect)rect value:(float)value SWIFT_WARN_UNUSED_RESULT;
 - (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
-
-/// Class chứa thông tin token
-SWIFT_CLASS("_TtC7UizaSDK7UZToken")
-@interface UZToken : UZModelObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
