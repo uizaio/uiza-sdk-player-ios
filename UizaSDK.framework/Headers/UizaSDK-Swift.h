@@ -268,6 +268,14 @@ SWIFT_CLASS("_TtC7UizaSDK15UZLiveBadgeView")
 @end
 
 
+/// Class chứa thông tin trạng thái của LiveVideo
+SWIFT_CLASS("_TtC7UizaSDK17UZLiveVideoStatus")
+@interface UZLiveVideoStatus : UZModelObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 /// Class chứa thông tin của menu item
 SWIFT_CLASS("_TtC7UizaSDK10UZMenuItem")
 @interface UZMenuItem : UZModelObject
