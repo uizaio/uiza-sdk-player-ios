@@ -11,15 +11,19 @@ PODS:
     - NVActivityIndicatorView/Presenter (= 4.3.0)
   - NVActivityIndicatorView/AppExtension (4.3.0)
   - NVActivityIndicatorView/Presenter (4.3.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
   - SwiftIcons (2.1.0)
   - SwiftyJSON (4.1.0)
-  - UizaSDK (3.6.2):
+  - UizaSDK (4.2):
     - AFDateHelper
     - Alamofire
     - NKButton
     - NKFrameLayoutKit
     - NKModalViewManager
     - NVActivityIndicatorView
+    - SDWebImage
     - SwiftIcons
     - SwiftyJSON
 
@@ -35,6 +39,7 @@ SPEC REPOS:
     - NKFrameLayoutKit
     - NKModalViewManager
     - NVActivityIndicatorView
+    - SDWebImage
     - SwiftIcons
     - SwiftyJSON
     - UizaSDK
@@ -47,9 +52,10 @@ SPEC CHECKSUMS:
   NKFrameLayoutKit: 6a2f6ac34f85d495e683ea0f7f1605903a4d3e00
   NKModalViewManager: f9f9539ac36417fa1ed446f4221e62e1748cbff9
   NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SwiftIcons: e414be7906347ef584d10280715d88aceac052e5
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
-  UizaSDK: 56868b30d8832ccf44039c23587f60741f3e9fb7
+  UizaSDK: 871677d6fcdcfbb216264444a30e9131465ff4c6
 
 PODFILE CHECKSUM: 8b7c975eda6e8f2cae3d3e76dd74cbb1b2dd7956
 

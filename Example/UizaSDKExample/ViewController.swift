@@ -51,14 +51,6 @@ class ViewController: UIViewController {
 	override public var shouldAutorotate: Bool {
 		return true
 	}
-	//
-	//	override public var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
-	//		return UIDevice.current.userInterfaceIdiom == .phone ? .portrait : UIApplication.shared.statusBarOrientation
-	//	}
-	//
-	//	override public var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-	//		return UIDevice.current.userInterfaceIdiom == .phone ? .portrait : .all
-	//	}
 	
 	var themeIndex: Int = 0
 	let themeClasses: [UZPlayerTheme] = [UZTheme1(), UZTheme2(), UZTheme3(), UZTheme4(), UZTheme5(), UZTheme6(), UZTheme7()]
