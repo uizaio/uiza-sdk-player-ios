@@ -49,7 +49,12 @@ UizaSDK.initWith(appId: [YOUR_APP_ID], key: [YOUR_SECRET_KEY], domain: [YOUR_DOM
 ## Gọi hàm API
 ``` swift
 UZContentServices().loadDetail(videoId: VIDEO_ID, completionBlock: { (videoItem, error) in
-  print("Video: \(videoItem)")
+  if error != nil {
+    print("Error: \(error)")
+  }
+  else {
+    print("Video: \(videoItem)")
+  }
 })
 ```
 
@@ -110,7 +115,12 @@ UizaSDK.initWith(appId: [YOUR_APP_ID], key: [YOUR_SECRET_KEY], domain: [YOUR_DOM
 ## Call API
 ``` swift
 UZContentServices().loadDetail(videoId: VIDEO_ID, completionBlock: { (videoItem, error) in
-  print("Video: \(videoItem)")
+  if error != nil {
+    print("Error: \(error)")
+  }
+  else {
+    print("Video: \(videoItem)")
+  }
 })
 ```
 
