@@ -42,20 +42,7 @@ Luôn khởi động framework này trước khi gọi bất cứ hàm API nào 
 ``` swift
 import UizaSDK
 
-UizaSDK.initWith(accessKey: [YOUR_CLIENT_KEY], secretKey: [YOUR_SECRET_KEY], enviroment: .production)
-```
-
-Sau đó gọi hàm cấp phép hoạt động để sinh ra token phục vụ cho các hàm API khác:
-
-``` swift
-UZAccountServices().authorize { (token: UZToken?, error: Error?) in
-	if error != nil {
-		// error
-	}
-	else {
-		// đã được cấp phép, sẵn sàng gọi các hàm API khác
-	}
-}
+UizaSDK.initWith(appId: [YOUR_APP_ID], key: [YOUR_SECRET_KEY], domain: [YOUR_DOMAIN], enviroment: .production)
 ```
 
 [Tài liệu API](https://uizaio.github.io/uiza-sdk-player-ios/)
@@ -101,20 +88,7 @@ Always initialize the framework by the following line before calling any API fun
 ``` swift
 import UizaSDK
 
-UizaSDK.initWith(accessKey: [YOUR_CLIENT_KEY], secretKey: [YOUR_SECRET_KEY], enviroment: .production)
-```
-
-Then call this authorize function to generate token in order to make other API functions to work:
-
-``` swift
-UZAccountServices().authorize { (token: UZToken?, error: Error?) in
-	if error != nil {
-		// error
-	}
-	else {
-		// authorized, ready to call other API functions
-	}
-}
+UizaSDK.initWith(appId: [YOUR_APP_ID], key: [YOUR_SECRET_KEY], domain: [YOUR_DOMAIN], enviroment: .production)
 ```
 
 [API Document](https://uizaio.github.io/uiza-sdk-player-ios/)
