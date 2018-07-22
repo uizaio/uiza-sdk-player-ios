@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "UizaSDK"
-  s.version       = "4.1"
+  s.version       = "4.2"
   s.summary       = "UizaSDK Framework by Nam Kennic"
   s.description   = "A framework that handles API connect to Uiza OTT system"
   s.homepage      = "https://github.com/uizaio/uiza-sdk-player-ios"
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.platform      = :ios, "10.0"
   s.platform      = :tvos, "10.0"
   s.requires_arc  = true
-  s.swift_version = '4.0'
+  s.swift_version = '4.1'
   s.source        = { :git => "https://github.com/uizaio/uiza-sdk-player-ios.git", :branch => 'origin', :tag => s.version }
   s.documentation_url   = 'https://uizaio.github.io/uiza-sdk-player-ios/'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
   s.ios.dependency "NKModalViewManager"
   s.ios.dependency "NVActivityIndicatorView"
   s.ios.dependency "SwiftIcons"
+  s.ios.dependency "SDWebImage"
   
   s.tvos.dependency "Alamofire"
   s.tvos.dependency "AFDateHelper"
