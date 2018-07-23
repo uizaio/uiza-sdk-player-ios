@@ -25,7 +25,6 @@ class ViewController: UIViewController {
 		
 		textField.backgroundColor = .lightGray
 		textField.placeholder = "Enter videoID then tap Load Video"
-		textField.text = "b7297b29-c6c4-4bd6-a74f-b60d0118d275"
 		textField.textColor = .black
 		textField.borderStyle = .line
 		textField.font = UIFont.systemFont(ofSize: 14, weight: .regular)
