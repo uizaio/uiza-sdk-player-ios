@@ -62,12 +62,6 @@ class ViewController: UIViewController {
 		frameLayout.spacing = 20
 		frameLayout.layoutAlignment = .center
 		self.view.addSubview(frameLayout)
-		
-		UZContentServices().loadLiveVideo(page: 0, limit: 10, completionBlock: { (results, pagination, error) in
-			if let videoItem = results?.first {
-				self.playerViewController.player.loadVideo(videoItem)
-			}
-		})
 	}
 	
 	override func viewDidLayoutSubviews() {
@@ -97,7 +91,7 @@ class ViewController: UIViewController {
 		_ = textField.resignFirstResponder()
 		
 		if let videoId = textField.text, !videoId.isEmpty {
-			self.playerViewController.player.loadVideo(UZVideoItem(data: ["id" : videoId]))
+			self.playerViewController.player.loadVideo(videoId: videoId)
 		}
 	}
 	
