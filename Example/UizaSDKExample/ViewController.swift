@@ -25,6 +25,7 @@ class ViewController: UIViewController {
 		
 		textField.backgroundColor = .lightGray
 		textField.placeholder = "Enter videoID then tap Load Video"
+		textField.text = "b7297b29-c6c4-4bd6-a74f-b60d0118d275"
 		textField.textColor = .black
 		textField.borderStyle = .line
 		textField.font = UIFont.systemFont(ofSize: 14, weight: .regular)
@@ -62,6 +63,12 @@ class ViewController: UIViewController {
 		frameLayout.spacing = 20
 		frameLayout.layoutAlignment = .center
 		self.view.addSubview(frameLayout)
+		
+		UZContentServices().loadLiveVideo(page: 0, limit: 10) { (videos, pagination, error) in
+			if let videoItem = videos?.first {
+				self.playerViewController.player.loadVideo(videoItem)
+			}
+		}
 	}
 	
 	override func viewDidLayoutSubviews() {

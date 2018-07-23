@@ -17,7 +17,7 @@ PODS:
   - SDWebImage/Core (4.4.2)
   - SwiftIcons (2.1.0)
   - SwiftyJSON (4.1.0)
-  - UizaSDK (4.3):
+  - UizaSDK (4.4):
     - AFDateHelper
     - Alamofire
     - GoogleAds-IMA-iOS-SDK
@@ -59,7 +59,7 @@ SPEC CHECKSUMS:
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SwiftIcons: e414be7906347ef584d10280715d88aceac052e5
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
-  UizaSDK: b497bdb7ddd2be7297ff5b3fd23b02f1bad4f816
+  UizaSDK: 0ae000e1369516198f88c64a2aaf7bc2588628b4
 
 PODFILE CHECKSUM: 8b7c975eda6e8f2cae3d3e76dd74cbb1b2dd7956
 
