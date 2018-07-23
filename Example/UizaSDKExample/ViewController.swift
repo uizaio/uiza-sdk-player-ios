@@ -94,15 +94,10 @@ class ViewController: UIViewController {
 	}
 	
 	@objc func loadVideo() {
+		_ = textField.resignFirstResponder()
+		
 		if let videoId = textField.text, !videoId.isEmpty {
-			UZContentServices().loadDetail(videoId: videoId) { (video, error) in
-				if error != nil {
-					print("Error: \(String(describing: error))")
-				}
-				else {
-					self.playerViewController.player.loadVideo(video!)
-				}
-			}
+			self.playerViewController.player.loadVideo(UZVideoItem(data: ["id" : videoId]))
 		}
 	}
 	
@@ -112,6 +107,8 @@ class ViewController: UIViewController {
 extension ViewController: UITextFieldDelegate {
 	
 	func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+		_ = textField.resignFirstResponder()
+		loadVideo()
 		return true
 	}
 	
