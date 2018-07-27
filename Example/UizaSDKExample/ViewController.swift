@@ -9,14 +9,14 @@
 import UIKit
 import UizaSDK
 import NKButton
-import NKFrameLayoutKit
+import FrameLayoutKit
 
 class ViewController: UIViewController {
 	let playerViewController = UZPlayerViewController()
 	let themeButton = UIButton()
 	let textField = UITextField()
 	let loadButton = NKButton()
-	var frameLayout : NKGridFrameLayout!
+	var frameLayout : StackFrameLayout!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -48,17 +48,17 @@ class ViewController: UIViewController {
 		self.view.addSubview(loadButton)
 		self.view.addSubview(themeButton)
 		
-		frameLayout = NKGridFrameLayout(direction: .vertical)
-		frameLayout.add(withTargetView: playerViewController.view).heightRatio = 9/16
-		frameLayout.add(withTargetView: textField).configurationBlock = { layout in
-			layout?.edgeInsets = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
-			layout?.minSize = CGSize(width: 0, height: 40)
+		frameLayout = StackFrameLayout(direction: .vertical)
+		frameLayout.append(view: playerViewController.view).heightRatio = 9/16
+		frameLayout.append(view: textField).configurationBlock = { layout in
+			layout.edgeInsets = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
+			layout.minSize = CGSize(width: 0, height: 40)
 		}
-		frameLayout.add(withTargetView: loadButton).configurationBlock = { layout in
-			layout?.contentAlignment = "cc"
-			layout?.minSize = CGSize(width: 0, height: 40)
+		frameLayout.append(view: loadButton).configurationBlock = { layout in
+			layout.contentAlignment = (.center, .center)
+			layout.minSize = CGSize(width: 0, height: 40)
 		}
-		frameLayout.add(withTargetView: themeButton).contentAlignment = "cc"
+		frameLayout.append(view: themeButton).contentAlignment = (.center, .center)
 		frameLayout.spacing = 20
 		frameLayout.layoutAlignment = .center
 		self.view.addSubview(frameLayout)
