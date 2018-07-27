@@ -169,6 +169,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import MediaPlayer;
 @import CoreGraphics;
 @import ObjectiveC;
+@import NKButton;
+@import GoogleCast;
 @import AVKit;
 @import GoogleInteractiveMediaAds;
 #endif
@@ -240,6 +242,55 @@ SWIFT_CLASS("_TtC7UizaSDK12UZBannerItem")
 @end
 
 
+SWIFT_CLASS("_TtC7UizaSDK12UZCastButton")
+@interface UZCastButton : NKButton
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7UizaSDK16UZCastingManager")
+@interface UZCastingManager : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKDiscoveryManagerListener>
+- (void)didUpdateDeviceList;
+@end
+
+@class GCKRemoteMediaClient;
+@class GCKMediaStatus;
+
+@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKRemoteMediaClientListener>
+- (void)remoteMediaClient:(GCKRemoteMediaClient * _Nonnull)client didStartMediaSessionWithID:(NSInteger)sessionID;
+- (void)remoteMediaClient:(GCKRemoteMediaClient * _Nonnull)client didUpdateMediaStatus:(GCKMediaStatus * _Nullable)mediaStatus;
+@end
+
+@class GCKRequest;
+@class GCKError;
+
+@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKRequestDelegate>
+- (void)requestDidComplete:(GCKRequest * _Nonnull)request;
+- (void)request:(GCKRequest * _Nonnull)request didFailWithError:(GCKError * _Nonnull)error;
+- (void)request:(GCKRequest * _Nonnull)request didAbortWithReason:(GCKRequestAbortReason)abortReason;
+@end
+
+@class GCKSessionManager;
+@class GCKCastSession;
+@class GCKSession;
+
+@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKSessionManagerListener>
+- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didStartCastSession:(GCKCastSession * _Nonnull)session;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didResumeCastSession:(GCKCastSession * _Nonnull)session;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager session:(GCKSession * _Nonnull)session didReceiveDeviceStatus:(NSString * _Nullable)statusText;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didEndSession:(GCKSession * _Nonnull)session withError:(NSError * _Nullable)error;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didSuspendCastSession:(GCKCastSession * _Nonnull)session withReason:(GCKConnectionSuspendReason)reason;
+@end
+
+
 /// Class chứa thông tin của từng chuyên mục
 SWIFT_CLASS("_TtC7UizaSDK10UZCategory")
 @interface UZCategory : UZModelObject
@@ -298,6 +349,7 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init;
 - (void)layoutSubviews;
+- (void)showAirPlayDevicesSelection;
 - (void)observeValueForKeyPath:(NSString * _Nullable)keyPath ofObject:(id _Nullable)object change:(NSDictionary<NSKeyValueChangeKey, id> * _Nullable)change context:(void * _Nullable)context;
 @end
 
