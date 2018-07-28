@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>UZPlayerControlView Class Reference</title>
+    <title>UZCastingManager Class Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Class/UZPlayerControlView" class="dashAnchor"></a>
-    <a title="UZPlayerControlView Class Reference"></a>
+    <a name="//apple_ref/swift/Class/UZCastingManager" class="dashAnchor"></a>
+    <a title="UZCastingManager Class Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html"> Docs</a> (26% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html"> Reference</a>
         <img id="carat" src="../img/carat.png" />
-        UZPlayerControlView Class Reference
+        UZCastingManager Class Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -212,10 +212,10 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>UZPlayerControlView</h1>
+            <h1>UZCastingManager</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">UZPlayerControlView</span><span class="p">:</span> <span class="kt">UIView</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">UZCastingManager</span><span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                 </div>
               </div>
@@ -228,9 +228,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC8delegateAA0cdE8Delegate_pSgXwvp"></a>
-                    <a name="//apple_ref/swift/Property/delegate" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC8delegateAA0cdE8Delegate_pSgXwvp">delegate</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC6sharedACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC6sharedACvpZ">shared</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -245,7 +245,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">weak</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/UZPlayerControlViewDelegate.html">UZPlayerControlViewDelegate</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">shared</span> <span class="o">=</span> <span class="kt">UZCastingManager</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -255,9 +255,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC8resourceAA0C8ResourceVSgvp"></a>
-                    <a name="//apple_ref/swift/Property/resource" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC8resourceAA0C8ResourceVSgvp">resource</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC19hasConnectedSessionSbvp"></a>
+                    <a name="//apple_ref/swift/Property/hasConnectedSession" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC19hasConnectedSessionSbvp">hasConnectedSession</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -272,7 +272,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">resource</span><span class="p">:</span> <span class="kt"><a href="../Structs/UZPlayerResource.html">UZPlayerResource</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">hasConnectedSession</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -282,9 +282,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC12currentVideoAA11UZVideoItemCSgvp"></a>
-                    <a name="//apple_ref/swift/Property/currentVideo" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC12currentVideoAA11UZVideoItemCSgvp">currentVideo</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC11deviceCountSivp"></a>
+                    <a name="//apple_ref/swift/Property/deviceCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC11deviceCountSivp">deviceCount</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -299,7 +299,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">currentVideo</span><span class="p">:</span> <span class="kt"><a href="../Classes/UZVideoItem.html">UZVideoItem</a></span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">deviceCount</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
                       </div>
@@ -309,9 +309,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC24autoHideControlsIntervalSdvp"></a>
-                    <a name="//apple_ref/swift/Property/autoHideControlsInterval" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC24autoHideControlsIntervalSdvp">autoHideControlsInterval</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC6deviceSo9GCKDeviceCSu2at_tF"></a>
+                    <a name="//apple_ref/swift/Method/device(at:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC6deviceSo9GCKDeviceCSu2at_tF">device(at:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -326,7 +326,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">autoHideControlsInterval</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mi">5</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">device</span><span class="p">(</span><span class="n">at</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">UInt</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">GCKDevice</span></code></pre>
 
                         </div>
                       </div>
@@ -336,9 +336,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC13totalDurationSdvp"></a>
-                    <a name="//apple_ref/swift/Property/totalDuration" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC13totalDurationSdvp">totalDuration</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC13mediaDurationSdvp"></a>
+                    <a name="//apple_ref/swift/Property/mediaDuration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC13mediaDurationSdvp">mediaDuration</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -353,7 +353,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">totalDuration</span><span class="p">:</span><span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">mediaDuration</span><span class="p">:</span> <span class="kt">TimeInterval</span></code></pre>
 
                         </div>
                       </div>
@@ -363,9 +363,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC10tapGestureSo05UITapG10RecognizerCSgvp"></a>
-                    <a name="//apple_ref/swift/Property/tapGesture" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC10tapGestureSo05UITapG10RecognizerCSgvp">tapGesture</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC12lastPositionSdvp"></a>
+                    <a name="//apple_ref/swift/Property/lastPosition" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC12lastPositionSdvp">lastPosition</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -380,7 +380,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">tapGesture</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">lastPosition</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="o">=</span> <span class="mi">0</span></code></pre>
 
                         </div>
                       </div>
@@ -390,9 +390,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC16doubleTapGestureSo05UITapH10RecognizerCSgvp"></a>
-                    <a name="//apple_ref/swift/Property/doubleTapGesture" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC16doubleTapGestureSo05UITapH10RecognizerCSgvp">doubleTapGesture</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC15currentPositionSdvp"></a>
+                    <a name="//apple_ref/swift/Property/currentPosition" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC15currentPositionSdvp">currentPosition</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -407,7 +407,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">doubleTapGesture</span><span class="p">:</span> <span class="kt">UITapGestureRecognizer</span><span class="p">?</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">currentPosition</span><span class="p">:</span> <span class="kt">TimeInterval</span></code></pre>
 
                         </div>
                       </div>
@@ -417,9 +417,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC5themeAA0C5Theme_pSgvp"></a>
-                    <a name="//apple_ref/swift/Property/theme" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC5themeAA0C5Theme_pSgvp">theme</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC18currentPlayerStateSC08GCKMediafG0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/currentPlayerState" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC18currentPlayerStateSC08GCKMediafG0Ovp">currentPlayerState</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -434,7 +434,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">theme</span><span class="p">:</span> <span class="kt"><a href="../Protocols/UZPlayerTheme.html">UZPlayerTheme</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">currentPlayerState</span><span class="p">:</span> <span class="kt">GCKMediaPlayerState</span></code></pre>
 
                         </div>
                       </div>
@@ -444,9 +444,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC10allButtonsSQySaySo8UIButtonCGGvp"></a>
-                    <a name="//apple_ref/swift/Property/allButtons" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC10allButtonsSQySaySo8UIButtonCGGvp">allButtons</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC08discoverD0SQySo012GCKDiscoveryD0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/discoverManager" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC08discoverD0SQySo012GCKDiscoveryD0CGvp">discoverManager</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -461,7 +461,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">allButtons</span><span class="p">:</span> <span class="p">[</span><span class="kt">UIButton</span><span class="p">]</span><span class="o">!</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">discoverManager</span> <span class="p">:</span> <span class="kt">GCKDiscoveryManager</span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
@@ -471,9 +471,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC09containerE0So6UIViewCvp"></a>
-                    <a name="//apple_ref/swift/Property/containerView" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC09containerE0So6UIViewCvp">containerView</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC07sessionD0SQySo010GCKSessionD0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/sessionManager" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC07sessionD0SQySo010GCKSessionD0CGvp">sessionManager</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -488,38 +488,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">containerView</span> <span class="o">=</span> <span class="kt">UIView</span><span class="p">()</span> <span class="c1">// this should be public</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@UizaSDK@objc(cs)UZPlayerControlView(im)initWithCoder:"></a>
-                    <a name="//apple_ref/swift/Method/init(coder:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@UizaSDK@objc(cs)UZPlayerControlView(im)initWithCoder:">init(coder:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">required</span> <span class="kd">public</span> <span class="nf">init</span><span class="p">?(</span><span class="n">coder</span> <span class="nv">aDecoder</span><span class="p">:</span> <span class="kt">NSCoder</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">sessionManager</span> <span class="p">:</span> <span class="kt">GCKSessionManager</span><span class="o">!</span></code></pre>
 
                         </div>
                       </div>
@@ -529,9 +498,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC8configUIyyF"></a>
-                    <a name="//apple_ref/swift/Method/configUI()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC8configUIyyF">configUI()</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC12remoteClientSo014GCKRemoteMediaF0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/remoteClient" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC12remoteClientSo014GCKRemoteMediaF0CSgvp">remoteClient</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -546,69 +515,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">configUI</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/c:@M@UizaSDK@objc(cs)UZPlayerControlView(im)layoutSubviews"></a>
-                    <a name="//apple_ref/swift/Method/layoutSubviews()" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@UizaSDK@objc(cs)UZPlayerControlView(im)layoutSubviews">layoutSubviews()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">open</span> <span class="kd">func</span> <span class="nf">layoutSubviews</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC17playTimeDidChangeySd07currentG0_Sd05totalG0tF"></a>
-                    <a name="//apple_ref/swift/Method/playTimeDidChange(currentTime:totalTime:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC17playTimeDidChangeySd07currentG0_Sd05totalG0tF">playTimeDidChange(currentTime:totalTime:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">playTimeDidChange</span><span class="p">(</span><span class="nv">currentTime</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">totalTime</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">remoteClient</span><span class="p">:</span> <span class="kt">GCKRemoteMediaClient</span><span class="p">?</span></code></pre>
 
                         </div>
                       </div>
@@ -618,9 +525,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC19loadedTimeDidChangeySd0F8Duration_Sd05totalJ0tF"></a>
-                    <a name="//apple_ref/swift/Method/loadedTimeDidChange(loadedDuration:totalDuration:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC19loadedTimeDidChangeySd0F8Duration_Sd05totalJ0tF">loadedTimeDidChange(loadedDuration:totalDuration:)</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC18currentCastSessionSo07GCKCastG0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/currentCastSession" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC18currentCastSessionSo07GCKCastG0CSgvp">currentCastSession</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -635,7 +542,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">loadedTimeDidChange</span><span class="p">(</span><span class="nv">loadedDuration</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="p">,</span> <span class="nv">totalDuration</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">currentCastSession</span><span class="p">:</span> <span class="kt">GCKCastSession</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span></code></pre>
 
                         </div>
                       </div>
@@ -645,9 +552,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC20playerStateDidChangeyAA0cG0O5state_tF"></a>
-                    <a name="//apple_ref/swift/Method/playerStateDidChange(state:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC20playerStateDidChangeyAA0cG0O5state_tF">playerStateDidChange(state:)</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC15currentCastItemAA06UZCastG0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/currentCastItem" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC15currentCastItemAA06UZCastG0VSgvp">currentCastItem</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -662,7 +569,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">playerStateDidChange</span><span class="p">(</span><span class="nv">state</span><span class="p">:</span> <span class="kt"><a href="../Enums/UZPlayerState.html">UZPlayerState</a></span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">currentCastItem</span><span class="p">:</span> <span class="kt"><a href="../Structs.html#/s:7UizaSDK10UZCastItemV">UZCastItem</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span></code></pre>
 
                         </div>
                       </div>
@@ -673,19 +580,19 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/UI%20update%20related%20function"></a>
-                <a name="//apple_ref/swift/Section/UI update related function" class="dashAnchor"></a>
-                <a href="#/UI%20update%20related%20function">
-                  <h3 class="section-name">UI update related function</h3>
+                <a name="/Discover"></a>
+                <a name="//apple_ref/swift/Section/Discover" class="dashAnchor"></a>
+                <a href="#/Discover">
+                  <h3 class="section-name">Discover</h3>
                 </a>
               </div>
               <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC9prepareUIyAA0C8ResourceV3for_AA11UZVideoItemCSg5videotF"></a>
-                    <a name="//apple_ref/swift/Method/prepareUI(for:video:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC9prepareUIyAA0C8ResourceV3for_AA11UZVideoItemCSg5videotF">prepareUI(for:video:)</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC16startDiscoveringyyF"></a>
+                    <a name="//apple_ref/swift/Method/startDiscovering()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC16startDiscoveringyyF">startDiscovering()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -700,7 +607,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">prepareUI</span><span class="p">(</span><span class="k">for</span> <span class="nv">resource</span><span class="p">:</span> <span class="kt"><a href="../Structs/UZPlayerResource.html">UZPlayerResource</a></span><span class="p">,</span> <span class="nv">video</span><span class="p">:</span> <span class="kt"><a href="../Classes/UZVideoItem.html">UZVideoItem</a></span><span class="p">?)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">startDiscovering</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -710,9 +617,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC18playStateDidChangeySb9isPlaying_tF"></a>
-                    <a name="//apple_ref/swift/Method/playStateDidChange(isPlaying:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC18playStateDidChangeySb9isPlaying_tF">playStateDidChange(isPlaying:)</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC15stopDiscoveringyyF"></a>
+                    <a name="//apple_ref/swift/Method/stopDiscovering()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC15stopDiscoveringyyF">stopDiscovering()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -727,439 +634,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">playStateDidChange</span><span class="p">(</span><span class="nv">isPlaying</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC011autoFadeOutdE0ySd5after_tF"></a>
-                    <a name="//apple_ref/swift/Method/autoFadeOutControlView(after:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC011autoFadeOutdE0ySd5after_tF">autoFadeOutControlView(after:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">autoFadeOutControlView</span><span class="p">(</span><span class="n">after</span> <span class="nv">interval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC26cancelAutoFadeOutAnimationyyF"></a>
-                    <a name="//apple_ref/swift/Method/cancelAutoFadeOutAnimation()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC26cancelAutoFadeOutAnimationyyF">cancelAutoFadeOutAnimation()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">cancelAutoFadeOutAnimation</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC04showdE0y12CoreGraphics7CGFloatV8duration_tF"></a>
-                    <a name="//apple_ref/swift/Method/showControlView(duration:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC04showdE0y12CoreGraphics7CGFloatV8duration_tF">showControlView(duration:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">showControlView</span><span class="p">(</span><span class="nv">duration</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC04hidedE0y12CoreGraphics7CGFloatV8duration_tF"></a>
-                    <a name="//apple_ref/swift/Method/hideControlView(duration:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC04hidedE0y12CoreGraphics7CGFloatV8duration_tF">hideControlView(duration:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">hideControlView</span><span class="p">(</span><span class="nv">duration</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mf">0.3</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC11showMessageySSF"></a>
-                    <a name="//apple_ref/swift/Method/showMessage(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC11showMessageySSF">showMessage(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">showMessage</span><span class="p">(</span><span class="n">_</span> <span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC11hideMessageyyF"></a>
-                    <a name="//apple_ref/swift/Method/hideMessage()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC11hideMessageyyF">hideMessage()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">hideMessage</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC8updateUIySbF"></a>
-                    <a name="//apple_ref/swift/Method/updateUI(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC8updateUIySbF">updateUI(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">updateUI</span><span class="p">(</span><span class="n">_</span> <span class="nv">isForFullScreen</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC13showEndScreenyyF"></a>
-                    <a name="//apple_ref/swift/Method/showEndScreen()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC13showEndScreenyyF">showEndScreen()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">showEndScreen</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC13hideEndScreenyyF"></a>
-                    <a name="//apple_ref/swift/Method/hideEndScreen()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC13hideEndScreenyyF">hideEndScreen()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">hideEndScreen</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC10showLoaderyyF"></a>
-                    <a name="//apple_ref/swift/Method/showLoader()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC10showLoaderyyF">showLoader()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">showLoader</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC10hideLoaderyyF"></a>
-                    <a name="//apple_ref/swift/Method/hideLoader()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC10hideLoaderyyF">hideLoader()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">hideLoader</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC17showCoverWithLinkySSF"></a>
-                    <a name="//apple_ref/swift/Method/showCoverWithLink(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC17showCoverWithLinkySSF">showCoverWithLink(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">showCoverWithLink</span><span class="p">(</span><span class="n">_</span> <span class="nv">cover</span><span class="p">:</span><span class="kt">String</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC9showCovery10Foundation3URLVSg3url_tF"></a>
-                    <a name="//apple_ref/swift/Method/showCover(url:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC9showCovery10Foundation3URLVSg3url_tF">showCover(url:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">showCover</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="kt">URL</span><span class="p">?)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC014hideCoverImageE0yyF"></a>
-                    <a name="//apple_ref/swift/Method/hideCoverImageView()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC014hideCoverImageE0yyF">hideCoverImageView()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">hideCoverImageView</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC17showCastingScreenyyF"></a>
-                    <a name="//apple_ref/swift/Method/showCastingScreen()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC17showCastingScreenyyF">showCastingScreen()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">showCastingScreen</span><span class="p">()</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7UizaSDK19UZPlayerControlViewC17hideCastingScreenyyF"></a>
-                    <a name="//apple_ref/swift/Method/hideCastingScreen()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7UizaSDK19UZPlayerControlViewC17hideCastingScreenyyF">hideCastingScreen()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">hideCastingScreen</span><span class="p">()</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">stopDiscovering</span><span class="p">()</span></code></pre>
 
                         </div>
                       </div>
@@ -1170,19 +645,19 @@
             </div>
             <div class="task-group">
               <div class="task-name-container">
-                <a name="/Action"></a>
-                <a name="//apple_ref/swift/Section/Action" class="dashAnchor"></a>
-                <a href="#/Action">
-                  <h3 class="section-name">Action</h3>
+                <a name="/Connect"></a>
+                <a name="//apple_ref/swift/Section/Connect" class="dashAnchor"></a>
+                <a href="#/Connect">
+                  <h3 class="section-name">Connect</h3>
                 </a>
               </div>
               <ul>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@M@UizaSDK@objc(cs)UZPlayerControlView(im)onButtonPressed:"></a>
-                    <a name="//apple_ref/swift/Method/onButtonPressed(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@M@UizaSDK@objc(cs)UZPlayerControlView(im)onButtonPressed:">onButtonPressed(_:)</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC4castyAA10UZCastItemV4item_So9GCKDeviceC2totF"></a>
+                    <a name="//apple_ref/swift/Method/cast(item:to:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC4castyAA10UZCastItemV4item_So9GCKDeviceC2totF">cast(item:to:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1197,7 +672,88 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc</span> <span class="kd">open</span> <span class="kd">func</span> <span class="nf">onButtonPressed</span><span class="p">(</span><span class="n">_</span> <span class="nv">button</span><span class="p">:</span> <span class="kt">UIButton</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">cast</span><span class="p">(</span><span class="nv">item</span><span class="p">:</span> <span class="kt"><a href="../Structs.html#/s:7UizaSDK10UZCastItemV">UZCastItem</a></span><span class="p">,</span> <span class="n">to</span> <span class="nv">device</span><span class="p">:</span> <span class="kt">GCKDevice</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK16UZCastingManagerC7connectySo9GCKDeviceC2to_AA10UZCastItemVSg7andCasttF"></a>
+                    <a name="//apple_ref/swift/Method/connect(to:andCast:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC7connectySo9GCKDeviceC2to_AA10UZCastItemVSg7andCasttF">connect(to:andCast:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">connect</span><span class="p">(</span><span class="n">to</span> <span class="nv">device</span><span class="p">:</span> <span class="kt">GCKDevice</span><span class="p">,</span> <span class="n">andCast</span> <span class="nv">item</span><span class="p">:</span> <span class="kt"><a href="../Structs.html#/s:7UizaSDK10UZCastItemV">UZCastItem</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK16UZCastingManagerC10disconnectyyF"></a>
+                    <a name="//apple_ref/swift/Method/disconnect()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC10disconnectyyF">disconnect()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">disconnect</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK16UZCastingManagerC8castItemyAA06UZCastF0V4item_tF"></a>
+                    <a name="//apple_ref/swift/Method/castItem(item:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC8castItemyAA06UZCastF0V4item_tF">castItem(item:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">castItem</span><span class="p">(</span><span class="nv">item</span><span class="p">:</span> <span class="kt"><a href="../Structs.html#/s:7UizaSDK10UZCastItemV">UZCastItem</a></span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -1211,9 +767,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/c:@CM@UizaSDK@objc(cs)UZPlayerControlView(im)gestureRecognizer:shouldReceiveTouch:"></a>
-                    <a name="//apple_ref/swift/Method/gestureRecognizer(_:shouldReceive:)" class="dashAnchor"></a>
-                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZPlayerControlView(im)gestureRecognizer:shouldReceiveTouch:">gestureRecognizer(_:shouldReceive:)</a>
+                    <a name="/s:7UizaSDK16UZCastingManagerC4playyyF"></a>
+                    <a name="//apple_ref/swift/Method/play()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC4playyyF">play()</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -1228,7 +784,482 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">gestureRecognizer</span><span class="p">(</span><span class="n">_</span> <span class="nv">gestureRecognizer</span><span class="p">:</span> <span class="kt">UIGestureRecognizer</span><span class="p">,</span> <span class="n">shouldReceive</span> <span class="nv">touch</span><span class="p">:</span> <span class="kt">UITouch</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">play</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK16UZCastingManagerC5pauseyyF"></a>
+                    <a name="//apple_ref/swift/Method/pause()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC5pauseyyF">pause()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">pause</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK16UZCastingManagerC4stopyyF"></a>
+                    <a name="//apple_ref/swift/Method/stop()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC4stopyyF">stop()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">stop</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK16UZCastingManagerC4seekySd2to_SC19GCKMediaResumeStateO06resumeI0tF"></a>
+                    <a name="//apple_ref/swift/Method/seek(to:resumeState:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC4seekySd2to_SC19GCKMediaResumeStateO06resumeI0tF">seek(to:resumeState:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">seek</span><span class="p">(</span><span class="n">to</span> <span class="nv">interval</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">,</span> <span class="nv">resumeState</span><span class="p">:</span> <span class="kt">GCKMediaResumeState</span> <span class="o">=</span> <span class="o">.</span><span class="n">unchanged</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK16UZCastingManagerC9setVolumeySfF"></a>
+                    <a name="//apple_ref/swift/Method/setVolume(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC9setVolumeySfF">setVolume(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">setVolume</span><span class="p">(</span><span class="n">_</span> <span class="nv">volume</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK16UZCastingManagerC7setMuteySbF"></a>
+                    <a name="//apple_ref/swift/Method/setMute(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC7setMuteySbF">setMute(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">setMute</span><span class="p">(</span><span class="n">_</span> <span class="nv">muted</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK16UZCastingManagerC15selectTracksIDsySaySo8NSNumberCGF"></a>
+                    <a name="//apple_ref/swift/Method/selectTracksIDs(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK16UZCastingManagerC15selectTracksIDsySaySo8NSNumberCGF">selectTracksIDs(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">selectTracksIDs</span><span class="p">(</span><span class="n">_</span> <span class="nv">tracks</span><span class="p">:</span> <span class="p">[</span><span class="kt">NSNumber</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)didUpdateDeviceList"></a>
+                    <a name="//apple_ref/swift/Method/didUpdateDeviceList()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)didUpdateDeviceList">didUpdateDeviceList()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">didUpdateDeviceList</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)sessionManager:didStartCastSession:"></a>
+                    <a name="//apple_ref/swift/Method/sessionManager(_:didStart:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)sessionManager:didStartCastSession:">sessionManager(_:didStart:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sessionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">sessionManager</span><span class="p">:</span> <span class="kt">GCKSessionManager</span><span class="p">,</span> <span class="n">didStart</span> <span class="nv">session</span><span class="p">:</span> <span class="kt">GCKCastSession</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)sessionManager:didResumeCastSession:"></a>
+                    <a name="//apple_ref/swift/Method/sessionManager(_:didResumeCastSession:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)sessionManager:didResumeCastSession:">sessionManager(_:didResumeCastSession:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sessionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">sessionManager</span><span class="p">:</span> <span class="kt">GCKSessionManager</span><span class="p">,</span> <span class="n">didResumeCastSession</span> <span class="nv">session</span><span class="p">:</span> <span class="kt">GCKCastSession</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)sessionManager:session:didReceiveDeviceStatus:"></a>
+                    <a name="//apple_ref/swift/Method/sessionManager(_:session:didReceiveDeviceStatus:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)sessionManager:session:didReceiveDeviceStatus:">sessionManager(_:session:didReceiveDeviceStatus:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sessionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">sessionManager</span><span class="p">:</span> <span class="kt">GCKSessionManager</span><span class="p">,</span> <span class="nv">session</span><span class="p">:</span> <span class="kt">GCKSession</span><span class="p">,</span> <span class="n">didReceiveDeviceStatus</span> <span class="nv">statusText</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)sessionManager:didEndSession:withError:"></a>
+                    <a name="//apple_ref/swift/Method/sessionManager(_:didEnd:withError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)sessionManager:didEndSession:withError:">sessionManager(_:didEnd:withError:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sessionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">sessionManager</span><span class="p">:</span> <span class="kt">GCKSessionManager</span><span class="p">,</span> <span class="n">didEnd</span> <span class="nv">session</span><span class="p">:</span> <span class="kt">GCKSession</span><span class="p">,</span> <span class="n">withError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)sessionManager:didSuspendCastSession:withReason:"></a>
+                    <a name="//apple_ref/swift/Method/sessionManager(_:didSuspend:with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)sessionManager:didSuspendCastSession:withReason:">sessionManager(_:didSuspend:with:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">sessionManager</span><span class="p">(</span><span class="n">_</span> <span class="nv">sessionManager</span><span class="p">:</span> <span class="kt">GCKSessionManager</span><span class="p">,</span> <span class="n">didSuspend</span> <span class="nv">session</span><span class="p">:</span> <span class="kt">GCKCastSession</span><span class="p">,</span> <span class="n">with</span> <span class="nv">reason</span><span class="p">:</span> <span class="kt">GCKConnectionSuspendReason</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)remoteMediaClient:didStartMediaSessionWithID:"></a>
+                    <a name="//apple_ref/swift/Method/remoteMediaClient(_:didStartMediaSessionWithID:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)remoteMediaClient:didStartMediaSessionWithID:">remoteMediaClient(_:didStartMediaSessionWithID:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">remoteMediaClient</span><span class="p">(</span><span class="n">_</span> <span class="nv">client</span><span class="p">:</span> <span class="kt">GCKRemoteMediaClient</span><span class="p">,</span> <span class="n">didStartMediaSessionWithID</span> <span class="nv">sessionID</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)remoteMediaClient:didUpdateMediaStatus:"></a>
+                    <a name="//apple_ref/swift/Method/remoteMediaClient(_:didUpdate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)remoteMediaClient:didUpdateMediaStatus:">remoteMediaClient(_:didUpdate:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">remoteMediaClient</span><span class="p">(</span><span class="n">_</span> <span class="nv">client</span><span class="p">:</span> <span class="kt">GCKRemoteMediaClient</span><span class="p">,</span> <span class="n">didUpdate</span> <span class="nv">mediaStatus</span><span class="p">:</span> <span class="kt">GCKMediaStatus</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)requestDidComplete:"></a>
+                    <a name="//apple_ref/swift/Method/requestDidComplete(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)requestDidComplete:">requestDidComplete(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">requestDidComplete</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt">GCKRequest</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)request:didFailWithError:"></a>
+                    <a name="//apple_ref/swift/Method/request(_:didFailWithError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)request:didFailWithError:">request(_:didFailWithError:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">request</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt">GCKRequest</span><span class="p">,</span> <span class="n">didFailWithError</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">GCKError</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)request:didAbortWithReason:"></a>
+                    <a name="//apple_ref/swift/Method/request(_:didAbortWith:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@UizaSDK@objc(cs)UZCastingManager(im)request:didAbortWithReason:">request(_:didAbortWith:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">request</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt">GCKRequest</span><span class="p">,</span> <span class="n">didAbortWith</span> <span class="nv">abortReason</span><span class="p">:</span> <span class="kt">GCKRequestAbortReason</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
