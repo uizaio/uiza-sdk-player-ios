@@ -227,7 +227,7 @@
 
 <p>UizaSDK yêu cầu Swift 4.1 và iOS10+, TVOS 10+</p>
 <h2 id='c-i-t' class='heading'>Cài Đặt</h2>
-<h3 id='cocoapods' class='heading'>CocoaPods</h3>
+<h3 id='cocoapods-n-n-d-ng' class='heading'>CocoaPods (nên dùng)</h3>
 
 <p>Cài đặt thông qua <a href="http://cocoapods.org">CocoaPods</a></p>
 
@@ -240,17 +240,20 @@
 </code></pre>
 <h3 id='t-c-i-t' class='heading'>Tự Cài Đặt</h3>
 
-<p>Tải <code>UizaSDK.framework</code> và kéo vào project của bạn, và phải thêm nó vào mục Embbeded Binaries</p>
+<p>Tải <a href="https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework"><code>UizaSDK.framework</code></a> và kéo vào project của bạn, và phải thêm nó vào mục Embbeded Binaries</p>
 <h2 id='c-ch-s-d-ng' class='heading'>Cách Sử Dụng</h2>
 <h2 id='kh-i-t-o' class='heading'>Khởi tạo</h2>
 
 <p>Luôn khởi động framework này trước khi gọi bất cứ hàm API nào bằng cách gọi lệnh sau:</p>
 <pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">UizaSDK</span>
 
-<span class="kt">UizaSDK</span><span class="o">.</span><span class="nf">initWith</span><span class="p">(</span><span class="nv">appId</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_APP_ID</span><span class="p">],</span> <span class="nv">key</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_SECRET_KEY</span><span class="p">],</span> <span class="nv">domain</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_DOMAIN</span><span class="p">],</span> <span class="nv">enviroment</span><span class="p">:</span> <span class="o">.</span><span class="n">production</span><span class="p">)</span>
+<span class="kt">UizaSDK</span><span class="o">.</span><span class="nf">initWith</span><span class="p">(</span><span class="nv">appId</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_APP_ID</span><span class="p">],</span> <span class="nv">token</span><span class="p">:</span> <span class="p">[</span><span class="kt">TOKEN</span><span class="p">],</span> <span class="nv">api</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_DOMAIN</span><span class="p">])</span>
 </code></pre>
+
+<p>[YOUR_APP_ID] và [YOUR_DOMAIN] : lấy từ thông tin trong email đăng ký
+[TOKEN]: được tạo từ trang <a href="https://docs.uiza.io/#get-api-key">https://docs.uiza.io/#get-api-key</a></p>
 <h2 id='g-i-h-m-api' class='heading'>Gọi hàm API</h2>
-<pre class="highlight swift"><code><span class="kt">UZContentServices</span><span class="p">()</span><span class="o">.</span><span class="nf">loadDetail</span><span class="p">(</span><span class="nv">videoId</span><span class="p">:</span> <span class="kt">VIDEO_ID</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="n">videoItem</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span> <span class="k">in</span>
+<pre class="highlight swift"><code><span class="kt">UZContentServices</span><span class="p">()</span><span class="o">.</span><span class="nf">loadDetail</span><span class="p">(</span><span class="nv">entityId</span><span class="p">:</span> <span class="kt">ENTITY_ID</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="n">videoItem</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span> <span class="k">in</span>
   <span class="k">if</span> <span class="n">error</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"Error: </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
   <span class="p">}</span>
@@ -261,7 +264,7 @@
 </code></pre>
 <h2 id='c-ch-play-video' class='heading'>Cách play video</h2>
 <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerViewController</span> <span class="o">=</span> <span class="kt">UZPlayerViewController</span><span class="p">()</span>
-<span class="n">playerViewController</span><span class="o">.</span><span class="n">player</span><span class="o">.</span><span class="nf">loadVideo</span><span class="p">(</span><span class="n">videoItem</span><span class="p">)</span>
+<span class="n">playerViewController</span><span class="o">.</span><span class="n">player</span><span class="o">.</span><span class="nf">loadVideo</span><span class="p">(</span><span class="nv">entityId</span><span class="p">:</span> <span class="p">[</span><span class="kt">ENTITY_ID</span><span class="p">])</span>
 <span class="nf">present</span><span class="p">(</span><span class="n">playerViewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
 </code></pre>
 
@@ -278,7 +281,7 @@
 
 <p>UizaSDK requires Swift 4.1 and iOS9+, TVOS 10+</p>
 <h2 id='installation' class='heading'>Installation</h2>
-<h3 id='cocoapods' class='heading'>CocoaPods</h3>
+<h3 id='cocoapods-recommended' class='heading'>CocoaPods (Recommended)</h3>
 
 <p>To integrate UizaSDK into your Xcode project using <a href="http://cocoapods.org">CocoaPods</a>, specify it in your <code>Podfile</code>:</p>
 <pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'UizaSDK'</span>
@@ -289,17 +292,19 @@
 </code></pre>
 <h3 id='manual-installation' class='heading'>Manual Installation</h3>
 
-<p>Download <code>UizaSDK.framework</code> and drag it into your project, add it to Embbeded Binaries section</p>
+<p>Download <a href="https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework"><code>UizaSDK.framework</code></a> and drag it into your project, add it to Embbeded Binaries section</p>
 <h2 id='usage' class='heading'>Usage</h2>
 <h2 id='framework-init' class='heading'>Framework Init</h2>
 
 <p>Always initialize the framework by the following line before calling any API functions:</p>
 <pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">UizaSDK</span>
 
-<span class="kt">UizaSDK</span><span class="o">.</span><span class="nf">initWith</span><span class="p">(</span><span class="nv">appId</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_APP_ID</span><span class="p">],</span> <span class="nv">key</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_SECRET_KEY</span><span class="p">],</span> <span class="nv">domain</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_DOMAIN</span><span class="p">],</span> <span class="nv">enviroment</span><span class="p">:</span> <span class="o">.</span><span class="n">production</span><span class="p">)</span>
+<span class="kt">UizaSDK</span><span class="o">.</span><span class="nf">initWith</span><span class="p">(</span><span class="nv">appId</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_APP_ID</span><span class="p">],</span> <span class="nv">token</span><span class="p">:</span> <span class="p">[</span><span class="kt">TOKEN</span><span class="p">],</span> <span class="nv">api</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_DOMAIN</span><span class="p">])</span>
 </code></pre>
+
+<p>[YOUR_APP_ID] and [YOUR_DOMAIN] : get from registration email</p>
 <h2 id='call-api' class='heading'>Call API</h2>
-<pre class="highlight swift"><code><span class="kt">UZContentServices</span><span class="p">()</span><span class="o">.</span><span class="nf">loadDetail</span><span class="p">(</span><span class="nv">videoId</span><span class="p">:</span> <span class="kt">VIDEO_ID</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="n">videoItem</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span> <span class="k">in</span>
+<pre class="highlight swift"><code><span class="kt">UZContentServices</span><span class="p">()</span><span class="o">.</span><span class="nf">loadDetail</span><span class="p">(</span><span class="nv">entityId</span><span class="p">:</span> <span class="kt">ENTITY_ID</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="n">videoItem</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span> <span class="k">in</span>
   <span class="k">if</span> <span class="n">error</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
     <span class="nf">print</span><span class="p">(</span><span class="s">"Error: </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
   <span class="p">}</span>
@@ -310,7 +315,7 @@
 </code></pre>
 <h2 id='how-to-play-video' class='heading'>How to play video</h2>
 <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerViewController</span> <span class="o">=</span> <span class="kt">UZPlayerViewController</span><span class="p">()</span>
-<span class="n">playerViewController</span><span class="o">.</span><span class="n">player</span><span class="o">.</span><span class="nf">loadVideo</span><span class="p">(</span><span class="n">videoItem</span><span class="p">)</span>
+<span class="n">playerViewController</span><span class="o">.</span><span class="n">player</span><span class="o">.</span><span class="nf">loadVideo</span><span class="p">(</span><span class="nv">entityId</span><span class="p">:</span> <span class="p">[</span><span class="kt">ENTITY_ID</span><span class="p">])</span>
 <span class="nf">present</span><span class="p">(</span><span class="n">playerViewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
 </code></pre>
 

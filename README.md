@@ -43,7 +43,7 @@ Luôn khởi động framework này trước khi gọi bất cứ hàm API nào 
 ``` swift
 import UizaSDK
 
-UizaSDK.initWith(appId: [YOUR_APP_ID], token: [TOKEN], domain: [YOUR_DOMAIN])
+UizaSDK.initWith(appId: [YOUR_APP_ID], token: [TOKEN], api: [YOUR_DOMAIN])
 ```
 
 [YOUR_APP_ID] và [YOUR_DOMAIN] : lấy từ thông tin trong email đăng ký
@@ -112,7 +112,7 @@ Always initialize the framework by the following line before calling any API fun
 ``` swift
 import UizaSDK
 
-UizaSDK.initWith(appId: [YOUR_APP_ID], token: [TOKEN], domain: [YOUR_DOMAIN])
+UizaSDK.initWith(appId: [YOUR_APP_ID], token: [TOKEN], api: [YOUR_DOMAIN])
 ```
 
 [YOUR_APP_ID] and [YOUR_DOMAIN] : get from registration email
