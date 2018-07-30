@@ -43,14 +43,11 @@ Luôn khởi động framework này trước khi gọi bất cứ hàm API nào 
 ``` swift
 import UizaSDK
 
-UizaSDK.initWith(appId: [YOUR_APP_ID], key: [TOKEN], domain: [YOUR_DOMAIN], enviroment: .production)
+UizaSDK.initWith(appId: [YOUR_APP_ID], token: [TOKEN], domain: [YOUR_DOMAIN])
 ```
 
 [YOUR_APP_ID] và [YOUR_DOMAIN] : lấy từ thông tin trong email đăng ký
-
 [TOKEN]: được tạo từ trang https://docs.uiza.io/#get-api-key
-
-[Enviroment]: .production, .staging, .development
 
 ## Gọi hàm API
 ``` swift
@@ -115,12 +112,10 @@ Always initialize the framework by the following line before calling any API fun
 ``` swift
 import UizaSDK
 
-UizaSDK.initWith(appId: [YOUR_APP_ID], key: [TOKEN], domain: [YOUR_DOMAIN], enviroment: .production)
+UizaSDK.initWith(appId: [YOUR_APP_ID], token: [TOKEN], domain: [YOUR_DOMAIN])
 ```
 
 [YOUR_APP_ID] and [YOUR_DOMAIN] : get from registration email
-
-[TOKEN]: generate from https://docs.uiza.io/#get-api-key
 
 [Enviroment]: .production, .staging, .development
 
