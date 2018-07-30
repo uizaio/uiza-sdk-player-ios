@@ -33,7 +33,7 @@ $ pod install
 
 ### Tự Cài Đặt
 
-Tải [`UizaSDK.framework`](https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework`) và kéo vào project của bạn, và phải thêm nó vào mục Embbeded Binaries
+Tải [`UizaSDK.framework`](https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework) và kéo vào project của bạn, và phải thêm nó vào mục Embbeded Binaries
 
 ## Cách Sử Dụng
 
@@ -105,7 +105,7 @@ $ pod install
 
 ### Manual Installation
 
-Download [`UizaSDK.framework`](https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework`) and drag it into your project, add it to Embbeded Binaries section
+Download [`UizaSDK.framework`](https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework) and drag it into your project, add it to Embbeded Binaries section
 
 ## Usage
 
