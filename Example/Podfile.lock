@@ -19,7 +19,7 @@ PODS:
   - SDWebImage/Core (4.4.2)
   - SwiftIcons (2.1.0)
   - SwiftyJSON (4.1.0)
-  - UizaSDK (4.8):
+  - UizaSDK (4.8.2):
     - AFDateHelper
     - Alamofire
     - FrameLayoutKit
@@ -65,7 +65,7 @@ SPEC CHECKSUMS:
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SwiftIcons: e414be7906347ef584d10280715d88aceac052e5
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
-  UizaSDK: 5526bccc66be88dcef8b7a2a9a01592a00eb033c
+  UizaSDK: e4ac9045f45e3e0848dac5bdde7221e309c82be0
 
 PODFILE CHECKSUM: 216f2fa7a7aa244f75f89fe05b022d49f8ee27aa
 
