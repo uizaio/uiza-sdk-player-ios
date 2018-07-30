@@ -46,9 +46,15 @@ import UizaSDK
 UizaSDK.initWith(appId: [YOUR_APP_ID], key: [YOUR_SECRET_KEY], domain: [YOUR_DOMAIN], enviroment: .production)
 ```
 
+[YOUR_APP_ID] và [YOUR_DOMAIN] : lấy từ thông tin trong email đăng ký
+
+[YOUR_SECRET_KEY]: được tạo từ trang https://docs.uiza.io/#get-api-key
+
+[Enviroment]: .production, .staging, .development
+
 ## Gọi hàm API
 ``` swift
-UZContentServices().loadDetail(videoId: VIDEO_ID, completionBlock: { (videoItem, error) in
+UZContentServices().loadDetail(videoId: ENTITY_ID, completionBlock: { (videoItem, error) in
   if error != nil {
     print("Error: \(error)")
   }
@@ -61,7 +67,7 @@ UZContentServices().loadDetail(videoId: VIDEO_ID, completionBlock: { (videoItem,
 ## Cách play video
 ``` swift
 let playerViewController = UZPlayerViewController()
-playerViewController.player.loadVideo(videoItem)
+playerViewController.player.loadVideo(videoId: [ENTITY_ID])
 present(playerViewController, animated: true, completion: nil)
 ```
 
@@ -112,9 +118,15 @@ import UizaSDK
 UizaSDK.initWith(appId: [YOUR_APP_ID], key: [YOUR_SECRET_KEY], domain: [YOUR_DOMAIN], enviroment: .production)
 ```
 
+[YOUR_APP_ID] and [YOUR_DOMAIN] : get from registration email
+
+[YOUR_SECRET_KEY]: generate from https://docs.uiza.io/#get-api-key
+
+[Enviroment]: .production, .staging, .development
+
 ## Call API
 ``` swift
-UZContentServices().loadDetail(videoId: VIDEO_ID, completionBlock: { (videoItem, error) in
+UZContentServices().loadDetail(videoId: ENTITY_ID, completionBlock: { (videoItem, error) in
   if error != nil {
     print("Error: \(error)")
   }
@@ -127,7 +139,7 @@ UZContentServices().loadDetail(videoId: VIDEO_ID, completionBlock: { (videoItem,
 ## How to play video
 ``` swift
 let playerViewController = UZPlayerViewController()
-playerViewController.player.loadVideo(videoItem)
+playerViewController.player.loadVideo(videoId: [ENTITY_ID])
 present(playerViewController, animated: true, completion: nil)
 ```
 
