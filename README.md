@@ -117,8 +117,6 @@ UizaSDK.initWith(appId: [YOUR_APP_ID], token: [TOKEN], domain: [YOUR_DOMAIN])
 
 [YOUR_APP_ID] and [YOUR_DOMAIN] : get from registration email
 
-[Enviroment]: .production, .staging, .development
-
 ## Call API
 ``` swift
 UZContentServices().loadDetail(entityId: ENTITY_ID, completionBlock: { (videoItem, error) in
