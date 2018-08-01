@@ -97,7 +97,7 @@ class ViewController: UIViewController {
 		_ = textField.resignFirstResponder()
 		
 		if let videoId = textField.text, !videoId.isEmpty {
-			self.playerViewController.player.loadVideo(videoId: videoId)
+			self.playerViewController.player.loadVideo(entityId: videoId)
 		}
 	}
 	

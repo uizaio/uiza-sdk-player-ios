@@ -2,9 +2,11 @@ PODS:
   - AFDateHelper (4.2.7)
   - Alamofire (4.7.3)
   - FrameLayoutKit (3.0.15)
-  - google-cast-sdk (4.3.0):
-    - google-cast-sdk/Core (= 4.3.0)
-  - google-cast-sdk/Core (4.3.0)
+  - google-cast-sdk (4.3.1):
+    - google-cast-sdk/Core (= 4.3.1)
+    - Protobuf (~> 3.0)
+  - google-cast-sdk/Core (4.3.1):
+    - Protobuf (~> 3.0)
   - GoogleAds-IMA-iOS-SDK (3.7.2)
   - NKButton (3.0):
     - FrameLayoutKit
@@ -14,12 +16,13 @@ PODS:
     - NVActivityIndicatorView/Presenter (= 4.3.0)
   - NVActivityIndicatorView/AppExtension (4.3.0)
   - NVActivityIndicatorView/Presenter (4.3.0)
+  - Protobuf (3.6.0)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
-  - SwiftIcons (2.1.0)
+  - SwiftIcons (2.2.0)
   - SwiftyJSON (4.1.0)
-  - UizaSDK (4.8.2):
+  - UizaSDK (4.8.5):
     - AFDateHelper
     - Alamofire
     - FrameLayoutKit
@@ -45,6 +48,7 @@ SPEC REPOS:
     - NKButton
     - NKModalViewManager
     - NVActivityIndicatorView
+    - Protobuf
     - SDWebImage
     - SwiftIcons
     - SwiftyJSON
@@ -57,15 +61,16 @@ SPEC CHECKSUMS:
   AFDateHelper: 4ad66fb19503041fbba8a3018cb7ef9c71b2ff88
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   FrameLayoutKit: 4755f14aeb842be6c646659714b1f76d8b1786ad
-  google-cast-sdk: 57cd67b4a0966802b2738fcbbc103125c98cc8a1
+  google-cast-sdk: 3132919e696d2e88a3ee0667ed9c4b6b8b1cdeb0
   GoogleAds-IMA-iOS-SDK: 58693326633b35aa7e95c45693ec0bb8e88086de
   NKButton: 65710d1e4e2c9ec756c23dec1b2834f0a97eb460
   NKModalViewManager: f9f9539ac36417fa1ed446f4221e62e1748cbff9
   NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
-  SwiftIcons: e414be7906347ef584d10280715d88aceac052e5
+  SwiftIcons: e7eb9bf2b475d6bdd8b37c5bdedc6d120aab0829
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
-  UizaSDK: e4ac9045f45e3e0848dac5bdde7221e309c82be0
+  UizaSDK: 57752e8b59965e8421606adadbbe6705f6590256
 
 PODFILE CHECKSUM: 216f2fa7a7aa244f75f89fe05b022d49f8ee27aa
 
