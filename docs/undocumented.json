@@ -1899,6 +1899,146 @@
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 102,
+      "symbol": "UZPlayerControlView.titleLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 103,
+      "symbol": "UZPlayerControlView.currentTimeLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 104,
+      "symbol": "UZPlayerControlView.totalTimeLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 105,
+      "symbol": "UZPlayerControlView.remainTimeLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 106,
+      "symbol": "UZPlayerControlView.playpauseCenterButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 107,
+      "symbol": "UZPlayerControlView.playpauseButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 108,
+      "symbol": "UZPlayerControlView.forwardButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 109,
+      "symbol": "UZPlayerControlView.backwardButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 110,
+      "symbol": "UZPlayerControlView.volumeButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 111,
+      "symbol": "UZPlayerControlView.backButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 112,
+      "symbol": "UZPlayerControlView.fullscreenButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 113,
+      "symbol": "UZPlayerControlView.playlistButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 114,
+      "symbol": "UZPlayerControlView.ccButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 115,
+      "symbol": "UZPlayerControlView.settingsButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 116,
+      "symbol": "UZPlayerControlView.helpButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 117,
+      "symbol": "UZPlayerControlView.pipButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 118,
+      "symbol": "UZPlayerControlView.castingButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 119,
+      "symbol": "UZPlayerControlView.enlapseTimeLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 120,
+      "symbol": "UZPlayerControlView.airplayButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
+      "line": 121,
+      "symbol": "UZPlayerControlView.timeSlider",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/UZPlayerControlView.swift",
       "line": 145,
       "symbol": "UZPlayerControlView.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
@@ -2347,56 +2487,56 @@
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 136,
+      "line": 137,
       "symbol": "UZVideoItem.activityViewController(_:itemForActivityType:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 145,
+      "line": 146,
       "symbol": "UZVideoItem.activityViewControllerPlaceholderItem(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 160,
+      "line": 162,
       "symbol": "UZLiveVideoStatus.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 161,
+      "line": 163,
       "symbol": "UZLiveVideoStatus.entityId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 162,
+      "line": 164,
       "symbol": "UZLiveVideoStatus.entityName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 163,
+      "line": 165,
       "symbol": "UZLiveVideoStatus.state",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 164,
+      "line": 166,
       "symbol": "UZLiveVideoStatus.startDate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 165,
+      "line": 167,
       "symbol": "UZLiveVideoStatus.endDate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
