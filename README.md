@@ -200,7 +200,7 @@ UizaPlayer currently has 7 built-in themes:
 
 [UZTheme7](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme7.jpg)
 
-## Create your own CustomTheme
+## Create CustomTheme
 
 You can create your own custom theme by creating a class inheriting from [UZPlayerTheme Protocol](https://uizaio.github.io/uiza-sdk-player-ios/Protocols/UZPlayerTheme.html) following this template: [UZCustomTheme](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/UZCustomTheme.swift)
 
