@@ -14,7 +14,7 @@
     <a title="UZPlayer Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (24% documented)</p>
+        <p><a href="../index.html"> Docs</a> (23% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -579,6 +579,60 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:7UizaSDK8UZPlayerC8playlistSayAA11UZVideoItemCGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/playlist" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK8UZPlayerC8playlistSayAA11UZVideoItemCGSgvp">playlist</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="k">var</span> <span class="nv">playlist</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/UZVideoItem.html">UZVideoItem</a></span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK8UZPlayerC17currentVideoIndexSivp"></a>
+                    <a name="//apple_ref/swift/Property/currentVideoIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK8UZPlayerC17currentVideoIndexSivp">currentVideoIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">currentVideoIndex</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:7UizaSDK8UZPlayerC12currentVideoAA11UZVideoItemCSgvp"></a>
                     <a name="//apple_ref/swift/Property/currentVideo" class="dashAnchor"></a>
                     <a class="token" href="#/s:7UizaSDK8UZPlayerC12currentVideoAA11UZVideoItemCSgvp">currentVideo</a>
@@ -856,6 +910,100 @@
                               <td>
                                 <div>
                                   <p>callback block with <code>[UZVideoLinkPlay]</code> or Error</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7UizaSDK8UZPlayerC12loadPlaylistySS10metadataId_Si4pageSi5limitSi9playIndexySayAA11UZVideoItemCGSg_AA12UZPaginationCs5Error_pSgtcSg15completionBlocktF"></a>
+                    <a name="//apple_ref/swift/Method/loadPlaylist(metadataId:page:limit:playIndex:completionBlock:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK8UZPlayerC12loadPlaylistySS10metadataId_Si4pageSi5limitSi9playIndexySayAA11UZVideoItemCGSg_AA12UZPaginationCs5Error_pSgtcSg15completionBlocktF">loadPlaylist(metadataId:page:limit:playIndex:completionBlock:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Load and play a playlist</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">loadPlaylist</span><span class="p">(</span><span class="nv">metadataId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">page</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">limit</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">20</span><span class="p">,</span> <span class="nv">playIndex</span><span class="p">:</span> <span class="kt">Int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:((</span><span class="n">_</span> <span class="nv">playlist</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/UZVideoItem.html">UZVideoItem</a></span><span class="p">]?,</span> <span class="n">_</span> <span class="nv">pagination</span><span class="p">:</span> <span class="kt"><a href="../Classes/UZPagination.html">UZPagination</a></span><span class="p">,</span> <span class="n">_</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>metadataId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>playlist id</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>page</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>pagination, start from 0</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>limit</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>limit item</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playIndex</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>index of item to start playing, set -1 to disable auto start</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completionBlock</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback block with <code>[UZVideoItem]</code>, pagination info, or Error</p>
                                 </div>
                               </td>
                             </tr>
@@ -1507,6 +1655,33 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:7UizaSDK8UZPlayerC12showPlaylistyyF"></a>
+                    <a name="//apple_ref/swift/Method/showPlaylist()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7UizaSDK8UZPlayerC12showPlaylistyyF">showPlaylist()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">showPlaylist</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:7UizaSDK8UZPlayerC19showQualitySelectoryyF"></a>
                     <a name="//apple_ref/swift/Method/showQualitySelector()" class="dashAnchor"></a>
                     <a class="token" href="#/s:7UizaSDK8UZPlayerC19showQualitySelectoryyF">showQualitySelector()</a>
@@ -2114,7 +2289,7 @@
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Nam Kennic</a>. All rights reserved. (Last updated: 2018-08-03)</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Nam Kennic</a>. All rights reserved. (Last updated: 2018-08-17)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
