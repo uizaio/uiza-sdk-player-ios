@@ -165,6 +165,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_feature(modules)
 @import AVFoundation;
 @import Foundation;
+@import LFLiveKit;
 @import UIKit;
 @import MediaPlayer;
 @import CoreGraphics;
@@ -189,6 +190,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="UizaSDK",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+
 
 
 
@@ -319,6 +322,67 @@ SWIFT_CLASS("_TtC7UizaSDK15UZLiveBadgeView")
 @end
 
 
+/// Class chứa các thông tin về video item
+SWIFT_CLASS("_TtC7UizaSDK11UZVideoItem")
+@interface UZVideoItem : UZModelObject
+/// Mô tả object
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// Thông tin một sự kiện đang phát trực tiếp
+SWIFT_CLASS("_TtC7UizaSDK11UZLiveEvent")
+@interface UZLiveEvent : UZVideoItem
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7UizaSDK18UZLiveStreamUIView")
+@interface UZLiveStreamUIView : UIView <UITextFieldDelegate>
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+@class UIGestureRecognizer;
+@class UITouch;
+
+@interface UZLiveStreamUIView (SWIFT_EXTENSION(UizaSDK)) <UIGestureRecognizerDelegate>
+- (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldReceiveTouch:(UITouch * _Nonnull)touch SWIFT_WARN_UNUSED_RESULT;
+@end
+
+@class NSBundle;
+
+SWIFT_CLASS("_TtC7UizaSDK26UZLiveStreamViewController")
+@interface UZLiveStreamViewController : UIViewController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)start;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewWillDisappear:(BOOL)animated;
+- (void)viewDidLayoutSubviews;
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class LFLiveSession;
+@class LFLiveDebug;
+
+@interface UZLiveStreamViewController (SWIFT_EXTENSION(UizaSDK)) <LFLiveSessionDelegate>
+- (void)liveSession:(LFLiveSession * _Nullable)session debugInfo:(LFLiveDebug * _Nullable)debugInfo;
+- (void)liveSession:(LFLiveSession * _Nullable)session errorCode:(LFLiveSocketErrorCode)errorCode;
+- (void)liveSession:(LFLiveSession * _Nullable)session liveStateDidChange:(LFLiveState)state;
+@end
+
+
 /// Class chứa thông tin trạng thái của LiveVideo
 SWIFT_CLASS("_TtC7UizaSDK17UZLiveVideoStatus")
 @interface UZLiveVideoStatus : UZModelObject
@@ -336,6 +400,7 @@ SWIFT_CLASS("_TtC7UizaSDK10UZMenuItem")
 
 
 
+/// Thông tin số lượng item trong trang
 SWIFT_CLASS("_TtC7UizaSDK12UZPagination")
 @interface UZPagination : UZModelObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -393,8 +458,6 @@ SWIFT_CLASS("_TtC7UizaSDK19UZPlayerControlView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class UIGestureRecognizer;
-@class UITouch;
 
 @interface UZPlayerControlView (SWIFT_EXTENSION(UizaSDK)) <UIGestureRecognizerDelegate>
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldReceiveTouch:(UITouch * _Nonnull)touch SWIFT_WARN_UNUSED_RESULT;
@@ -409,7 +472,6 @@ SWIFT_CLASS("_TtC7UizaSDK17UZPlayerLayerView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
 
 SWIFT_CLASS("_TtC7UizaSDK22UZPlayerViewController")
 @interface UZPlayerViewController : UIViewController
@@ -459,15 +521,6 @@ SWIFT_CLASS("_TtC7UizaSDK6UZUser")
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 @end
 
-
-/// Class chứa các thông tin về video item
-SWIFT_CLASS("_TtC7UizaSDK11UZVideoItem")
-@interface UZVideoItem : UZModelObject
-/// Mô tả object
-@property (nonatomic, readonly, copy) NSString * _Nonnull description;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 @class UIActivityViewController;
 

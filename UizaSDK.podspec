@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "UizaSDK"
-  s.version       = "5.1.2"
+  s.version       = "6.0"
   s.summary       = "UizaSDK Framework by Nam Kennic"
   s.description   = "A framework that handles API connect to Uiza OTT system"
   s.homepage      = "https://github.com/uizaio/uiza-sdk-player-ios"
@@ -33,6 +33,7 @@ Pod::Spec.new do |s|
   s.ios.dependency "Alamofire"
   s.ios.dependency "AFDateHelper"
   s.ios.dependency "SwiftyJSON"
+  s.ios.dependency "LFLiveKit"
   s.ios.dependency "FrameLayoutKit"
   s.ios.dependency "NKButton"
   s.ios.dependency "NKModalViewManager"
