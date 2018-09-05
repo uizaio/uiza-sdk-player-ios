@@ -253,6 +253,7 @@ SWIFT_CLASS("_TtC12UizaSDK_tvos10UZMenuItem")
 
 
 
+/// Thông tin số lượng item trong trang
 SWIFT_CLASS("_TtC12UizaSDK_tvos12UZPagination")
 @interface UZPagination : UZModelObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

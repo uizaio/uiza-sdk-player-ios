@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "UizaSDK"
-  s.version       = "6.0.3"
+  s.version       = "6.1"
   s.summary       = "UizaSDK Framework by Nam Kennic"
   s.description   = "A framework that handles API connect to Uiza OTT system"
   s.homepage      = "https://github.com/uizaio/uiza-sdk-player-ios"

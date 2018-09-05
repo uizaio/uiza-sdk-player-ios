@@ -1,6 +1,328 @@
 {
   "warnings": [
     {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": null,
+      "symbol": "UZLiveStreamUIView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 14,
+      "symbol": "UZLiveStreamUIView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 15,
+      "symbol": "UZLiveStreamUIView.onButtonSelected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 17,
+      "symbol": "UZLiveStreamUIView.closeButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 18,
+      "symbol": "UZLiveStreamUIView.beautyButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 19,
+      "symbol": "UZLiveStreamUIView.cameraButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 20,
+      "symbol": "UZLiveStreamUIView.viewsBadge",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 21,
+      "symbol": "UZLiveStreamUIView.liveBadge",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 47,
+      "symbol": "UZLiveStreamUIView.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 143,
+      "symbol": "UZLiveStreamUIView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 147,
+      "symbol": "UZLiveStreamUIView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamUIView.swift",
+      "line": 184,
+      "symbol": "UZLiveStreamUIView.gestureRecognizer(_:shouldReceive:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": null,
+      "symbol": "UZLiveStreamViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 25,
+      "symbol": "LFLiveVideoConfiguration.UZVideoConfiguration()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 47,
+      "symbol": "LFLiveVideoConfiguration.UZAudioConfiguration()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 57,
+      "symbol": "UZLiveStreamViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 58,
+      "symbol": "UZLiveStreamViewController.livestreamUIView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 59,
+      "symbol": "UZLiveStreamViewController.startButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 61,
+      "symbol": "UZLiveStreamViewController.liveEventId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 62,
+      "symbol": "UZLiveStreamViewController.getViewsInterval",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 63,
+      "symbol": "UZLiveStreamViewController.liveDurationLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 64,
+      "symbol": "UZLiveStreamViewController.isLive",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 66,
+      "symbol": "UZLiveStreamViewController.saveLocalVideo",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 75,
+      "symbol": "UZLiveStreamViewController.localVideoURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 87,
+      "symbol": "UZLiveStreamViewController.currentLiveEvent",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 102,
+      "symbol": "UZLiveStreamViewController.session",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 111,
+      "symbol": "UZLiveStreamViewController.init(liveEventId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 116,
+      "symbol": "UZLiveStreamViewController.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 151,
+      "symbol": "UZLiveStreamViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 157,
+      "symbol": "UZLiveStreamViewController.requestAccessForVideo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 177,
+      "symbol": "UZLiveStreamViewController.requestAccessForAudio()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 194,
+      "symbol": "UZLiveStreamViewController.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 218,
+      "symbol": "UZLiveStreamViewController.startLive(event:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 253,
+      "symbol": "UZLiveStreamViewController.stopLive()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 339,
+      "symbol": "UZLiveStreamViewController.onButtonSelected(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 372,
+      "symbol": "UZLiveStreamViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 388,
+      "symbol": "UZLiveStreamViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 400,
+      "symbol": "UZLiveStreamViewController.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 409,
+      "symbol": "UZLiveStreamViewController.viewDidLayoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 430,
+      "symbol": "UZLiveStreamViewController.preferredStatusBarStyle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 434,
+      "symbol": "UZLiveStreamViewController.shouldAutorotate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 438,
+      "symbol": "UZLiveStreamViewController.supportedInterfaceOrientations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 442,
+      "symbol": "UZLiveStreamViewController.preferredInterfaceOrientationForPresentation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 450,
+      "symbol": "UZLiveStreamViewController.liveSession(_:debugInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 454,
+      "symbol": "UZLiveStreamViewController.liveSession(_:errorCode:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Live/UZLiveStreamViewController.swift",
+      "line": 458,
+      "symbol": "UZLiveStreamViewController.liveSession(_:liveStateDidChange:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/Player/Controls/UZAirPlayButton.swift",
       "line": 12,
       "symbol": "UZAirPlayButton",
@@ -2507,150 +2829,108 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZPagination.swift",
-      "line": 11,
-      "symbol": "UZPagination",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZPagination.swift",
-      "line": 12,
-      "symbol": "UZPagination.page",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZPagination.swift",
-      "line": 13,
-      "symbol": "UZPagination.limit",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZPagination.swift",
-      "line": 14,
-      "symbol": "UZPagination.result",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZPagination.swift",
-      "line": 15,
-      "symbol": "UZPagination.totalItem",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 12,
-      "symbol": "UZVideoLinkPlay",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 13,
-      "symbol": "UZVideoLinkPlay.definition",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 14,
-      "symbol": "UZVideoLinkPlay.url",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 19,
-      "symbol": "UZVideoLinkPlay.avURLAsset",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 51,
+      "line": 57,
       "symbol": "==(_:_:)",
       "symbol_kind": "source.lang.swift.decl.function.free",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 89,
+      "line": 95,
       "symbol": "UZVideoItem.subtitleURLs",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 137,
+      "line": 143,
       "symbol": "UZVideoItem.activityViewController(_:itemForActivityType:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 146,
+      "line": 152,
       "symbol": "UZVideoItem.activityViewControllerPlaceholderItem(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 162,
+      "line": 168,
       "symbol": "UZLiveVideoStatus.id",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 163,
+      "line": 169,
       "symbol": "UZLiveVideoStatus.entityId",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 164,
+      "line": 170,
       "symbol": "UZLiveVideoStatus.entityName",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 165,
+      "line": 171,
       "symbol": "UZLiveVideoStatus.state",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 166,
+      "line": 172,
       "symbol": "UZLiveVideoStatus.startDate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/Models/UZVideoItem.swift",
-      "line": 167,
+      "line": 173,
       "symbol": "UZLiveVideoStatus.endDate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/UZContentServices.swift",
-      "line": 385,
-      "symbol": "UZContentServices.loadViews(video:completionBlock:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "line": 12,
+      "symbol": "UZPublishStatus",
+      "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/UZContentServices.swift",
-      "line": 407,
-      "symbol": "UZContentServices.loadLiveStatus(video:completionBlock:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "line": 13,
+      "symbol": "UZPublishStatus.queue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/UZContentServices.swift",
+      "line": 14,
+      "symbol": "UZPublishStatus.notReady",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/UZContentServices.swift",
+      "line": 15,
+      "symbol": "UZPublishStatus.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/namkennic/Projects/UizaSDK Framework/UizaSDK/SDK/UZContentServices.swift",
+      "line": 16,
+      "symbol": "UZPublishStatus.failed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
