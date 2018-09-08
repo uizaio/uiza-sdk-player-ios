@@ -102,6 +102,11 @@ UizaPlayer có sẵn 7 giao diện sau:
 
 Bạn có thể tự tạo giao diện riêng bằng cách tạo class kế thừa [UZPlayerTheme Protocol](https://uizaio.github.io/uiza-sdk-player-ios/Protocols/UZPlayerTheme.html) theo mẫu code này: [UZCustomTheme](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/UZCustomTheme.swift)
 
+Bạn cũng có thể thay đổi giao diện của màn hình kết thúc bằng cách tạo class kế thừa `UZEndscreenView`, sau đó đưa nó vào `player.controlView.endscreenView`
+``` swift
+self.playerViewController.player.controlView.endscreenView = MyCustomEndScreen()
+```
+
 Xem chi tiết [Tài liệu API](https://uizaio.github.io/uiza-sdk-player-ios/)
 
 ## Hỗ Trợ
@@ -203,6 +208,11 @@ UizaPlayer currently has 7 built-in themes:
 ## Create CustomTheme
 
 You can create your own custom theme by creating a class inheriting from [UZPlayerTheme Protocol](https://uizaio.github.io/uiza-sdk-player-ios/Protocols/UZPlayerTheme.html) following this template: [UZCustomTheme](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/UZCustomTheme.swift)
+
+You can also create your custom end screen by subclassing `UZEndscreenView`, then set an instance to `player.controlView.endscreenView`
+``` swift
+self.playerViewController.player.controlView.endscreenView = MyCustomEndScreen()
+```
 
 For API details, check [API Document](https://uizaio.github.io/uiza-sdk-player-ios/)
 
