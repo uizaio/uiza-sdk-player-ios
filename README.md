@@ -76,6 +76,13 @@ Nếu gặp trường hợp video không play được do vấn đề App Transp
 </dict>
 ```
 
+## Cách phát livestream
+``` swift
+let viewController = UZLiveStreamViewController()
+viewController.liveEventId = [ENTITY_ID]
+self.present(viewController, animated: true, completion: nil)
+```
+
 ## Thay đổi giao diện
 ``` swift
 let playerViewController = UZPlayerViewController()
@@ -181,6 +188,13 @@ present(playerViewController, animated: true, completion: nil)
 <dict>  
   <key>NSAllowsArbitraryLoads</key><true/>  
 </dict>
+```
+
+## How to broadcast livestream
+``` swift
+let viewController = UZLiveStreamViewController()
+viewController.liveEventId = [ENTITY_ID]
+self.present(viewController, animated: true, completion: nil)
 ```
 
 ## Change Player Themes
