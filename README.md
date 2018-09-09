@@ -83,6 +83,14 @@ viewController.liveEventId = [ENTITY_ID]
 self.present(viewController, animated: true, completion: nil)
 ```
 
+Nhớ thêm mô tả yêu cầu chức năng truy cập camera và micro vào file `Info.plist`:
+``` xml
+<key>NSCameraUsageDescription</key>
+<string>App cần truy cập camera để phát livestream</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>App cần truy cập micro để thu tiếng khi phát livestream</string>
+```
+
 ## Thay đổi giao diện
 ``` swift
 let playerViewController = UZPlayerViewController()
@@ -195,6 +203,14 @@ present(playerViewController, animated: true, completion: nil)
 let viewController = UZLiveStreamViewController()
 viewController.liveEventId = [ENTITY_ID]
 self.present(viewController, animated: true, completion: nil)
+```
+
+Remember to add these usage description keys into `Info.plist` file:
+``` xml
+<key>NSCameraUsageDescription</key>
+<string>App needs access to camera for livestream</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>App needs access to microphone for livestream</string>
 ```
 
 ## Change Player Themes
