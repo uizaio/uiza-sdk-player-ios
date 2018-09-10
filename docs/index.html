@@ -13,7 +13,7 @@
     <a title="  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html"> Docs</a> (25% documented)</p>
+        <p><a href="index.html"> Docs</a> (24% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -29,6 +29,9 @@
           <li class="nav-group-name">
             <a href="Classes.html">Classes</a>
             <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/NKProgressView.html">NKProgressView</a>
+              </li>
               <li class="nav-group-task">
                 <a href="Classes/UZAPIConnector.html">UZAPIConnector</a>
               </li>
@@ -49,6 +52,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Classes/UZContentServices.html">UZContentServices</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/UZEndscreenView.html">UZEndscreenView</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/UZHomeData.html">UZHomeData</a>
@@ -94,9 +100,6 @@
               </li>
               <li class="nav-group-task">
                 <a href="Classes/UZPlayerViewController.html">UZPlayerViewController</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Classes/UZShareView.html">UZShareView</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes/UZSlider.html">UZSlider</a>
@@ -246,9 +249,111 @@
 <a href="http://cocoapods.org/pods/UizaSDK"><img src="https://img.shields.io/cocoapods/l/UizaSDK.svg?style=flat" alt="License"></a>
 <a href="http://cocoapods.org/pods/UizaSDK"><img src="https://img.shields.io/cocoapods/p/UizaSDK.svg?style=flat" alt="Platform"></a></p>
 
-<p>(Scroll down for English)</p>
+<p>(Kéo xuống phía dưới để đọc tiếng Việt)</p>
 
-<p>UizaSDK là bộ Framework hỗ trợ kết nối đến API của hệ thống Uiza OTT</p>
+<p>UizaSDK is a framework to connect to Uiza system</p>
+<h2 id='compatibility' class='heading'>Compatibility</h2>
+
+<p>UizaSDK requires Swift 4.1 and iOS 10+, TVOS 10+</p>
+<h2 id='installation' class='heading'>Installation</h2>
+<h3 id='cocoapods-recommended' class='heading'>CocoaPods (Recommended)</h3>
+
+<p>To integrate UizaSDK into your Xcode project using <a href="http://cocoapods.org">CocoaPods</a>, specify it in your <code>Podfile</code>:</p>
+<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'UizaSDK'</span>
+</code></pre>
+
+<p>Then run the following command:</p>
+<pre class="highlight shell"><code><span class="nv">$ </span>pod <span class="nb">install</span>
+</code></pre>
+<h3 id='manual-installation' class='heading'>Manual Installation</h3>
+
+<p>Download <a href="https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework"><code>UizaSDK.framework</code></a> and drag it into your project, add it to Embbeded Binaries section</p>
+<h2 id='usage' class='heading'>Usage</h2>
+<h2 id='framework-init' class='heading'>Framework Init</h2>
+
+<p>Always initialize the framework by the following line before calling any API functions:</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">UizaSDK</span>
+
+<span class="kt">UizaSDK</span><span class="o">.</span><span class="nf">initWith</span><span class="p">(</span><span class="nv">appId</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_APP_ID</span><span class="p">],</span> <span class="nv">token</span><span class="p">:</span> <span class="p">[</span><span class="kt">TOKEN</span><span class="p">],</span> <span class="nv">api</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_DOMAIN</span><span class="p">])</span>
+</code></pre>
+
+<p>[YOUR_APP_ID] and [YOUR_DOMAIN] : get from registration email</p>
+
+<p>[TOKEN]: generate from <a href="https://docs.uiza.io/#get-api-key">https://docs.uiza.io/#get-api-key</a></p>
+<h2 id='call-api' class='heading'>Call API</h2>
+<pre class="highlight swift"><code><span class="kt">UZContentServices</span><span class="p">()</span><span class="o">.</span><span class="nf">loadDetail</span><span class="p">(</span><span class="nv">entityId</span><span class="p">:</span> <span class="kt">ENTITY_ID</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="n">videoItem</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span> <span class="k">in</span>
+  <span class="k">if</span> <span class="n">error</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"Error: </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+  <span class="p">}</span>
+  <span class="k">else</span> <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"Video: </span><span class="se">\(</span><span class="n">videoItem</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+  <span class="p">}</span>
+<span class="p">})</span>
+</code></pre>
+<h2 id='how-to-play-video' class='heading'>How to play video</h2>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerViewController</span> <span class="o">=</span> <span class="kt">UZPlayerViewController</span><span class="p">()</span>
+<span class="n">playerViewController</span><span class="o">.</span><span class="n">player</span><span class="o">.</span><span class="nf">loadVideo</span><span class="p">(</span><span class="nv">entityId</span><span class="p">:</span> <span class="p">[</span><span class="kt">ENTITY_ID</span><span class="p">])</span>
+<span class="nf">present</span><span class="p">(</span><span class="n">playerViewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+</code></pre>
+
+<p>You might have to add these lines to <code>Info.plist</code> to disable App Transport Security (ATS) to be able to play video:</p>
+<pre class="highlight xml"><code><span class="nt">&lt;key&gt;</span>NSAppTransportSecurity<span class="nt">&lt;/key&gt;</span>  
+<span class="nt">&lt;dict&gt;</span>  
+  <span class="nt">&lt;key&gt;</span>NSAllowsArbitraryLoads<span class="nt">&lt;/key&gt;&lt;true/&gt;</span>  
+<span class="nt">&lt;/dict&gt;</span>
+</code></pre>
+<h2 id='how-to-broadcast-livestream' class='heading'>How to broadcast livestream</h2>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">viewController</span> <span class="o">=</span> <span class="kt">UZLiveStreamViewController</span><span class="p">()</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">liveEventId</span> <span class="o">=</span> <span class="p">[</span><span class="kt">ENTITY_ID</span><span class="p">]</span>
+<span class="k">self</span><span class="o">.</span><span class="nf">present</span><span class="p">(</span><span class="n">viewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+</code></pre>
+
+<p>Remember to add these usage description keys into <code>Info.plist</code> file:</p>
+<pre class="highlight xml"><code><span class="nt">&lt;key&gt;</span>NSCameraUsageDescription<span class="nt">&lt;/key&gt;</span>
+<span class="nt">&lt;string&gt;</span>App needs access to camera for livestream<span class="nt">&lt;/string&gt;</span>
+<span class="nt">&lt;key&gt;</span>NSMicrophoneUsageDescription<span class="nt">&lt;/key&gt;</span>
+<span class="nt">&lt;string&gt;</span>App needs access to microphone for livestream<span class="nt">&lt;/string&gt;</span>
+</code></pre>
+<h2 id='change-player-themes' class='heading'>Change Player Themes</h2>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerViewController</span> <span class="o">=</span> <span class="kt">UZPlayerViewController</span><span class="p">()</span>
+<span class="n">playerViewController</span><span class="o">.</span><span class="n">player</span><span class="o">.</span><span class="n">theme</span> <span class="o">=</span> <span class="kt">UZTheme1</span><span class="p">()</span>
+</code></pre>
+
+<p>UizaPlayer currently has 7 built-in themes:</p>
+
+<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme1.jpg">UZTheme1</a></p>
+
+<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme2.jpg">UZTheme2</a></p>
+
+<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme3.jpg">UZTheme3</a></p>
+
+<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme4.jpg">UZTheme4</a></p>
+
+<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme5.jpg">UZTheme5</a></p>
+
+<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme6.jpg">UZTheme6</a></p>
+
+<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme7.jpg">UZTheme7</a></p>
+<h2 id='create-customtheme' class='heading'>Create CustomTheme</h2>
+
+<p>You can create your own custom theme by creating a class inheriting from <a href="https://uizaio.github.io/uiza-sdk-player-ios/Protocols/UZPlayerTheme.html">UZPlayerTheme Protocol</a> following this template: <a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/UZCustomTheme.swift">UZCustomTheme</a></p>
+
+<p>You can also create your custom end screen by subclassing <code><a href="Classes/UZEndscreenView.html">UZEndscreenView</a></code>, then set an instance to <code>player.controlView.endscreenView</code></p>
+<pre class="highlight swift"><code><span class="k">self</span><span class="o">.</span><span class="n">playerViewController</span><span class="o">.</span><span class="n">player</span><span class="o">.</span><span class="n">controlView</span><span class="o">.</span><span class="n">endscreenView</span> <span class="o">=</span> <span class="kt">MyCustomEndScreen</span><span class="p">()</span>
+</code></pre>
+
+<p>For API details, check <a href="https://uizaio.github.io/uiza-sdk-player-ios/">API Document</a></p>
+<h2 id='support' class='heading'>Support</h2>
+
+<p><a href="mailto:namnh@uiza.io">namnh@uiza.io</a></p>
+<h2 id='license' class='heading'>License</h2>
+
+<p>UizaSDK is released under the BSD license. See <a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/LICENSE">LICENSE</a> for details.</p>
+
+<hr>
+<h1 id='uizasdk' class='heading'>UizaSDK</h1>
+
+<p>UizaSDK là bộ Framework hỗ trợ kết nối đến API của hệ thống Uiza</p>
 <h2 id='t-ng-th-ch' class='heading'>Tương Thích</h2>
 
 <p>UizaSDK yêu cầu Swift 4.1 và iOS 10+, TVOS 10+</p>
@@ -276,8 +381,9 @@
 <span class="kt">UizaSDK</span><span class="o">.</span><span class="nf">initWith</span><span class="p">(</span><span class="nv">appId</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_APP_ID</span><span class="p">],</span> <span class="nv">token</span><span class="p">:</span> <span class="p">[</span><span class="kt">TOKEN</span><span class="p">],</span> <span class="nv">api</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_DOMAIN</span><span class="p">])</span>
 </code></pre>
 
-<p>[YOUR_APP_ID] và [YOUR_DOMAIN] : lấy từ thông tin trong email đăng ký
-[TOKEN]: được tạo từ trang <a href="https://docs.uiza.io/#get-api-key">https://docs.uiza.io/#get-api-key</a></p>
+<p>[YOUR_APP_ID] và [YOUR_DOMAIN] : lấy từ thông tin trong email đăng ký</p>
+
+<p>[TOKEN]: được tạo từ trang <a href="https://docs.uiza.io/#get-api-key">https://docs.uiza.io/#get-api-key</a></p>
 <h2 id='g-i-h-m-api' class='heading'>Gọi hàm API</h2>
 <pre class="highlight swift"><code><span class="kt">UZContentServices</span><span class="p">()</span><span class="o">.</span><span class="nf">loadDetail</span><span class="p">(</span><span class="nv">entityId</span><span class="p">:</span> <span class="kt">ENTITY_ID</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="n">videoItem</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span> <span class="k">in</span>
   <span class="k">if</span> <span class="n">error</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
@@ -299,6 +405,18 @@
 <span class="nt">&lt;dict&gt;</span>  
   <span class="nt">&lt;key&gt;</span>NSAllowsArbitraryLoads<span class="nt">&lt;/key&gt;&lt;true/&gt;</span>  
 <span class="nt">&lt;/dict&gt;</span>
+</code></pre>
+<h2 id='c-ch-ph-t-livestream' class='heading'>Cách phát livestream</h2>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">viewController</span> <span class="o">=</span> <span class="kt">UZLiveStreamViewController</span><span class="p">()</span>
+<span class="n">viewController</span><span class="o">.</span><span class="n">liveEventId</span> <span class="o">=</span> <span class="p">[</span><span class="kt">ENTITY_ID</span><span class="p">]</span>
+<span class="k">self</span><span class="o">.</span><span class="nf">present</span><span class="p">(</span><span class="n">viewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+</code></pre>
+
+<p>Nhớ thêm mô tả yêu cầu chức năng truy cập camera và micro vào file <code>Info.plist</code>:</p>
+<pre class="highlight xml"><code><span class="nt">&lt;key&gt;</span>NSCameraUsageDescription<span class="nt">&lt;/key&gt;</span>
+<span class="nt">&lt;string&gt;</span>App cần truy cập camera để phát livestream<span class="nt">&lt;/string&gt;</span>
+<span class="nt">&lt;key&gt;</span>NSMicrophoneUsageDescription<span class="nt">&lt;/key&gt;</span>
+<span class="nt">&lt;string&gt;</span>App cần truy cập micro để thu tiếng khi phát livestream<span class="nt">&lt;/string&gt;</span>
 </code></pre>
 <h2 id='thay-i-giao-di-n' class='heading'>Thay đổi giao diện</h2>
 <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerViewController</span> <span class="o">=</span> <span class="kt">UZPlayerViewController</span><span class="p">()</span>
@@ -324,99 +442,19 @@
 
 <p>Bạn có thể tự tạo giao diện riêng bằng cách tạo class kế thừa <a href="https://uizaio.github.io/uiza-sdk-player-ios/Protocols/UZPlayerTheme.html">UZPlayerTheme Protocol</a> theo mẫu code này: <a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/UZCustomTheme.swift">UZCustomTheme</a></p>
 
+<p>Bạn cũng có thể thay đổi giao diện của màn hình kết thúc bằng cách tạo class kế thừa <code><a href="Classes/UZEndscreenView.html">UZEndscreenView</a></code>, sau đó đưa nó vào <code>player.controlView.endscreenView</code></p>
+<pre class="highlight swift"><code><span class="k">self</span><span class="o">.</span><span class="n">playerViewController</span><span class="o">.</span><span class="n">player</span><span class="o">.</span><span class="n">controlView</span><span class="o">.</span><span class="n">endscreenView</span> <span class="o">=</span> <span class="kt">MyCustomEndScreen</span><span class="p">()</span>
+</code></pre>
+
 <p>Xem chi tiết <a href="https://uizaio.github.io/uiza-sdk-player-ios/">Tài liệu API</a></p>
 <h2 id='h-tr' class='heading'>Hỗ Trợ</h2>
 
 <p><a href="mailto:namnh@uiza.io">namnh@uiza.io</a></p>
 
-<hr>
-<h1 id='uizasdk' class='heading'>UizaSDK</h1>
-
-<p>UizaSDK is a framework to connect to Uiza OTT API system</p>
-<h2 id='compatibility' class='heading'>Compatibility</h2>
-
-<p>UizaSDK requires Swift 4.1 and iOS 10+, TVOS 10+</p>
-<h2 id='installation' class='heading'>Installation</h2>
-<h3 id='cocoapods-recommended' class='heading'>CocoaPods (Recommended)</h3>
-
-<p>To integrate UizaSDK into your Xcode project using <a href="http://cocoapods.org">CocoaPods</a>, specify it in your <code>Podfile</code>:</p>
-<pre class="highlight ruby"><code><span class="n">pod</span> <span class="s1">'UizaSDK'</span>
-</code></pre>
-
-<p>Then run the following command:</p>
-<pre class="highlight shell"><code><span class="nv">$ </span>pod <span class="nb">install</span>
-</code></pre>
-<h3 id='manual-installation' class='heading'>Manual Installation</h3>
-
-<p>Download <a href="https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework"><code>UizaSDK.framework</code></a> and drag it into your project, add it to Embbeded Binaries section</p>
-<h2 id='usage' class='heading'>Usage</h2>
-<h2 id='framework-init' class='heading'>Framework Init</h2>
-
-<p>Always initialize the framework by the following line before calling any API functions:</p>
-<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">UizaSDK</span>
-
-<span class="kt">UizaSDK</span><span class="o">.</span><span class="nf">initWith</span><span class="p">(</span><span class="nv">appId</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_APP_ID</span><span class="p">],</span> <span class="nv">token</span><span class="p">:</span> <span class="p">[</span><span class="kt">TOKEN</span><span class="p">],</span> <span class="nv">api</span><span class="p">:</span> <span class="p">[</span><span class="kt">YOUR_DOMAIN</span><span class="p">])</span>
-</code></pre>
-
-<p>[YOUR_APP_ID] and [YOUR_DOMAIN] : get from registration email</p>
-<h2 id='call-api' class='heading'>Call API</h2>
-<pre class="highlight swift"><code><span class="kt">UZContentServices</span><span class="p">()</span><span class="o">.</span><span class="nf">loadDetail</span><span class="p">(</span><span class="nv">entityId</span><span class="p">:</span> <span class="kt">ENTITY_ID</span><span class="p">,</span> <span class="nv">completionBlock</span><span class="p">:</span> <span class="p">{</span> <span class="p">(</span><span class="n">videoItem</span><span class="p">,</span> <span class="n">error</span><span class="p">)</span> <span class="k">in</span>
-  <span class="k">if</span> <span class="n">error</span> <span class="o">!=</span> <span class="kc">nil</span> <span class="p">{</span>
-    <span class="nf">print</span><span class="p">(</span><span class="s">"Error: </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
-  <span class="p">}</span>
-  <span class="k">else</span> <span class="p">{</span>
-    <span class="nf">print</span><span class="p">(</span><span class="s">"Video: </span><span class="se">\(</span><span class="n">videoItem</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
-  <span class="p">}</span>
-<span class="p">})</span>
-</code></pre>
-<h2 id='how-to-play-video' class='heading'>How to play video</h2>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerViewController</span> <span class="o">=</span> <span class="kt">UZPlayerViewController</span><span class="p">()</span>
-<span class="n">playerViewController</span><span class="o">.</span><span class="n">player</span><span class="o">.</span><span class="nf">loadVideo</span><span class="p">(</span><span class="nv">entityId</span><span class="p">:</span> <span class="p">[</span><span class="kt">ENTITY_ID</span><span class="p">])</span>
-<span class="nf">present</span><span class="p">(</span><span class="n">playerViewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
-</code></pre>
-
-<p>You might have to add these lines to <code>Info.plist</code> to disable App Transport Security (ATS) to be able to play video:</p>
-<pre class="highlight xml"><code><span class="nt">&lt;key&gt;</span>NSAppTransportSecurity<span class="nt">&lt;/key&gt;</span>  
-<span class="nt">&lt;dict&gt;</span>  
-  <span class="nt">&lt;key&gt;</span>NSAllowsArbitraryLoads<span class="nt">&lt;/key&gt;&lt;true/&gt;</span>  
-<span class="nt">&lt;/dict&gt;</span>
-</code></pre>
-<h2 id='change-player-themes' class='heading'>Change Player Themes</h2>
-<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">playerViewController</span> <span class="o">=</span> <span class="kt">UZPlayerViewController</span><span class="p">()</span>
-<span class="n">playerViewController</span><span class="o">.</span><span class="n">player</span><span class="o">.</span><span class="n">theme</span> <span class="o">=</span> <span class="kt">UZTheme1</span><span class="p">()</span>
-</code></pre>
-
-<p>UizaPlayer currently has 7 built-in themes:</p>
-
-<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme1.jpg">UZTheme1</a></p>
-
-<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme2.jpg">UZTheme2</a></p>
-
-<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme3.jpg">UZTheme3</a></p>
-
-<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme4.jpg">UZTheme4</a></p>
-
-<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme5.jpg">UZTheme5</a></p>
-
-<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme6.jpg">UZTheme6</a></p>
-
-<p><a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/theme7.jpg">UZTheme7</a></p>
-<h2 id='create-customtheme' class='heading'>Create CustomTheme</h2>
-
-<p>You can create your own custom theme by creating a class inheriting from <a href="https://uizaio.github.io/uiza-sdk-player-ios/Protocols/UZPlayerTheme.html">UZPlayerTheme Protocol</a> following this template: <a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/themes/UZCustomTheme.swift">UZCustomTheme</a></p>
-
-<p>For API details, check <a href="https://uizaio.github.io/uiza-sdk-player-ios/">API Document</a></p>
-<h2 id='support' class='heading'>Support</h2>
-
-<p><a href="mailto:namnh@uiza.io">namnh@uiza.io</a></p>
-<h2 id='license' class='heading'>License</h2>
-
-<p>UizaSDK is released under the BSD license. See <a href="https://github.com/uizaio/uiza-sdk-player-ios/blob/master/LICENSE">LICENSE</a> for details.</p>
-
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Nam Kennic</a>. All rights reserved. (Last updated: 2018-09-05)</p>
+          <p>&copy; 2018 <a class="link" href="" target="_blank" rel="external">Nam Kennic</a>. All rights reserved. (Last updated: 2018-09-10)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.1</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
