@@ -6,7 +6,7 @@
 
 (Kéo xuống phía dưới để đọc tiếng Việt)
 
-UizaSDK is a framework to connect to Uiza OTT API system
+UizaSDK is a framework to connect to Uiza system
 
 ## Compatibility
 
