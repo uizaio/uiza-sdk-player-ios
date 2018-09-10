@@ -167,8 +167,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import LFLiveKit;
 @import UIKit;
-@import MediaPlayer;
 @import CoreGraphics;
+@import MediaPlayer;
 @import ObjectiveC;
 @import NKButton;
 @import GoogleCast;
@@ -199,21 +199,30 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @class NSCoder;
+
+SWIFT_CLASS("_TtC7UizaSDK14NKProgressView")
+@interface NKProgressView : UIView
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 SWIFT_CLASS("_TtC7UizaSDK15UZAirPlayButton")
 @interface UZAirPlayButton : MPVolumeView
