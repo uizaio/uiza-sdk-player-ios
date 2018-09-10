@@ -507,8 +507,7 @@ SWIFT_CLASS("_TtC7UizaSDK22UZPlayerViewController")
 
 SWIFT_CLASS("_TtC7UizaSDK8UZSlider")
 @interface UZSlider : UISlider
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
 - (CGRect)trackRectForBounds:(CGRect)bounds SWIFT_WARN_UNUSED_RESULT;
