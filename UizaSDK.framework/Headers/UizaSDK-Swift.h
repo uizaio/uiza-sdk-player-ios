@@ -466,14 +466,20 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 @end
 
 @class UIButton;
+@class UITapGestureRecognizer;
+@class UISlider;
 
 SWIFT_CLASS("_TtC7UizaSDK19UZPlayerControlView")
 @interface UZPlayerControlView : UIView
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
 - (void)onButtonPressed:(UIButton * _Nonnull)button;
+- (void)onTap:(UITapGestureRecognizer * _Nonnull)gesture;
+- (void)onDoubleTap:(UITapGestureRecognizer * _Nonnull)gesture;
+- (void)progressSliderTouchBegan:(UISlider * _Nonnull)sender;
+- (void)progressSliderValueChanged:(UISlider * _Nonnull)sender;
+- (void)progressSliderTouchEnded:(UISlider * _Nonnull)sender;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
