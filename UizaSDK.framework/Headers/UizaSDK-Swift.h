@@ -358,10 +358,14 @@ SWIFT_CLASS("_TtC7UizaSDK11UZLiveEvent")
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITapGestureRecognizer;
+@class UIButton;
 
 SWIFT_CLASS("_TtC7UizaSDK18UZLiveStreamUIView")
 @interface UZLiveStreamUIView : UIView <UITextFieldDelegate>
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)onTap:(UITapGestureRecognizer * _Nonnull)gesture;
+- (void)onButtonSelected:(UIButton * _Nonnull)button;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
@@ -465,8 +469,6 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (void)adsManagerDidRequestContentResume:(IMAAdsManager * _Null_unspecified)adsManager;
 @end
 
-@class UIButton;
-@class UITapGestureRecognizer;
 @class UISlider;
 
 SWIFT_CLASS("_TtC7UizaSDK19UZPlayerControlView")
