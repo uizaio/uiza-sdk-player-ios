@@ -9,9 +9,9 @@
 Pod::Spec.new do |s|
 
   s.name          = "UizaSDK"
-  s.version       = "6.3"
-  s.summary       = "UizaSDK Framework by Nam Kennic"
-  s.description   = "A framework that handles API connect to Uiza OTT system"
+  s.version       = "6.3.2"
+  s.summary       = "UizaSDK Framework"
+  s.description   = "A framework that handles API connect to Uiza system"
   s.homepage      = "https://github.com/uizaio/uiza-sdk-player-ios"
 
   s.license       = { :type => 'BSD', :file => 'LICENSE' }
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
   s.source        = { :git => "https://github.com/uizaio/uiza-sdk-player-ios.git", :branch => 'origin', :tag => s.version }
   s.documentation_url   = 'https://uizaio.github.io/uiza-sdk-player-ios/'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
   
   s.ios.deployment_target     = '10.0'
   s.ios.vendored_frameworks   = 'UizaSDK.framework'
@@ -47,5 +47,4 @@ Pod::Spec.new do |s|
   s.tvos.dependency "AFDateHelper"
   s.tvos.dependency "SwiftyJSON"
   
-
 end
