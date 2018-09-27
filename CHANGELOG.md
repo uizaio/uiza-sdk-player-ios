@@ -1,3 +1,6 @@
+### Version 6.3.4 (Sep 27 2018)
+- Supports overriding UZPlayer
+
 ### Version 6.3 (Sep 23 2018)
 
 - Supports XCode 10, Swift 4.2
