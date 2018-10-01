@@ -1,3 +1,6 @@
+### Version 6.3.7 (Oct 01 2018)
+- More supports for overriding UZPlayer
+
 ### Version 6.3.6 (Sep 27 2018)
 - Supports overriding UZPlayer
 
