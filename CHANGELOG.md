@@ -1,3 +1,6 @@
+### Version 6.3.8 (Oct 04 2018)
+- [Fixed] Unable to change progress color for custom time slider 
+
 ### Version 6.3.7 (Oct 01 2018)
 - More supports for overriding UZPlayer
 
