@@ -1,3 +1,9 @@
+### Version 6.4 (Oct 14 2018)
+- [New] Supports IMA Ads 
+
+### Version 6.3.9 (Oct 08 2018)
+- [Updated] New linkplay for Staging enviroment 
+
 ### Version 6.3.8 (Oct 04 2018)
 - [Fixed] Unable to change progress color for custom time slider 
 

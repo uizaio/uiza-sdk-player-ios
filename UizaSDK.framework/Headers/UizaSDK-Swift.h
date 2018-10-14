@@ -224,14 +224,6 @@ SWIFT_CLASS("_TtC7UizaSDK14NKProgressView")
 
 
 
-SWIFT_CLASS("_TtC7UizaSDK15UZAirPlayButton")
-@interface UZAirPlayButton : MPVolumeView
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
 
 
 /// Class model nền tảng được dùng bởi tất cả các model khác trong framework. Bạn không cần để ý tới class này.
@@ -243,6 +235,24 @@ SWIFT_CLASS("_TtC7UizaSDK13UZModelObject")
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 /// Khởi tạo class
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+@end
+
+
+/// Class chứa nội dung thông tin quảng cáo
+SWIFT_CLASS("_TtC7UizaSDK13UZAdsCuePoint")
+@interface UZAdsCuePoint : UZModelObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7UizaSDK15UZAirPlayButton")
+@interface UZAirPlayButton : MPVolumeView
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
