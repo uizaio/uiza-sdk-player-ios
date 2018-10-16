@@ -1,3 +1,7 @@
+### Version 6.4.2 (Oct 14 2018)
+- [Fixed] IMA Ads did not work
+- [Fixed] Player config loading not work
+
 ### Version 6.4 (Oct 14 2018)
 - [New] Supports IMA Ads 
 
