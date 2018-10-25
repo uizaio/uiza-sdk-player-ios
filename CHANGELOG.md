@@ -1,3 +1,6 @@
+### Version 6.4.4 (Oct 25 2018)
+- [Fixed] Show endscreen unexpectedly when seeking after the player has ended a movie
+
 ### Version 6.4.2 (Oct 14 2018)
 - [Fixed] IMA Ads did not work
 - [Fixed] Player config loading not work
