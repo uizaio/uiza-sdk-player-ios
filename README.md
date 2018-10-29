@@ -123,7 +123,7 @@ self.playerViewController.player.controlView.endscreenView = MyCustomEndScreen()
 
 ## Create Player with Floating Mode
 
-You can create player with "drag down to floating mode" like Facebook or Youtube, by subclassing [UZFloatingPlayerViewController](https://uizaio.github.io/uiza-sdk-player-ios/UZFloatingPlayerViewController.html), then you can add more UI for displaying video details and add them to  `detailsContainerView` 
+You can create player with "drag down to floating mode" like Facebook or Youtube, by subclassing [UZFloatingPlayerViewController](https://uizaio.github.io/uiza-sdk-player-ios/Classes/UZFloatingPlayerViewController.html), then you can add more UI for displaying video details and add them to  `detailsContainerView` 
 
 Then present using this code:
 ``` swift
@@ -262,7 +262,7 @@ self.playerViewController.player.controlView.endscreenView = MyCustomEndScreen()
 
 ## Tạo Player với Floating Mode
 
-Bạn có thể tạo player với chức năng "kéo xuống góc màn hình" giống Facebook hoặc Youtube bằng cách tạo class kế thừa [UZFloatingPlayerViewController](https://uizaio.github.io/uiza-sdk-player-ios/UZFloatingPlayerViewController.html), trong đó bạn có thể thêm các UI hiển thị chi tiết của video và đưa vào `detailsContainerView` 
+Bạn có thể tạo player với chức năng "kéo xuống góc màn hình" giống Facebook hoặc Youtube bằng cách tạo class kế thừa [UZFloatingPlayerViewController](https://uizaio.github.io/uiza-sdk-player-ios/Classes//UZFloatingPlayerViewController.html), trong đó bạn có thể thêm các UI hiển thị chi tiết của video và đưa vào `detailsContainerView` 
 
 Sau đó present bằng lệnh sau:
 ``` swift
