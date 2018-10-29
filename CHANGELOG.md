@@ -1,3 +1,6 @@
+### Version 6.5 (Oct 25 2018)
+- [New] UZFloatingPlayerViewController to present player with drag down to floating mode gesture. 
+
 ### Version 6.4.4 (Oct 25 2018)
 - [Fixed] Show endscreen unexpectedly when seeking after the player has ended a movie
 

@@ -199,6 +199,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 
+
+SWIFT_CLASS("_TtC7UizaSDK21NKFloatingViewHandler")
+@interface NKFloatingViewHandler : NSObject
+- (void)backToNormalState;
+- (void)updatePosition;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7UizaSDK14NKProgressView")
@@ -332,6 +340,22 @@ SWIFT_CLASS("_TtC7UizaSDK15UZEndscreenView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
+@class NSBundle;
+
+SWIFT_CLASS("_TtC7UizaSDK30UZFloatingPlayerViewController")
+@interface UZFloatingPlayerViewController : UIViewController
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)dismissViewControllerAnimated:(BOOL)flag completion:(void (^ _Nullable)(void))completion;
+- (void)viewDidLoad;
+- (void)viewDidLayoutSubviews;
+@property (nonatomic, readonly) BOOL prefersStatusBarHidden;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
 
 /// Class chứa video của các trang nội dung, ví dụ như trang Home
 SWIFT_CLASS("_TtC7UizaSDK10UZHomeData")
@@ -388,7 +412,6 @@ SWIFT_CLASS("_TtC7UizaSDK18UZLiveStreamUIView")
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldReceiveTouch:(UITouch * _Nonnull)touch SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class NSBundle;
 
 SWIFT_CLASS("_TtC7UizaSDK26UZLiveStreamViewController")
 @interface UZLiveStreamViewController : UIViewController
@@ -473,6 +496,17 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (void)adsManager:(IMAAdsManager * _Null_unspecified)adsManager didReceiveAdError:(IMAAdError * _Null_unspecified)error;
 - (void)adsManagerDidRequestContentPause:(IMAAdsManager * _Null_unspecified)adsManager;
 - (void)adsManagerDidRequestContentResume:(IMAAdsManager * _Null_unspecified)adsManager;
+@end
+
+
+SWIFT_CLASS("_TtC7UizaSDK31UZPlayerContainerViewController")
+@interface UZPlayerContainerViewController : UIViewController
+@property (nonatomic, readonly) BOOL prefersStatusBarHidden;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UISlider;
