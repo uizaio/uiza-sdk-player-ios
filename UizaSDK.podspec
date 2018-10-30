@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "UizaSDK"
-  s.version       = "6.5"
+  s.version       = "6.5.1"
   s.summary       = "UizaSDK Framework"
   s.description   = "A framework that handles API connect to Uiza system"
   s.homepage      = "https://github.com/uizaio/uiza-sdk-player-ios"
@@ -42,6 +42,7 @@ Pod::Spec.new do |s|
   s.ios.dependency "SDWebImage"
   s.ios.dependency "GoogleAds-IMA-iOS-SDK"
   s.ios.dependency "google-cast-sdk"
+  s.ios.dependency "TweenKit"
   
   s.tvos.dependency "Alamofire"
   s.tvos.dependency "AFDateHelper"
