@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03B74DFB16C5F7846E2F5BF1 /* Pods_UizaSDKExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9484CAC48E30E100B5DC6808 /* Pods_UizaSDKExample.framework */; };
+		633B8360218AFBC60013EEE4 /* FloatingPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B835F218AFBC60013EEE4 /* FloatingPlayerViewController.swift */; };
 		63D65CB62104E26F0010D07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D65CB52104E26F0010D07A /* AppDelegate.swift */; };
 		63D65CB82104E26F0010D07A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D65CB72104E26F0010D07A /* ViewController.swift */; };
 		63D65CBB2104E26F0010D07A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D65CB92104E26F0010D07A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		633B835F218AFBC60013EEE4 /* FloatingPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPlayerViewController.swift; sourceTree = "<group>"; };
 		63D65CB22104E26F0010D07A /* UizaSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UizaSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D65CB52104E26F0010D07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63D65CB72104E26F0010D07A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				63D65CB52104E26F0010D07A /* AppDelegate.swift */,
 				63D65CB72104E26F0010D07A /* ViewController.swift */,
+				633B835F218AFBC60013EEE4 /* FloatingPlayerViewController.swift */,
 				63D65CB92104E26F0010D07A /* Main.storyboard */,
 				63D65CBC2104E2700010D07A /* Assets.xcassets */,
 				63D65CBE2104E2700010D07A /* LaunchScreen.storyboard */,
@@ -177,6 +180,7 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftIcons/SwiftIcons.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TweenKit/TweenKit.framework",
 				"${PODS_ROOT}/../../UizaSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -193,6 +197,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftIcons.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TweenKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UizaSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,8 +212,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-UizaSDKExample/Pods-UizaSDKExample-resources.sh",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.2_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
-				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.2_static/GoogleCast.framework/GoogleCastUIResources.bundle",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.3.3_static/GoogleCast.framework/GoogleCastUIResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -245,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633B8360218AFBC60013EEE4 /* FloatingPlayerViewController.swift in Sources */,
 				63D65CB82104E26F0010D07A /* ViewController.swift in Sources */,
 				63D65CB62104E26F0010D07A /* AppDelegate.swift in Sources */,
 			);

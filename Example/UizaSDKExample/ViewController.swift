@@ -12,7 +12,7 @@ import NKButton
 import FrameLayoutKit
 
 class ViewController: UIViewController {
-	let playerViewController = UZPlayerViewController()
+//	let playerViewController = UZPlayerViewController()
 	let themeButton = UIButton()
 	let textField = UITextField()
 	let loadButton = NKButton()
@@ -21,7 +21,8 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		playerViewController.player.controlView.theme = UZTheme1()
+//		playerViewController.autoFullscreenWhenRotateDevice = false
+//		playerViewController.player.controlView.theme = UZTheme1()
 		
 		textField.backgroundColor = .lightGray
 		textField.placeholder = "Enter videoID then tap Load Video"
@@ -43,13 +44,13 @@ class ViewController: UIViewController {
 		themeButton.addTarget(self, action: #selector(switchTheme), for: .touchUpInside)
 		themeButton.showsTouchWhenHighlighted = true
 		
-		self.view.addSubview(playerViewController.view)
-		self.view.addSubview(textField)
+//		self.view.addSubview(playerViewController.view)
+//		self.view.addSubview(textField)
 		self.view.addSubview(loadButton)
-		self.view.addSubview(themeButton)
+//		self.view.addSubview(themeButton)
 		
 		frameLayout = StackFrameLayout(direction: .vertical)
-		frameLayout.append(view: playerViewController.view).heightRatio = 9/16
+//		frameLayout.append(view: playerViewController.view).heightRatio = 9/16
 		frameLayout.append(view: textField).configurationBlock = { layout in
 			layout.edgeInsets = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
 			layout.minSize = CGSize(width: 0, height: 40)
@@ -63,11 +64,11 @@ class ViewController: UIViewController {
 		frameLayout.layoutAlignment = .center
 		self.view.addSubview(frameLayout)
 		
-		UZContentServices().loadLiveVideo(page: 0, limit: 10) { (videos, pagination, error) in
-			if let videoItem = videos?.first {
-				self.playerViewController.player.loadVideo(videoItem)
-			}
-		}
+//		UZContentServices().loadLiveVideo(page: 0, limit: 10) { (videos, pagination, error) in
+//			if let videoItem = videos?.first {
+//				self.playerViewController.player.loadVideo(videoItem)
+//			}
+//		}
 	}
 	
 	override func viewDidLayoutSubviews() {
@@ -88,7 +89,7 @@ class ViewController: UIViewController {
 		}
 		
 		print("Theme index: \(themeIndex)")
-		playerViewController.player.controlView.theme = themeClasses[themeIndex]
+//		playerViewController.player.controlView.theme = themeClasses[themeIndex]
 		
 		themeIndex += 1
 	}
@@ -96,8 +97,21 @@ class ViewController: UIViewController {
 	@objc func loadVideo() {
 		_ = textField.resignFirstResponder()
 		
-		if let videoId = textField.text, !videoId.isEmpty {
-			self.playerViewController.player.loadVideo(entityId: videoId)
+//		if let videoId = textField.text, !videoId.isEmpty {
+//			self.playerViewController.player.loadVideo(entityId: videoId)
+//		}
+		
+		loadButton.isLoading = true
+		
+		UZContentServices().loadEntity(metadataId: nil, publishStatus: .success, page: 0, limit: 20) { (results, error) in
+			self.loadButton.isLoading = false
+			
+			if let videos = results, let video = videos.randomElement() {
+				DispatchQueue.main.async {
+					let viewController = FloatingPlayerViewController.currentInstance ?? FloatingPlayerViewController()
+					viewController.present(with: video, playlist: nil).player.controlView.theme = UZTheme1()
+				}
+			}
 		}
 	}
 	
