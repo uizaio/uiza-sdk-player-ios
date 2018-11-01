@@ -130,6 +130,8 @@ Then present using this code:
 UZFloatingPlayerViewController().present(with: videoItem, playlist: playlist)
 ```
 
+See [Example](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/Example/UizaSDKExample/FloatingPlayerViewController.swift)
+
 For API details, check [API Document](https://uizaio.github.io/uiza-sdk-player-ios/)
 
 ## Support
@@ -268,6 +270,8 @@ Sau đó present bằng lệnh sau:
 ``` swift
 UZFloatingPlayerViewController().present(with: videoItem, playlist: playlist)
 ```
+
+Xem [Ví dụ](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/Example/UizaSDKExample/FloatingPlayerViewController.swift)
 
 Xem chi tiết [Tài liệu API](https://uizaio.github.io/uiza-sdk-player-ios/)
 
