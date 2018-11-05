@@ -27,11 +27,11 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 	public override init() {
 		super.init()
 		
-		titleLabel.font = UIFont(name: "Arial-BoldMT", size: 22)
+		titleLabel.font = UIFont.systemFont(ofSize: 22, weight: .bold)
 		titleLabel.numberOfLines = 2
 		titleLabel.textColor = .white
 		
-		detailsLabel.font = UIFont(name: "Helvetica", size: 14)
+		detailsLabel.font = UIFont.systemFont(ofSize: 14, weight: .regular)
 		detailsLabel.numberOfLines = 0
 		detailsLabel.textColor = UIColor.white.withAlphaComponent(0.5)
 		
@@ -52,13 +52,6 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 	}
 	
 	// MARK: -
-	
-	@discardableResult
-	override open func present(with videoItem: UZVideoItem?, playlist: [UZVideoItem]?) -> UZPlayerViewController {
-		let result = super.present(with: videoItem, playlist: playlist)
-		updateView()
-		return result
-	}
 	
 	override open func playResource(_ resource: UZPlayerResource) {
 		if let floatingHandler = floatingHandler {
