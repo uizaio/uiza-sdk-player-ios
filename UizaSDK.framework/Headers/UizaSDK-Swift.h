@@ -348,7 +348,7 @@ SWIFT_CLASS("_TtC7UizaSDK30UZFloatingPlayerViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)dismissViewControllerAnimated:(BOOL)flag completion:(void (^ _Nullable)(void))completion;
 - (void)viewDidLoad;
-- (void)viewDidLayoutSubviews;
+- (void)viewWillLayoutSubviews;
 @property (nonatomic, readonly) BOOL prefersStatusBarHidden;
 @property (nonatomic, readonly) BOOL shouldAutorotate;
 @property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;

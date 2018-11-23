@@ -1,3 +1,8 @@
+### Version 6.5.3 (Nov 23 2018)
+- [Fix] Invalid logging URL
+- [Update] Time seek live video
+- [Update] Better support for setting custom playerViewController for UZFloatingPlayerViewController
+
 ### Version 6.5 (Oct 25 2018)
 - [New] UZFloatingPlayerViewController to present player with drag down to floating mode gesture. 
 

@@ -54,17 +54,6 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 	// MARK: -
 	
 	override open func playResource(_ resource: UZPlayerResource) {
-		if let floatingHandler = floatingHandler {
-			if floatingHandler.isFloatingMode {
-				floatingHandler.backToNormalState()
-				
-				DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-					self.view.setNeedsLayout()
-					
-				}
-			}
-		}
-		
 		super.playResource(resource)
 		updateView()
 	}

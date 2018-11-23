@@ -112,7 +112,7 @@ class ViewController: UIViewController {
 					// if you have customPlayer, use this:
 					// FloatingPlayerViewController(customPlayerViewController: UZPlayerViewController())
 					
-					viewController.present(with: video, playlist: nil).player = UZPlayer()
+					viewController.present(with: video, playlist: nil)//.player = UZPlayer()
 				}
 			}
 		}
