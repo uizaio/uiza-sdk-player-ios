@@ -10,46 +10,46 @@ import UIKit
 import UizaSDK
 
 open class UZCustomTheme: UZPlayerTheme {
-	// player sẽ tự động set giá trị này, bạn sẽ có thể lấy các button control nằm trong view này
+	// player will set this value automatically, you can access to all button controls inside this view
 	public weak var controlView: UZPlayerControlView? = nil
 	
 	/*
-	Khởi tạo giao diện
+	init your own controls in this function
 	*/
 	open func updateUI() {
 		
 	}
 	
 	/*
-	Sắp xếp giao diện
+	layout your controls in this function
 	*/
 	open func layoutControls(rect: CGRect) {
 		
 	}
 	
 	/*
-	Xóa hết giao diện
+	put all cleanning code here, like removing delegate, remove gesture target ...
 	*/
 	open func cleanUI() {
 		
 	}
 	
 	/*
-	Trả về các nút tạo thêm trong giao diện này (nếu có)
+	override this to returns all custom buttons if applicable
 	*/
 	open func allButtons() -> [UIButton] {
 		return []
 	}
 	
 	/*
-	Hiện loader
+	show loading indicator
 	*/
 	open func showLoader() {
 		
 	}
 	
 	/*
-	Ẩn loader
+	hide loading indicator
 	*/
 	open func hideLoader() {
 		controlView?.loadingIndicatorView?.isHidden = true
@@ -57,7 +57,7 @@ open class UZCustomTheme: UZPlayerTheme {
 	}
 	
 	/*
-	Cập nhật lại giao diện dựa trên video hoặc playlist của player
+	update your UI according to video or playlist
 	*/
 	open func update(withResource: UZPlayerResource?, video: UZVideoItem?, playlist: [UZVideoItem]?) {
 		let isEmptyPlaylist = (playlist?.count ?? 0) == 0
