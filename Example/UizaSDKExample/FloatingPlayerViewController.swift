@@ -103,10 +103,16 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 	
 	// MARK: -
 	
-	//	override public var floatingRect: CGRect {
-	//		let viewSize = UIScreen.main.bounds.size
-	//		return CGRect(x: 10, y: viewSize.height - 60, width: viewSize.width - 20, height: 50)
-	//	}
+	// Uncomment these lines to customize floating rect:
+	
+//	override public func floatingRect(position: NKFloatingPosition) -> CGRect {
+//		if position == .bottomRight {
+//			return super.floatingRect(position: position)
+//		}
+//
+//		let viewSize = UIScreen.main.bounds.size
+//		return CGRect(x: 10, y: viewSize.height - 60, width: viewSize.width - 20, height: 50)
+//	}
 	
 	// MARK: -
 	
