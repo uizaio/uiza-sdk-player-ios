@@ -1,5 +1,5 @@
 ### Version 6.6 (Nov 26 2018)
-- [Update] Able to drag floating video to screen corners (floatingPlayerViewController.floatingHandler.allowsCornerDocking = true)
+- [Update] Able to dock floating video to screen corners (floatingPlayerViewController.floatingHandler.allowsCornerDocking = true)
 
 ### Version 6.5.3 (Nov 23 2018)
 - [Fix] Invalid logging URL
