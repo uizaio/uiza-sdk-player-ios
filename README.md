@@ -11,7 +11,7 @@ UizaSDK is a framework to connect to Uiza system
 
 ## Compatibility
 
-UizaSDK requires Swift 4.1 and iOS 10+, TVOS 10+
+UizaSDK requires Swift 4.2 and iOS 10+, TVOS 10+
 
 ## Installation
 
@@ -42,12 +42,12 @@ Always initialize the framework by the following line before calling any API fun
 ``` swift
 import UizaSDK
 
-UizaSDK.initWith(appId: [YOUR_APP_ID], token: [TOKEN], api: [YOUR_DOMAIN])
+UizaSDK.initWith(appId: YOUR_APP_ID, token: TOKEN, api: YOUR_DOMAIN)
 ```
 
-[YOUR_APP_ID] and [YOUR_DOMAIN] : get from registration email
+YOUR_APP_ID and YOUR_DOMAIN : get from registration email
 
-[TOKEN]: generate from https://docs.uiza.io/#get-api-key
+TOKEN: generate from https://docs.uiza.io/#get-api-key
 
 ## Call API
 ``` swift
@@ -64,7 +64,7 @@ UZContentServices().loadDetail(entityId: ENTITY_ID, completionBlock: { (videoIte
 ## How to play video
 ``` swift
 let playerViewController = UZPlayerViewController()
-playerViewController.player.loadVideo(entityId: [ENTITY_ID])
+playerViewController.player.loadVideo(entityId: ENTITY_ID)
 present(playerViewController, animated: true, completion: nil)
 ```
 
@@ -79,7 +79,7 @@ present(playerViewController, animated: true, completion: nil)
 ## How to broadcast livestream
 ``` swift
 let viewController = UZLiveStreamViewController()
-viewController.liveEventId = [ENTITY_ID]
+viewController.liveEventId = ENTITY_ID
 self.present(viewController, animated: true, completion: nil)
 ```
 
@@ -150,7 +150,7 @@ UizaSDK là bộ Framework hỗ trợ kết nối đến API của hệ thống 
 
 ## Tương Thích
 
-UizaSDK yêu cầu Swift 4.1 và iOS 10+, TVOS 10+
+UizaSDK yêu cầu Swift 4.2 và iOS 10+, TVOS 10+
 
 ## Cài Đặt
 
@@ -173,7 +173,7 @@ $ pod install
 
 ### Tự Cài Đặt
 
-Tải [`UizaSDK.framework`](https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework) và kéo vào project của bạn, và phải thêm nó vào mục Embbeded Binaries
+Tải [`UizaSDK.framework`](https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework) và kéo vào project của bạn, thêm nó vào mục Embbeded Binaries
 
 ## Cách Sử Dụng
 
@@ -183,12 +183,12 @@ Luôn khởi động framework này trước khi gọi bất cứ hàm API nào 
 ``` swift
 import UizaSDK
 
-UizaSDK.initWith(appId: [YOUR_APP_ID], token: [TOKEN], api: [YOUR_DOMAIN])
+UizaSDK.initWith(appId: YOUR_APP_ID, token: TOKEN, api: YOUR_DOMAIN)
 ```
 
-[YOUR_APP_ID] và [YOUR_DOMAIN] : lấy từ thông tin trong email đăng ký
+YOUR_APP_ID và YOUR_DOMAIN : lấy từ thông tin trong email đăng ký
 
-[TOKEN]: được tạo từ trang https://docs.uiza.io/#get-api-key
+TOKEN: được tạo từ trang https://docs.uiza.io/#get-api-key
 
 ## Gọi hàm API
 ``` swift
@@ -205,7 +205,7 @@ UZContentServices().loadDetail(entityId: ENTITY_ID, completionBlock: { (videoIte
 ## Cách play video
 ``` swift
 let playerViewController = UZPlayerViewController()
-playerViewController.player.loadVideo(entityId: [ENTITY_ID])
+playerViewController.player.loadVideo(entityId: ENTITY_ID)
 present(playerViewController, animated: true, completion: nil)
 ```
 
