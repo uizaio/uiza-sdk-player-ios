@@ -3,7 +3,7 @@
 
 ### Version 6.5.3 (Nov 23 2018)
 - [Fix] Invalid logging URL
-- [Update] Time seek live video
+- [Update] Timeshift for live video
 - [Update] Better support for setting custom playerViewController for UZFloatingPlayerViewController
 
 ### Version 6.5 (Oct 25 2018)
