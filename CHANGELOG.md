@@ -1,3 +1,9 @@
+### Version 6.6.1 (Nov 30 2018)
+- [Update] toggle timeshift for live video:
+``` swift
+playerController.controlView.enableTimeShiftForLiveVideo = true/false
+```
+
 ### Version 6.6 (Nov 26 2018)
 - [Update] Able to dock floating video to screen corners
 ``` swift
