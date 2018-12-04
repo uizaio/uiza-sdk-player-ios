@@ -1,5 +1,6 @@
-### Version 6.6.2 (Dec 04 2018)
+### Version 6.6.3 (Dec 04 2018)
 - [Update] able to drag the floating video out of screen to dismiss
+- [Fix] UZFloatingPlayerViewController did not dismiss properly.
 
 ### Version 6.6.1 (Nov 30 2018)
 - [Update] toggle timeshift for live video:
