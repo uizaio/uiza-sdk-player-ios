@@ -1,4 +1,4 @@
-### Version 6.6.3 (Dec 04 2018)
+### Version 6.6.4 (Dec 04 2018)
 - [Update] able to drag the floating video out of screen to dismiss
 - [Fix] UZFloatingPlayerViewController did not dismiss properly.
 
