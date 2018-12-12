@@ -1,3 +1,6 @@
+### Version 6.6.5 (Dec 12 2018)
+- [Update] more supports for customizing UZLiveStreamViewController, now you can customize videoConfiguration and audioConfiguration (see example)
+
 ### Version 6.6.4 (Dec 04 2018)
 - [Update] able to drag the floating video out of screen to dismiss
 - [Fix] UZFloatingPlayerViewController did not dismiss properly.

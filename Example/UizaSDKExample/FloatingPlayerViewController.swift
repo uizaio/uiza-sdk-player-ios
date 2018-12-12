@@ -50,7 +50,17 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 		scrollView.alwaysBounceHorizontal = false
 		scrollView.isDirectionalLockEnabled = true
 	}
-	
+//	
+//	override open func present(with videoItem: UZVideoItem?, playlist: [UZVideoItem]?) -> UZPlayerViewController {
+//		if let videoItem = videoItem {
+//			UZContentServices().loadDetail(entityId: videoItem.id, isLive: videoItem.isLive) { (item, error) in
+//				// updateUI
+//			}
+//		}
+//		
+//		return super.present(with: videoItem, playlist: playlist)
+//	}
+//	
 	// MARK: -
 	
 	override open func playResource(_ resource: UZPlayerResource) {
@@ -79,6 +89,14 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 		
 		self.view.backgroundColor = UIColor(red:0.04, green:0.06, blue:0.12, alpha:1.00)
 		self.detailsContainerView.addSubview(scrollView)
+		
+		DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+			let alert = UIAlertController(title: "Test", message: "Test", preferredStyle: UIAlertControllerStyle.alert)
+			alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.cancel, handler: { (action) in
+				alert.dismiss(animated: true, completion: nil)
+			}))
+			self.present(alert, animated: true, completion: nil)
+		}
 	}
 	
 	override public func viewDidDisappear(_ animated: Bool) {

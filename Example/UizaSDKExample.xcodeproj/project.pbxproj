@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03B74DFB16C5F7846E2F5BF1 /* Pods_UizaSDKExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9484CAC48E30E100B5DC6808 /* Pods_UizaSDKExample.framework */; };
 		633B8360218AFBC60013EEE4 /* FloatingPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633B835F218AFBC60013EEE4 /* FloatingPlayerViewController.swift */; };
+		637330F021C10C4B00D4A34B /* MyLiveStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637330EF21C10C4B00D4A34B /* MyLiveStreamViewController.swift */; };
 		63D65CB62104E26F0010D07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D65CB52104E26F0010D07A /* AppDelegate.swift */; };
 		63D65CB82104E26F0010D07A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D65CB72104E26F0010D07A /* ViewController.swift */; };
 		63D65CBB2104E26F0010D07A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D65CB92104E26F0010D07A /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		633B835F218AFBC60013EEE4 /* FloatingPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPlayerViewController.swift; sourceTree = "<group>"; };
+		637330EF21C10C4B00D4A34B /* MyLiveStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLiveStreamViewController.swift; sourceTree = "<group>"; };
 		63D65CB22104E26F0010D07A /* UizaSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UizaSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D65CB52104E26F0010D07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63D65CB72104E26F0010D07A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			children = (
 				63D65CB52104E26F0010D07A /* AppDelegate.swift */,
 				63D65CB72104E26F0010D07A /* ViewController.swift */,
+				637330EF21C10C4B00D4A34B /* MyLiveStreamViewController.swift */,
 				633B835F218AFBC60013EEE4 /* FloatingPlayerViewController.swift */,
 				63D65CB92104E26F0010D07A /* Main.storyboard */,
 				63D65CBC2104E2700010D07A /* Assets.xcassets */,
@@ -250,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637330F021C10C4B00D4A34B /* MyLiveStreamViewController.swift in Sources */,
 				633B8360218AFBC60013EEE4 /* FloatingPlayerViewController.swift in Sources */,
 				63D65CB82104E26F0010D07A /* ViewController.swift in Sources */,
 				63D65CB62104E26F0010D07A /* AppDelegate.swift in Sources */,

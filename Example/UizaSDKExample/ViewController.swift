@@ -108,11 +108,9 @@ class ViewController: UIViewController {
 			
 			if let videos = results, let video = videos.randomElement() {
 				DispatchQueue.main.async {
-					let viewController = FloatingPlayerViewController.currentInstance ?? FloatingPlayerViewController()
-					// if you have customPlayer, use this:
-					// FloatingPlayerViewController(customPlayerViewController: UZPlayerViewController())
-					
-					viewController.present(with: video, playlist: nil)//.player = UZPlayer()
+					let viewController = FloatingPlayerViewController()
+					viewController.present(with: video).player.controlView.theme = UZTheme1()
+					viewController.floatingHandler?.allowsCornerDocking = true
 				}
 			}
 		}
