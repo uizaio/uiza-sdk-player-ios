@@ -24,7 +24,7 @@ PODS:
   - SwiftIcons (2.2.0)
   - SwiftyJSON (4.2.0)
   - TweenKit (0.4)
-  - UizaSDK (6.6.4):
+  - UizaSDK (6.6.5):
     - AFDateHelper
     - Alamofire
     - FrameLayoutKit
@@ -78,7 +78,7 @@ SPEC CHECKSUMS:
   SwiftIcons: e7eb9bf2b475d6bdd8b37c5bdedc6d120aab0829
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   TweenKit: 881d6f587aeae21fd9cfc823929b3b2ec55bbf97
-  UizaSDK: 0f787549f9ecccd726f1a822176fe39e75de4044
+  UizaSDK: 4e63541689bbe90af63913a5207af3d1f78f2f72
 
 PODFILE CHECKSUM: ab3733fec7c1baf862fe9bbcc6f94af6ffd6c5c4
 
