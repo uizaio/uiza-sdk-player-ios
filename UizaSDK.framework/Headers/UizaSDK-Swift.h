@@ -232,6 +232,28 @@ SWIFT_CLASS("_TtC7UizaSDK14NKProgressView")
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /// Class model nền tảng được dùng bởi tất cả các model khác trong framework. Bạn không cần để ý tới class này.
 SWIFT_CLASS("_TtC7UizaSDK13UZModelObject")
 @interface UZModelObject : NSObject <NSCoding>
@@ -391,7 +413,6 @@ SWIFT_CLASS("_TtC7UizaSDK11UZLiveEvent")
 @end
 
 @class UITapGestureRecognizer;
-@class UIButton;
 
 SWIFT_CLASS("_TtC7UizaSDK18UZLiveStreamUIView")
 @interface UZLiveStreamUIView : UIView <UITextFieldDelegate>
@@ -507,7 +528,6 @@ SWIFT_CLASS("_TtC7UizaSDK31UZPlayerContainerViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UISlider;
 
 SWIFT_CLASS("_TtC7UizaSDK19UZPlayerControlView")
 @interface UZPlayerControlView : UIView

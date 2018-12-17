@@ -1,3 +1,7 @@
+### Version 6.7 (Dec 17 2018)
+- [Fix] Set custom LiveStreamUIView did not catch button events
+- [Update] Downgrade minumum development target to iOS 9.x
+
 ### Version 6.6.5 (Dec 12 2018)
 - [Update] more supports for customizing UZLiveStreamViewController, now you can customize videoConfiguration and audioConfiguration (see example)
 
