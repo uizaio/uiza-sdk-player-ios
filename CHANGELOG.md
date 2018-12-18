@@ -1,3 +1,12 @@
+### Version 6.8 (Dec 18 2018)
+- [New] use pod 'UizaSDK_8' to install SDK for project with deployment target from 8.x
+Please note that this SDK does not support:
+- Google Cast
+- Google Ads IMA
+- Picture in Picture
+- Buffer duration adjustment
+- Future updates like DRM, video download etc..
+
 ### Version 6.7 (Dec 17 2018)
 - [Fix] Set custom LiveStreamUIView did not catch button events
 - [Update] Downgrade minumum development target to iOS 9.x
