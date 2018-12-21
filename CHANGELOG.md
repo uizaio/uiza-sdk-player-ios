@@ -1,3 +1,6 @@
+### Version 6.8.2 (Dec 21 2018)
+- [Updated] show message when live video has ended.
+
 ### Version 6.8 (Dec 18 2018)
 - [New] use pod 'UizaSDK_8' to install SDK for project with deployment target from 8.x
 Please note that this SDK does not support:

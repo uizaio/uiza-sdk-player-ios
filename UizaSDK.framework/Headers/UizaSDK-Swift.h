@@ -496,9 +496,9 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 @class AVPictureInPictureController;
 
 @interface UZPlayer (SWIFT_EXTENSION(UizaSDK)) <AVPictureInPictureControllerDelegate>
-- (void)pictureInPictureControllerWillStartPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
-- (void)pictureInPictureControllerDidStartPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
-- (void)pictureInPictureControllerDidStopPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController;
+- (void)pictureInPictureControllerWillStartPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController SWIFT_AVAILABILITY(ios,introduced=9.0);
+- (void)pictureInPictureControllerDidStartPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController SWIFT_AVAILABILITY(ios,introduced=9.0);
+- (void)pictureInPictureControllerDidStopPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController SWIFT_AVAILABILITY(ios,introduced=9.0);
 @end
 
 @class IMAAdsLoader;
