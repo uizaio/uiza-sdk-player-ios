@@ -1,3 +1,9 @@
+### Version 6.8.3 (Dec 21 2018)
+- [Updated] change message when live ended directly with 
+``` swift
+playerViewController.liveEndedMessage
+```
+
 ### Version 6.8.2 (Dec 21 2018)
 - [Updated] show message when live video has ended.
 
