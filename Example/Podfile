@@ -6,5 +6,6 @@ target 'UizaSDKExample' do
   use_frameworks!
 
   pod 'UizaSDK'
+	pod 'SwiftIcons'
 
 end

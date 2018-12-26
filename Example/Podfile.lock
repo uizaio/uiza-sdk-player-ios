@@ -1,5 +1,4 @@
 PODS:
-  - AFDateHelper (4.2.7)
   - Alamofire (4.8.0)
   - FrameLayoutKit (3.3)
   - google-cast-sdk (4.3.4):
@@ -13,18 +12,18 @@ PODS:
     - FrameLayoutKit
     - NVActivityIndicatorView/AppExtension
   - NKModalViewManager (3.4.2)
-  - NVActivityIndicatorView (4.4.1):
-    - NVActivityIndicatorView/Presenter (= 4.4.1)
-  - NVActivityIndicatorView/AppExtension (4.4.1)
-  - NVActivityIndicatorView/Presenter (4.4.1)
+  - NVActivityIndicatorView (4.5.0):
+    - NVActivityIndicatorView/Presenter (= 4.5.0)
+  - NVActivityIndicatorView/AppExtension (4.5.0)
+  - NVActivityIndicatorView/Presenter (4.5.0)
   - Protobuf (3.6.1)
   - SDWebImage (4.4.3):
     - SDWebImage/Core (= 4.4.3)
   - SDWebImage/Core (4.4.3)
+  - SwiftIcons (2.3.2)
   - SwiftyJSON (4.2.0)
   - TweenKit (0.4)
-  - UizaSDK (6.7):
-    - AFDateHelper
+  - UizaSDK (6.8.2):
     - Alamofire
     - FrameLayoutKit
     - google-cast-sdk
@@ -38,11 +37,11 @@ PODS:
     - TweenKit
 
 DEPENDENCIES:
+  - SwiftIcons
   - UizaSDK
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - AFDateHelper
     - Alamofire
     - FrameLayoutKit
     - google-cast-sdk
@@ -53,12 +52,12 @@ SPEC REPOS:
     - NVActivityIndicatorView
     - Protobuf
     - SDWebImage
+    - SwiftIcons
     - SwiftyJSON
     - TweenKit
     - UizaSDK
 
 SPEC CHECKSUMS:
-  AFDateHelper: 4ad66fb19503041fbba8a3018cb7ef9c71b2ff88
   Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
   FrameLayoutKit: 2a4b3833c90b60b5305b9030a83e34d5c3ed7173
   google-cast-sdk: 84c88641be5a09fb0424bb44975a53b1dbd2ee6a
@@ -66,13 +65,14 @@ SPEC CHECKSUMS:
   LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
   NKButton: c0d284b93fd95718ed16c411a4eaa8dc4b6dc379
   NKModalViewManager: 8bde936aae6183f616ba11d05353e99d89b8dac7
-  NVActivityIndicatorView: f0a6b0ed2973d9544da268f4eb76696f0a9577b0
+  NVActivityIndicatorView: 1e4e3ed79248cf1666af182593c3a2acf0fcf193
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
   SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  SwiftIcons: e652cfd2676441c462ad57b6e92977faf577e590
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   TweenKit: 881d6f587aeae21fd9cfc823929b3b2ec55bbf97
-  UizaSDK: 9cb2063da60bcd023ee726d4dedf56f0120a8e55
+  UizaSDK: f82e3db48f8197877e9bc299d9c6bf6a5487b732
 
-PODFILE CHECKSUM: 8b7c975eda6e8f2cae3d3e76dd74cbb1b2dd7956
+PODFILE CHECKSUM: 44802035e0f9b0a3379741135625a774ab71f4ea
 
 COCOAPODS: 1.6.0.beta.2
