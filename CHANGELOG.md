@@ -1,4 +1,10 @@
-### Version 6.8.3 (Dec 21 2018)
+### Version 6.8.4 (Dec 28 2018)
+- [Updated] able to disable/enable floating mode by setting: 
+``` swift
+floatingPlayerViewController.floatingHandler.isEnabled = true/false
+```
+
+### Version 6.8.3 (Dec 26 2018)
 - [Updated] change message when live ended directly with 
 ``` swift
 playerViewController.liveEndedMessage
