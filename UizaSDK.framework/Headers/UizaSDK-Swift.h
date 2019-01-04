@@ -366,7 +366,6 @@ SWIFT_CLASS("_TtC7UizaSDK30UZFloatingPlayerViewController")
 @interface UZFloatingPlayerViewController : UIViewController
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)dismissViewControllerAnimated:(BOOL)flag completion:(void (^ _Nullable)(void))completion;
 - (void)viewDidLoad;
 - (void)viewWillLayoutSubviews;
 @property (nonatomic, readonly) BOOL prefersStatusBarHidden;

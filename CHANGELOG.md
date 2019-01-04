@@ -1,3 +1,6 @@
+### Version 6.8.6 (Jan 04 2019)
+- [Fixed] unable to drag-to-minimize player after showing an alert
+
 ### Version 6.8.5 (Jan 03 2019)
 - [Updated] player will keep pausing when back from background state. For auto resume, set this: 
 ``` swift
