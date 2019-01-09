@@ -1,3 +1,6 @@
+### Version 6.8.7 (Jan 09 2019)
+- [Fixed] fix audioBitrate metadata push in livestream library
+
 ### Version 6.8.6 (Jan 04 2019)
 - [Fixed] unable to drag-to-minimize player after showing an alert
 

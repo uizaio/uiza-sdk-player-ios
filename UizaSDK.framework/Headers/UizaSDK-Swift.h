@@ -169,7 +169,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import GoogleCast;
 @import GoogleInteractiveMediaAds;
-@import LFLiveKit;
+@import LFLiveKit_;
 @import MediaPlayer;
 @import NKButton;
 @import ObjectiveC;
@@ -436,6 +436,7 @@ SWIFT_CLASS("_TtC7UizaSDK26UZLiveStreamViewController")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)start;
+- (void)askToStop;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;

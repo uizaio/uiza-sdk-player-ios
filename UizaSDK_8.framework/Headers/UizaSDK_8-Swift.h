@@ -167,7 +167,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVKit;
 @import CoreGraphics;
 @import Foundation;
-@import LFLiveKit;
+@import LFLiveKit_;
 @import MediaPlayer;
 @import NKButton;
 @import ObjectiveC;
@@ -393,6 +393,7 @@ SWIFT_CLASS("_TtC9UizaSDK_826UZLiveStreamViewController")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)start;
+- (void)askToStop;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
