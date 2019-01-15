@@ -1,3 +1,7 @@
+### Version 6.8.8 (Jan 15 2019)
+- [Fixed] unable to set livestream camera position on initialization
+- [Fixed] duplicate function name might cause build error
+
 ### Version 6.8.7 (Jan 09 2019)
 - [Fixed] fix audioBitrate metadata push in livestream library
 
