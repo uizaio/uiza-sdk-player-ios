@@ -276,6 +276,33 @@ SWIFT_CLASS("_TtC9UizaSDK_814NKProgressView")
 
 
 
+@class UIColor;
+
+/// Activity indicator view with nice animations
+SWIFT_CLASS("_TtC9UizaSDK_823NVActivityIndicatorView")
+@interface NVActivityIndicatorView : UIView
+/// Color of activity indicator view.
+@property (nonatomic, strong) UIColor * _Nonnull color;
+/// Padding of activity indicator view.
+@property (nonatomic) CGFloat padding;
+/// Returns an object initialized from data in a given unarchiver.
+/// self, initialized using the data in decoder.
+/// \param decoder an unarchiver object.
+///
+///
+/// returns:
+/// self, initialized using the data in decoder.
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+/// Returns the natural size for the receiving view, considering only properties of the view itself.
+/// A size indicating the natural size for the receiving view based on its intrinsic properties.
+///
+/// returns:
+/// A size indicating the natural size for the receiving view based on its intrinsic properties.
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
+@property (nonatomic) CGRect bounds;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 
 SWIFT_CLASS("_TtC9UizaSDK_816StackFrameLayout")
 @interface StackFrameLayout : FrameLayout

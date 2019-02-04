@@ -8,7 +8,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "UizaSDK_8"
-  s.version       = "6.9"
+  s.version       = "6.8.11"
   s.summary       = "UizaSDK Framework"
   s.description   = "A framework that handles API connect to Uiza system"
   s.homepage      = "https://github.com/uizaio/uiza-sdk-player-ios"
@@ -29,7 +29,6 @@ Pod::Spec.new do |s|
   s.ios.dependency "SwiftyJSON"
   s.ios.dependency "LFLiveKit+"
   s.ios.dependency "NKModalViewManager"
-  s.ios.dependency "NVActivityIndicatorView"
   s.ios.dependency "SDWebImage"
   
 end
