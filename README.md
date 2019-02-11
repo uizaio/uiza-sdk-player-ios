@@ -22,7 +22,7 @@ To integrate UizaSDK into your Xcode project using [CocoaPods](http://cocoapods.
 
 ```ruby
 pod 'UizaSDK' // for iOS 10+
-pod 'UizaSDK_8' // for iOS 8,9
+pod 'UizaSDK8' // for iOS 8,9
 ```
 
 Then run the following command:
@@ -164,7 +164,7 @@ Thêm vào `Podfile` dòng sau:
 
 ```ruby
 pod 'UizaSDK' // dùng cho phiên bản iOS 10 trở lên
-pod 'UizaSDK_8' // dùng cho phiên bản iOS 8,9
+pod 'UizaSDK8' // dùng cho phiên bản iOS 8,9
 ```
 
 Sau đó chạy lệnh này:
