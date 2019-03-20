@@ -110,7 +110,6 @@ class ViewController: UIViewController {
 				DispatchQueue.main.async {
 					let viewController = FloatingPlayerViewController()
 					viewController.delegate = self
-					viewController.player.delegate = self
 					viewController.present(with: video).player.controlView.theme = UZTheme1()
 					viewController.floatingHandler?.allowsCornerDocking = true
 				}

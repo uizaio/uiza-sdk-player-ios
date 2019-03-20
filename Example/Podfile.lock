@@ -1,34 +1,34 @@
 PODS:
-  - Alamofire (4.8.0)
-  - FrameLayoutKit (3.3)
-  - google-cast-sdk (4.3.4):
-    - google-cast-sdk/Core (= 4.3.4)
+  - Alamofire (4.8.1)
+  - FrameLayoutKit (3.4)
+  - google-cast-sdk (4.3.5):
+    - google-cast-sdk/Core (= 4.3.5)
     - Protobuf (~> 3.0)
-  - google-cast-sdk/Core (4.3.4):
+  - google-cast-sdk/Core (4.3.5):
     - Protobuf (~> 3.0)
-  - GoogleAds-IMA-iOS-SDK (3.8.1)
-  - LFLiveKit (2.6)
-  - NKButton (3.7.2):
+  - GoogleAds-IMA-iOS-SDK (3.8.2)
+  - "LFLiveKit+ (2.6.2)"
+  - NKButton (3.8.3):
     - FrameLayoutKit
     - NVActivityIndicatorView/AppExtension
-  - NKModalViewManager (3.4.2)
-  - NVActivityIndicatorView (4.5.0):
-    - NVActivityIndicatorView/Presenter (= 4.5.0)
-  - NVActivityIndicatorView/AppExtension (4.5.0)
-  - NVActivityIndicatorView/Presenter (4.5.0)
-  - Protobuf (3.6.1)
-  - SDWebImage (4.4.3):
-    - SDWebImage/Core (= 4.4.3)
-  - SDWebImage/Core (4.4.3)
+  - NKModalViewManager (3.5.2)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/AppExtension (4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - Protobuf (3.7.0)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
   - SwiftIcons (2.3.2)
   - SwiftyJSON (4.2.0)
-  - TweenKit (0.4)
-  - UizaSDK (6.8.2):
+  - TweenKit (0.5)
+  - UizaSDK (6.9.4):
     - Alamofire
     - FrameLayoutKit
     - google-cast-sdk
     - GoogleAds-IMA-iOS-SDK
-    - LFLiveKit
+    - "LFLiveKit+"
     - NKButton
     - NKModalViewManager
     - NVActivityIndicatorView
@@ -46,7 +46,7 @@ SPEC REPOS:
     - FrameLayoutKit
     - google-cast-sdk
     - GoogleAds-IMA-iOS-SDK
-    - LFLiveKit
+    - "LFLiveKit+"
     - NKButton
     - NKModalViewManager
     - NVActivityIndicatorView
@@ -58,21 +58,21 @@ SPEC REPOS:
     - UizaSDK
 
 SPEC CHECKSUMS:
-  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
-  FrameLayoutKit: 2a4b3833c90b60b5305b9030a83e34d5c3ed7173
-  google-cast-sdk: 84c88641be5a09fb0424bb44975a53b1dbd2ee6a
-  GoogleAds-IMA-iOS-SDK: 9659b8999443366d2d159413c189e55d88734b78
-  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
-  NKButton: c0d284b93fd95718ed16c411a4eaa8dc4b6dc379
-  NKModalViewManager: 8bde936aae6183f616ba11d05353e99d89b8dac7
-  NVActivityIndicatorView: 1e4e3ed79248cf1666af182593c3a2acf0fcf193
-  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
-  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  FrameLayoutKit: ec991b3e454e98078fb050cf172cd15cfff4bbe8
+  google-cast-sdk: 462e10c781ea8ad480d2e16200bb8584ef067e07
+  GoogleAds-IMA-iOS-SDK: c89768cff22c611a15919a03e43bdb9711731dad
+  "LFLiveKit+": 0da21f6b18c07a4160aa61f17fb436350c558eac
+  NKButton: 419969081ffcf3347ad5436d6412a10ce69d777c
+  NKModalViewManager: 8171cd4fb9315193fc2d05f011f9a29c9ca95a0f
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SwiftIcons: e652cfd2676441c462ad57b6e92977faf577e590
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
-  TweenKit: 881d6f587aeae21fd9cfc823929b3b2ec55bbf97
-  UizaSDK: f82e3db48f8197877e9bc299d9c6bf6a5487b732
+  TweenKit: aef875fd6c48bebd7711f6c4eed1e5cb8de8a004
+  UizaSDK: 3e3241def496f04b1db038599e681bee5ab0b19d
 
 PODFILE CHECKSUM: 44802035e0f9b0a3379741135625a774ab71f4ea
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.6.1
