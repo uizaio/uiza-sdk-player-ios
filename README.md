@@ -136,6 +136,10 @@ See [Example](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/Example/
 
 For API details, check [API Document](https://uizaio.github.io/uiza-sdk-player-ios/)
 
+## Google ChromeCast supports
+If developing using Xcode 10 and targeting iOS devices running iOS 12 or higher, the "Access WiFi Information" capability is required in order to discover and connect to Cast devices
+![](https://developers.google.com/cast/images/xcode_wifi_capability_error.png)
+
 ## Support
 namnh@uiza.io
 
@@ -275,6 +279,10 @@ UZFloatingPlayerViewController().present(with: videoItem, playlist: playlist)
 ```
 
 Xem [Ví dụ](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/Example/UizaSDKExample/FloatingPlayerViewController.swift)
+
+## Hỗ trợ Google ChromeCast
+Nếu bạn sử dụng Xcode 10 và phát triển cho iOS 12 trở lên, cần phải bật "Access WiFi Information" thì chức năng tìm kiếm các thiết bị Cast mới có thể hoạt động
+![](https://developers.google.com/cast/images/xcode_wifi_capability_error.png)
 
 Xem chi tiết [Tài liệu API](https://uizaio.github.io/uiza-sdk-player-ios/)
 
