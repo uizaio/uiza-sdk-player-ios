@@ -1,3 +1,7 @@
+### Version 7.0 (Mar 29 2019)
+- [Updated] supports both API v3 and API v4
+- [Fixed+Updated] able to set interval to auto stop livestream when closing app to background
+
 ### Version 6.8.8 (Jan 15 2019)
 - [Fixed] unable to set livestream camera position on initialization
 - [Fixed] duplicate function name might cause build error
