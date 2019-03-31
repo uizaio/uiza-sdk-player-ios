@@ -36,13 +36,10 @@ Pod::Spec.new do |s|
   s.ios.dependency "FrameLayoutKit"
   s.ios.dependency "NKButton"
   s.ios.dependency "NKModalViewManager"
-  s.ios.dependency "NVActivityIndicatorView"
   s.ios.dependency "SDWebImage"
   s.ios.dependency "GoogleAds-IMA-iOS-SDK"
   s.ios.dependency "google-cast-sdk"
   s.ios.dependency "TweenKit"
-  s.ios.dependency "Mux-Stats-Core"
-  s.ios.dependency "Mux-Stats-AVPlayer"
   
   s.tvos.dependency "Alamofire"
   s.tvos.dependency "SwiftyJSON"
