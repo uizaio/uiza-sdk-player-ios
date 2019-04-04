@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
 
-  s.name          = "UizaSDK8"
+  s.name          = "UizaSDK9"
   s.version       = "7.0.2"
   s.summary       = "UizaSDK Framework"
   s.description   = "A framework that handles API connect to Uiza system"
@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
   s.author        = { 'Nam Kennic' => 'namkennic@me.com' }
   s.platform      = :ios, "8.0"
   s.requires_arc  = true
-  s.swift_version = '3.2'
+  s.swift_version = '4.0'
   s.source        = { :git => "https://github.com/uizaio/uiza-sdk-player-ios.git", :branch => 'origin', :tag => s.version }
   s.documentation_url   = 'https://uizaio.github.io/uiza-sdk-player-ios/'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.2' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   
   s.ios.deployment_target     = '8.0'
-  s.ios.vendored_frameworks   = 'UizaSDK9.framework'
+  s.ios.vendored_frameworks   = 'UizaSDK_9.framework'
 
   s.ios.dependency "Alamofire"
   s.ios.dependency "SwiftyJSON"
