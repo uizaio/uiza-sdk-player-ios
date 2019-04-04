@@ -1,0 +1,4 @@
+framework module UizaSDK_9 {
+    header "UizaSDK_9-Swift.h"
+    requires objc
+}
