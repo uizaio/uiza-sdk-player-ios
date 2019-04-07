@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name          = "UizaSDK-Swift5"
+  s.name          = "UizaSDK"
   s.version       = "7.0.6"
   s.summary       = "UizaSDK Framework"
   s.description   = "A framework that handles API connect to Uiza system"
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
   
   s.ios.deployment_target     = '9.0'
-  s.ios.vendored_frameworks   = 'UizaSDK-Swift5.framework'
+  s.ios.vendored_frameworks   = 'Swift5/UizaSDK.framework'
 
 #  s.tvos.deployment_target    = '10.0'
-#  s.tvos.vendored_frameworks  = 'UizaSDK_tvos.framework'
+#  s.tvos.vendored_frameworks  = 'Swift5/UizaSDK_tvos.framework'
 
   s.ios.dependency "Alamofire"
   s.ios.dependency "SwiftyJSON"
