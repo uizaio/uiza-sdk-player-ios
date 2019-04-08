@@ -1,0 +1,11 @@
+framework module UizaSDK {
+  umbrella header "UizaSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module UizaSDK.Swift {
+    header "UizaSDK-Swift.h"
+    requires objc
+}
