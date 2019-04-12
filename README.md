@@ -11,7 +11,7 @@ UizaSDK is a framework to connect to Uiza system
 
 ## Compatibility
 
-UizaSDK requires Swift 4.2 and iOS 8+, TVOS 10+
+UizaSDK requires Swift 5.0 and iOS 8+, TVOS 10+
 
 ## Installation
 
@@ -23,7 +23,7 @@ To integrate UizaSDK into your Xcode project using [CocoaPods](http://cocoapods.
 ```ruby
 pod 'UizaSDK' // for iOS 10+
 pod 'UizaSDK8' // for iOS 8,9
-pod 'UizaSDK' , '~> 7.0.6-swift3' // for Swift 3.x
+pod 'UizaSDK' , '~> 7.0.7-swift3' // for Swift 3.x
 ```
 
 Then run the following command:
@@ -158,7 +158,7 @@ UizaSDK là bộ Framework hỗ trợ kết nối đến API của hệ thống 
 
 ## Tương Thích
 
-UizaSDK yêu cầu Swift 4.2 và iOS 8+, TVOS 10+
+UizaSDK yêu cầu Swift 5.0 và iOS 8+, TVOS 10+
 
 ## Cài Đặt
 
@@ -172,7 +172,7 @@ Thêm vào `Podfile` dòng sau:
 ```ruby
 pod 'UizaSDK' // dùng cho phiên bản iOS 10 trở lên
 pod 'UizaSDK8' // dùng cho phiên bản iOS 8,9
-pod 'UizaSDK' , '~> 7.0.6-swift3' // dành cho project viết bằng Swift 3.x
+pod 'UizaSDK' , '~> 7.0.7-swift3' // dành cho project viết bằng Swift 3.x
 ```
 
 Sau đó chạy lệnh này:
