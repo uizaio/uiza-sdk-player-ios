@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/UizaSDK.svg?style=flat)](http://cocoapods.org/pods/UizaSDK)
 [![License](https://img.shields.io/cocoapods/l/UizaSDK.svg?style=flat)](http://cocoapods.org/pods/UizaSDK)
 [![Platform](https://img.shields.io/cocoapods/p/UizaSDK.svg?style=flat)](http://cocoapods.org/pods/UizaSDK)
-![Swift](https://img.shields.io/badge/%20in-swift%204.2-orange.svg)
+![Swift](https://img.shields.io/badge/%20in-swift%203.2-orange.svg)
 
 (Kéo xuống phía dưới để đọc tiếng Việt)
 
