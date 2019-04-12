@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 #  s.tvos.deployment_target    = '10.0'
 #  s.tvos.vendored_frameworks  = 'UizaSDK_tvos.framework'
 
-  s.ios.dependency "Alamofire"
-  s.ios.dependency "SwiftyJSON"
+  s.ios.dependency "Alamofire", "4.8.1"
+  s.ios.dependency "SwiftyJSON", "4.2.0"
   s.ios.dependency "LFLiveKit+"
   s.ios.dependency "NKModalViewManager"
-  s.ios.dependency "NVActivityIndicatorView/AppExtension"
+  s.ios.dependency "NVActivityIndicatorView/AppExtension", "4.6.1"
   s.ios.dependency "SDWebImage"
   s.ios.dependency "GoogleAds-IMA-iOS-SDK"
   s.ios.dependency "google-cast-sdk"
