@@ -11,7 +11,7 @@ UizaSDK is a framework to connect to Uiza system
 
 ## Compatibility
 
-UizaSDK requires Swift 5.0 and iOS 8+, TVOS 10+
+UizaSDK requires Swift 4.2 and iOS 8+, TVOS 10+
 
 ## Installation
 
@@ -158,7 +158,7 @@ UizaSDK là bộ Framework hỗ trợ kết nối đến API của hệ thống 
 
 ## Tương Thích
 
-UizaSDK yêu cầu Swift 5.0 và iOS 8+, TVOS 10+
+UizaSDK yêu cầu Swift 4.2 và iOS 8+, TVOS 10+
 
 ## Cài Đặt
 
