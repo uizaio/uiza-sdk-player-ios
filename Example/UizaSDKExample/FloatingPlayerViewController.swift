@@ -16,7 +16,7 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 	fileprivate let titleLabel = UILabel()
 	fileprivate let detailsLabel = UILabel()
 	fileprivate let scrollView = UIScrollView()
-	fileprivate var frameLayout: StackFrameLayout!
+	fileprivate var frameLayout: FrameLayoutKit.StackFrameLayout!
 	
 	// MARK: -
 	

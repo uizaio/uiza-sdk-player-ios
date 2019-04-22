@@ -7,5 +7,6 @@ target 'UizaSDKExample' do
 
   pod 'UizaSDK'
 	pod 'SwiftIcons'
+	pod 'FrameLayoutKit'
 
 end

@@ -8,15 +8,14 @@
 
 import UIKit
 import UizaSDK
-import NKButton
 import FrameLayoutKit
 
 class ViewController: UIViewController {
 //	let playerViewController = UZPlayerViewController()
 	let themeButton = UIButton()
+	let loadButton = UIButton()
 	let textField = UITextField()
-	let loadButton = NKButton()
-	var frameLayout : StackFrameLayout!
+	var frameLayout : FrameLayoutKit.StackFrameLayout!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -32,13 +31,11 @@ class ViewController: UIViewController {
 		textField.delegate = self
 		
 		loadButton.addTarget(self, action: #selector(loadVideo), for: .touchUpInside)
-		loadButton.title = "Load Video"
-		loadButton.extendSize = CGSize(width: 20, height: 20)
+		loadButton.setTitle("Load Video", for: .normal)
 		loadButton.titleLabel?.font = UIFont.systemFont(ofSize: 13, weight: .medium)
-		loadButton.setBackgroundColor(.black, for: .normal)
 		loadButton.setTitleColor(.white, for: .normal)
-		loadButton.isRoundedButton = true
 		loadButton.showsTouchWhenHighlighted = true
+		loadButton.backgroundColor = .black
 		
 		themeButton.setImage(UIImage(icon: .googleMaterialDesign(.colorLens), size: CGSize(width: 32, height: 32), textColor: .black, backgroundColor: .clear), for: .normal)
 		themeButton.addTarget(self, action: #selector(switchTheme), for: .touchUpInside)
@@ -101,10 +98,10 @@ class ViewController: UIViewController {
 //			self.playerViewController.player.loadVideo(entityId: videoId)
 //		}
 		
-		loadButton.isLoading = true
+		loadButton.isEnabled = false
 		
-		UZContentServices().loadEntity(metadataId: nil, publishStatus: .success, page: 0, limit: 20) { (results, error) in
-			self.loadButton.isLoading = false
+		UZContentServices().loadEntity(metadataId: nil, publishStatus: .success, page: 0, limit: 20) { [weak self] (results, error) in
+			self?.loadButton.isEnabled = true
 			
 			if let videos = results, let video = videos.randomElement() {
 				DispatchQueue.main.async {
