@@ -1,3 +1,6 @@
+### Version 7.1 (Apr 27 2019)
+- [Updated] Able to minimize player to bottom-left or bottom-right corner base on user's demand
+
 ### Version 7.0 (Mar 29 2019)
 - [Updated] supports both API v3 and API v4
 - [Fixed+Updated] able to set interval to auto stop livestream when closing app to background

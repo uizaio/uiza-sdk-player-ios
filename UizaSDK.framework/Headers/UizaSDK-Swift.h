@@ -469,9 +469,11 @@ SWIFT_CLASS("_TtC7UizaSDK18UZLiveStreamUIView")
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldReceiveTouch:(UITouch * _Nonnull)touch SWIFT_WARN_UNUSED_RESULT;
 @end
 
+@class LFLiveSession;
+@class LFLiveDebug;
 
 SWIFT_CLASS("_TtC7UizaSDK26UZLiveStreamViewController")
-@interface UZLiveStreamViewController : UIViewController
+@interface UZLiveStreamViewController : UIViewController <LFLiveSessionDelegate>
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)start;
@@ -484,16 +486,10 @@ SWIFT_CLASS("_TtC7UizaSDK26UZLiveStreamViewController")
 @property (nonatomic, readonly) BOOL shouldAutorotate;
 @property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
 @property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
-@end
-
-@class LFLiveSession;
-@class LFLiveDebug;
-
-@interface UZLiveStreamViewController (SWIFT_EXTENSION(UizaSDK)) <LFLiveSessionDelegate>
 - (void)liveSession:(LFLiveSession * _Nullable)session debugInfo:(LFLiveDebug * _Nullable)debugInfo;
 - (void)liveSession:(LFLiveSession * _Nullable)session errorCode:(LFLiveSocketErrorCode)errorCode;
 - (void)liveSession:(LFLiveSession * _Nullable)session liveStateDidChange:(LFLiveState)state;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 
