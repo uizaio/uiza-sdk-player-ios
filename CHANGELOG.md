@@ -1,3 +1,6 @@
+### Version 7.2 (Apr 27 2019)
+- [Updated] Added Sentry error log
+
 ### Version 7.1 (Apr 27 2019)
 - [Updated] Able to minimize player to bottom-left or bottom-right corner base on user's demand
 
