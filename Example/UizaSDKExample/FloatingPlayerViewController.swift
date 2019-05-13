@@ -16,7 +16,7 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 	fileprivate let titleLabel = UILabel()
 	fileprivate let detailsLabel = UILabel()
 	fileprivate let scrollView = UIScrollView()
-	fileprivate var frameLayout: FrameLayoutKit.StackFrameLayout!
+	fileprivate var frameLayout: StackFrameLayout!
 	
 	// MARK: -
 	
@@ -78,6 +78,8 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 	
 	override public func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
 		self.floatingHandler?.delegate = nil
+		self.stop()
+		FloatingPlayerViewController.currentInstance = nil
 		super.dismiss(animated: flag, completion: completion)
 	}
 	
@@ -93,6 +95,7 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 	
 	override public func viewDidDisappear(_ animated: Bool) {
 		super.viewDidDisappear(animated)
+		self.stop()
 		FloatingPlayerViewController.currentInstance = nil
 	}
 	
@@ -127,6 +130,7 @@ class FloatingPlayerViewController: UZFloatingPlayerViewController {
 	// MARK: -
 	
 	deinit {
+		print("DEINIT")
 		NotificationCenter.default.removeObserver(self)
 	}
 	
