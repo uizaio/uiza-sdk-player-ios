@@ -79,14 +79,14 @@ class ViewController: UIViewController {
 	}
 	
 	var themeIndex: Int = 0
-	let themeClasses: [UZPlayerTheme] = [UZTheme1(), UZTheme2(), UZTheme3(), UZTheme4(), UZTheme5(), UZTheme6(), UZTheme7()]
+	let themeClasses: [UZPlayerTheme.Type] = [UZTheme1.self, UZTheme2.self, UZTheme3.self, UZTheme4.self, UZTheme5.self, UZTheme6.self, UZTheme7.self]
 	@objc func switchTheme() {
 		if themeIndex == themeClasses.count {
 			themeIndex = 0
 		}
 		
 		print("Theme index: \(themeIndex)")
-//		playerViewController.player.controlView.theme = themeClasses[themeIndex]
+//		playerViewController.player.controlView.theme = themeClasses[themeIndex]()
 		
 		themeIndex += 1
 	}
