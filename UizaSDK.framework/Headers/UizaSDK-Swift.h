@@ -174,8 +174,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import GoogleInteractiveMediaAds;
 @import LFLiveKit_;
 @import MediaPlayer;
+@import NKButton;
 @import ObjectiveC;
-@import QuartzCore;
 @import UIKit;
 #endif
 
@@ -267,8 +267,6 @@ SWIFT_CLASS("_TtC7UizaSDK14NKProgressView")
 
 
 
-
-
 /// Class model nền tảng được dùng bởi tất cả các model khác trong framework. Bạn không cần để ý tới class này.
 SWIFT_CLASS("_TtC7UizaSDK13UZModelObject")
 @interface UZModelObject : NSObject <NSCoding>
@@ -307,32 +305,8 @@ SWIFT_CLASS("_TtC7UizaSDK12UZBannerItem")
 @end
 
 
-SWIFT_CLASS("_TtC7UizaSDK8UZButton")
-@interface UZButton : UIButton
-@property (nonatomic) UIEdgeInsets contentEdgeInsets;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (CGSize)sizeThatFits:(CGSize)size SWIFT_WARN_UNUSED_RESULT;
-- (void)sizeToFit;
-- (void)drawRect:(CGRect)rect;
-- (void)layoutSubviews;
-@property (nonatomic) CGRect frame;
-@property (nonatomic) CGRect bounds;
-@property (nonatomic, getter=isHighlighted) BOOL highlighted;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
-@end
-
-@class CAAnimation;
-
-@interface UZButton (SWIFT_EXTENSION(UizaSDK)) <CAAnimationDelegate>
-- (void)animationDidStop:(CAAnimation * _Nonnull)anim finished:(BOOL)flag;
-@end
-
-
-
-
 SWIFT_CLASS("_TtC7UizaSDK12UZCastButton")
-@interface UZCastButton : UZButton
+@interface UZCastButton : NKButton
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

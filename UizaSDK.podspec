@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name          = "UizaSDK"
-  s.version       = "7.2"
+  s.version       = "7.2.2"
   s.summary       = "UizaSDK Framework"
   s.description   = "A framework that handles API connect to Uiza system"
   s.homepage      = "https://github.com/uizaio/uiza-sdk-player-ios"
@@ -26,12 +26,16 @@ Pod::Spec.new do |s|
   s.ios.dependency "SwiftyJSON"
   s.ios.dependency "LFLiveKit+"
   s.ios.dependency "NKModalViewManager"
+  s.ios.dependency "NKButton"
+  s.ios.dependency "FrameLayoutKit"
   s.ios.dependency "NVActivityIndicatorView/AppExtension"
   s.ios.dependency "SDWebImage"
   s.ios.dependency "GoogleAds-IMA-iOS-SDK"
   s.ios.dependency "google-cast-sdk"
+  s.ios.dependency "Sentry"
   
 #  s.tvos.dependency "Alamofire"
 #  s.tvos.dependency "SwiftyJSON"
+#  s.tvos.dependency "Sentry"
   
 end
