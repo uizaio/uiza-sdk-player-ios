@@ -15,7 +15,7 @@ class ViewController: UIViewController {
 	let themeButton = UIButton()
 	let loadButton = UIButton()
 	let textField = UITextField()
-	var frameLayout : FrameLayoutKit.StackFrameLayout!
+	var frameLayout : StackFrameLayout!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
