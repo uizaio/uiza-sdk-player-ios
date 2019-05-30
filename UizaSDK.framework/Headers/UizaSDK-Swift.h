@@ -170,8 +170,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVKit;
 @import CoreGraphics;
 @import Foundation;
-@import GoogleCast;
-@import GoogleInteractiveMediaAds;
 @import LFLiveKit_;
 @import MediaPlayer;
 @import NKButton;
@@ -313,47 +311,6 @@ SWIFT_CLASS("_TtC7UizaSDK12UZCastButton")
 @end
 
 
-SWIFT_CLASS("_TtC7UizaSDK16UZCastingManager")
-@interface UZCastingManager : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKDiscoveryManagerListener>
-- (void)didUpdateDeviceList;
-@end
-
-@class GCKRemoteMediaClient;
-@class GCKMediaStatus;
-
-@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKRemoteMediaClientListener>
-- (void)remoteMediaClient:(GCKRemoteMediaClient * _Nonnull)client didStartMediaSessionWithID:(NSInteger)sessionID;
-- (void)remoteMediaClient:(GCKRemoteMediaClient * _Nonnull)client didUpdateMediaStatus:(GCKMediaStatus * _Nullable)mediaStatus;
-@end
-
-@class GCKRequest;
-@class GCKError;
-
-@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKRequestDelegate>
-- (void)requestDidComplete:(GCKRequest * _Nonnull)request;
-- (void)request:(GCKRequest * _Nonnull)request didFailWithError:(GCKError * _Nonnull)error;
-- (void)request:(GCKRequest * _Nonnull)request didAbortWithReason:(GCKRequestAbortReason)abortReason;
-@end
-
-@class GCKSessionManager;
-@class GCKCastSession;
-@class GCKSession;
-
-@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKSessionManagerListener>
-- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didStartCastSession:(GCKCastSession * _Nonnull)session;
-- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didResumeCastSession:(GCKCastSession * _Nonnull)session;
-- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager session:(GCKSession * _Nonnull)session didReceiveDeviceStatus:(NSString * _Nullable)statusText;
-- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didEndSession:(GCKSession * _Nonnull)session withError:(NSError * _Nullable)error;
-- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didSuspendCastSession:(GCKCastSession * _Nonnull)session withReason:(GCKConnectionSuspendReason)reason;
-@end
-
-
 /// Class chứa thông tin của từng chuyên mục
 SWIFT_CLASS("_TtC7UizaSDK10UZCategory")
 @interface UZCategory : UZModelObject
@@ -456,14 +413,18 @@ SWIFT_CLASS("_TtC7UizaSDK26UZLiveStreamViewController")
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
-@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
-@property (nonatomic, readonly) BOOL shouldAutorotate;
-@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
-@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
 - (void)liveSession:(LFLiveSession * _Nullable)session debugInfo:(LFLiveDebug * _Nullable)debugInfo;
 - (void)liveSession:(LFLiveSession * _Nullable)session errorCode:(LFLiveSocketErrorCode)errorCode;
 - (void)liveSession:(LFLiveSession * _Nullable)session liveStateDidChange:(LFLiveState)state;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+
+@interface UZLiveStreamViewController (SWIFT_EXTENSION(UizaSDK))
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+@property (nonatomic, readonly) BOOL shouldAutorotate;
+@property (nonatomic, readonly) UIInterfaceOrientationMask supportedInterfaceOrientations;
+@property (nonatomic, readonly) UIInterfaceOrientation preferredInterfaceOrientationForPresentation;
 @end
 
 
@@ -510,22 +471,6 @@ SWIFT_CLASS("_TtC7UizaSDK8UZPlayer")
 - (void)pictureInPictureControllerDidStopPictureInPicture:(AVPictureInPictureController * _Nonnull)pictureInPictureController SWIFT_AVAILABILITY(ios,introduced=9.0);
 @end
 
-@class IMAAdsLoader;
-@class IMAAdsLoadedData;
-@class IMAAdLoadingErrorData;
-@class IMAAdsManager;
-@class IMAAdEvent;
-@class IMAAdError;
-
-@interface UZPlayer (SWIFT_EXTENSION(UizaSDK)) <IMAAdsLoaderDelegate, IMAAdsManagerDelegate>
-- (void)adsLoader:(IMAAdsLoader * _Null_unspecified)loader adsLoadedWithData:(IMAAdsLoadedData * _Null_unspecified)adsLoadedData;
-- (void)adsLoader:(IMAAdsLoader * _Null_unspecified)loader failedWithErrorData:(IMAAdLoadingErrorData * _Null_unspecified)adErrorData;
-- (void)adsManager:(IMAAdsManager * _Null_unspecified)adsManager didReceiveAdEvent:(IMAAdEvent * _Null_unspecified)event;
-- (void)adsManager:(IMAAdsManager * _Null_unspecified)adsManager didReceiveAdError:(IMAAdError * _Null_unspecified)error;
-- (void)adsManagerDidRequestContentPause:(IMAAdsManager * _Null_unspecified)adsManager;
-- (void)adsManagerDidRequestContentResume:(IMAAdsManager * _Null_unspecified)adsManager;
-@end
-
 
 SWIFT_CLASS("_TtC7UizaSDK14UZPlayerConfig")
 @interface UZPlayerConfig : UZModelObject
@@ -550,18 +495,23 @@ SWIFT_CLASS("_TtC7UizaSDK19UZPlayerControlView")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
-- (void)onButtonPressed:(UIButton * _Nonnull)button;
-- (void)onTap:(UITapGestureRecognizer * _Nonnull)gesture;
-- (void)onDoubleTap:(UITapGestureRecognizer * _Nonnull)gesture;
-- (void)progressSliderTouchBegan:(UISlider * _Nonnull)sender;
-- (void)progressSliderValueChanged:(UISlider * _Nonnull)sender;
-- (void)progressSliderTouchEnded:(UISlider * _Nonnull)sender;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 
 @interface UZPlayerControlView (SWIFT_EXTENSION(UizaSDK)) <UIGestureRecognizerDelegate>
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldReceiveTouch:(UITouch * _Nonnull)touch SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface UZPlayerControlView (SWIFT_EXTENSION(UizaSDK))
+- (void)hideControlViewWithDuration:(CGFloat)duration;
+- (void)onButtonPressed:(UIButton * _Nonnull)button;
+- (void)onTap:(UITapGestureRecognizer * _Nonnull)gesture;
+- (void)onDoubleTap:(UITapGestureRecognizer * _Nonnull)gesture;
+- (void)progressSliderTouchBegan:(UISlider * _Nonnull)sender;
+- (void)progressSliderValueChanged:(UISlider * _Nonnull)sender;
+- (void)progressSliderTouchEnded:(UISlider * _Nonnull)sender;
 @end
 
 

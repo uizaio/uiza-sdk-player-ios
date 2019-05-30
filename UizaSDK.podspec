@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.dependency "NVActivityIndicatorView/AppExtension"
   s.ios.dependency "SDWebImage"
   s.ios.dependency "GoogleAds-IMA-iOS-SDK"
-  s.ios.dependency "google-cast-sdk"
+#  s.ios.dependency "google-cast-sdk"
   s.ios.dependency "Sentry"
   
 #  s.tvos.dependency "Alamofire"
