@@ -36,6 +36,19 @@ $ pod install
 
 Download [`UizaSDK.framework`](https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework) and drag it into your project, add it to Embbeded Binaries section
 
+### Install GoogleCast, GoogleInteractiveMediaAds with CocoaPods
+```ruby
+pod 'google-cast-sdk'
+pod 'GoogleAds-IMA-iOS-SDK'
+```
+
+Then run the following command:
+
+```bash
+$ pod install
+```
+Please refer [Dependencies-matrix.md](Dependencies-matrix.md) file for GoogleCast and GoogleInteractiveMediaAds version
+
 ## Usage
 
 ## Framework Init
@@ -184,6 +197,19 @@ $ pod install
 ### Tự Cài Đặt
 
 Tải [`UizaSDK.framework`](https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework) và kéo vào project của bạn, thêm nó vào mục Embbeded Binaries
+
+### Cài đặt GoogleCast, GoogleInteractiveMediaAds sử dụng CocoaPods
+```ruby
+pod 'google-cast-sdk'
+pod 'GoogleAds-IMA-iOS-SDK'
+```
+Tham khảo file [Dependencies-matrix.md](Dependencies-matrix.md) để sử dụng version thích hợp của GoogleCast và GoogleInteractiveMediaAds
+
+Sau đó chạy lệnh này:
+
+```bash
+$ pod install
+```
 
 ## Cách Sử Dụng
 
