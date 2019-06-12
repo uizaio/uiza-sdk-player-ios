@@ -1,3 +1,6 @@
+### Version 7.6 (Jun 12 2019)
+- [Updated] Google Ads and Google Cast are now optional
+
 ### Version 7.2 (Apr 27 2019)
 - [Updated] Added Sentry error log
 

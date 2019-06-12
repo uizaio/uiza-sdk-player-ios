@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target     = '8.0'
   s.ios.vendored_frameworks   = 'UizaSDK8.framework'
 
-  s.ios.dependency "Alamofire"
-  s.ios.dependency "SwiftyJSON"
+  s.ios.dependency "Alamofire", '~> 4.8.2'
+  s.ios.dependency "SwiftyJSON", '~> 4.3.0'
   s.ios.dependency "LFLiveKit+"
   s.ios.dependency "NKModalViewManager"
-  s.ios.dependency "SDWebImage"
+  s.ios.dependency "SDWebImage", '~> 5.0.0'
   
 end
