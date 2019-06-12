@@ -1,12 +1,22 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '10.0'
+workspace 'UizaSDKExamples'
 
-target 'UizaSDKExample' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+target 'UizaSDKBasicExample' do
+    project 'UizaSDKBasicExample/UizaSDKBasicExample.xcodeproj'
+    use_frameworks!
+    pod 'UizaSDK'
+end
 
-  pod 'UizaSDK'
-	pod 'SwiftIcons'
-	pod 'FrameLayoutKit'
+target 'UizaSDKCastingExample' do
+    project 'UizaSDKCastingExample/UizaSDKCastingExample.xcodeproj'
+    use_frameworks!
+    pod 'UizaSDK'
+    pod 'google-cast-sdk'
+end
 
+target 'UizaSDKGoogleAdsExample' do
+    project 'UizaSDKGoogleAdsExample/UizaSDKGoogleAdsExample.xcodeproj'
+    use_frameworks!
+    pod 'UizaSDK'
+    pod 'GoogleAds-IMA-iOS-SDK'
 end

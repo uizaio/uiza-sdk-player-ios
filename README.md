@@ -36,6 +36,19 @@ $ pod install
 
 Download [`UizaSDK.framework`](https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework) and drag it into your project, add it to Embbeded Binaries section
 
+### Install GoogleCast, GoogleInteractiveMediaAds with CocoaPods
+```ruby
+pod 'google-cast-sdk'
+pod 'GoogleAds-IMA-iOS-SDK'
+```
+
+Then run the following command:
+
+```bash
+$ pod install
+```
+Please refer [Dependencies-matrix.md](Dependencies-matrix.md) file for GoogleCast and GoogleInteractiveMediaAds version
+
 ## Usage
 
 ## Framework Init
@@ -135,7 +148,7 @@ Then present using this code:
 UZFloatingPlayerViewController().present(with: videoItem, playlist: playlist)
 ```
 
-See [Example](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/Example/UizaSDKExample/FloatingPlayerViewController.swift)
+See [Example](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/Example/UizaSDKBasicExample/UizaSDKBasicExample/FloatingPlayerViewController.swift)
 
 For API details, check [API Document](https://uizaio.github.io/uiza-sdk-player-ios/)
 
@@ -184,6 +197,19 @@ $ pod install
 ### Tự Cài Đặt
 
 Tải [`UizaSDK.framework`](https://github.com/uizaio/uiza-sdk-player-ios/tree/master/UizaSDK.framework) và kéo vào project của bạn, thêm nó vào mục Embbeded Binaries
+
+### Cài đặt GoogleCast, GoogleInteractiveMediaAds sử dụng CocoaPods
+```ruby
+pod 'google-cast-sdk'
+pod 'GoogleAds-IMA-iOS-SDK'
+```
+Tham khảo file [Dependencies-matrix.md](Dependencies-matrix.md) để sử dụng version thích hợp của GoogleCast và GoogleInteractiveMediaAds
+
+Sau đó chạy lệnh này:
+
+```bash
+$ pod install
+```
 
 ## Cách Sử Dụng
 
@@ -284,7 +310,7 @@ Sau đó present bằng lệnh sau:
 UZFloatingPlayerViewController().present(with: videoItem, playlist: playlist)
 ```
 
-Xem [Ví dụ](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/Example/UizaSDKExample/FloatingPlayerViewController.swift)
+Xem [Ví dụ](https://github.com/uizaio/uiza-sdk-player-ios/blob/master/Example/UizaSDKBasicExample/UizaSDKBasicExample/FloatingPlayerViewController.swift)
 
 ## Hỗ trợ Google ChromeCast
 Nếu bạn sử dụng Xcode 10 và phát triển cho iOS 12 trở lên, cần phải bật "Access WiFi Information" thì chức năng tìm kiếm các thiết bị Cast mới có thể hoạt động

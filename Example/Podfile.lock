@@ -13,14 +13,13 @@ PODS:
     - NVActivityIndicatorView/AppExtension
   - NKModalViewManager (3.5.2)
   - NVActivityIndicatorView/AppExtension (4.7.0)
-  - Protobuf (3.7.0)
-  - SDWebImage (5.0.2):
-    - SDWebImage/Core (= 5.0.2)
-  - SDWebImage/Core (5.0.2)
+  - Protobuf (3.8.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
   - Sentry (4.3.4):
     - Sentry/Core (= 4.3.4)
   - Sentry/Core (4.3.4)
-  - SwiftIcons (2.2.0)
   - SwiftyJSON (5.0.0)
   - UizaSDK (7.2.2):
     - Alamofire
@@ -36,8 +35,8 @@ PODS:
     - SwiftyJSON
 
 DEPENDENCIES:
-  - FrameLayoutKit
-  - SwiftIcons
+  - google-cast-sdk
+  - GoogleAds-IMA-iOS-SDK
   - UizaSDK
 
 SPEC REPOS:
@@ -53,7 +52,6 @@ SPEC REPOS:
     - Protobuf
     - SDWebImage
     - Sentry
-    - SwiftIcons
     - SwiftyJSON
     - UizaSDK
 
@@ -66,13 +64,12 @@ SPEC CHECKSUMS:
   NKButton: 419969081ffcf3347ad5436d6412a10ce69d777c
   NKModalViewManager: 8171cd4fb9315193fc2d05f011f9a29c9ca95a0f
   NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
-  Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
-  SDWebImage: 6764b5fa0f73c203728052955dbefa2bf1f33282
+  Protobuf: 3f617b9a6e73605565086864c9bc26b2bf2dd5a3
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
   Sentry: 26f0e6492b103e87434d1a5eea2d241a36f2c2a2
-  SwiftIcons: e7eb9bf2b475d6bdd8b37c5bdedc6d120aab0829
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   UizaSDK: 0b41020884b586a722ed730f9bfbd9da4ae08091
 
-PODFILE CHECKSUM: 72b938a1d5ca1bef7f1ccfcfbdf8499bd77b696c
+PODFILE CHECKSUM: 028f8d554e4e5fbd5ca1e47447870ab5cbded77e
 
 COCOAPODS: 1.7.0.rc.1
