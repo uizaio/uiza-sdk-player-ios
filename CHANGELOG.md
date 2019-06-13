@@ -1,3 +1,6 @@
+### Version 7.6.2 (Jun 12 2019)
+- [Added] New Visualize information for debugging
+
 ### Version 7.6 (Jun 12 2019)
 - [Updated] Google Ads and Google Cast are now optional
 

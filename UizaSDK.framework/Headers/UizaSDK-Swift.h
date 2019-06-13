@@ -172,6 +172,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import Foundation;
 @import LFLiveKit_;
 @import MediaPlayer;
+@import NKButton;
 @import ObjectiveC;
 @import UIKit;
 #endif
@@ -299,6 +300,14 @@ SWIFT_CLASS("_TtC7UizaSDK12UZBannerItem")
 @interface UZBannerItem : UZModelObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7UizaSDK12UZCastButton")
+@interface UZCastButton : NKButton
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
