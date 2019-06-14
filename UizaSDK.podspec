@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 #  s.tvos.deployment_target    = '10.0'
 #  s.tvos.vendored_frameworks  = 'UizaSDK_tvos.framework'
 
-  s.ios.dependency "AFNetworking"
+  s.ios.dependency "Alamofire"
   s.ios.dependency "SwiftyJSON"
   s.ios.dependency "LFLiveKit_"
   s.ios.dependency "NKModalViewManager"
