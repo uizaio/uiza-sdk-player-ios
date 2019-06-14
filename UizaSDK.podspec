@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.dependency "SDWebImage"
   s.ios.dependency "Sentry"
   
-#  s.tvos.dependency "AFNetworking"
+#  s.tvos.dependency "Alamofire"
 #  s.tvos.dependency "SwiftyJSON"
 #  s.tvos.dependency "Sentry"
   
