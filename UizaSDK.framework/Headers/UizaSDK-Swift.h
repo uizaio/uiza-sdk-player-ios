@@ -170,6 +170,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import AVKit;
 @import CoreGraphics;
 @import Foundation;
+@import GoogleCast;
 @import LFLiveKit_;
 @import MediaPlayer;
 @import NKButton;
@@ -308,6 +309,47 @@ SWIFT_CLASS("_TtC7UizaSDK12UZCastButton")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7UizaSDK16UZCastingManager")
+@interface UZCastingManager : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKDiscoveryManagerListener>
+- (void)didUpdateDeviceList;
+@end
+
+@class GCKRemoteMediaClient;
+@class GCKMediaStatus;
+
+@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKRemoteMediaClientListener>
+- (void)remoteMediaClient:(GCKRemoteMediaClient * _Nonnull)client didStartMediaSessionWithID:(NSInteger)sessionID;
+- (void)remoteMediaClient:(GCKRemoteMediaClient * _Nonnull)client didUpdateMediaStatus:(GCKMediaStatus * _Nullable)mediaStatus;
+@end
+
+@class GCKRequest;
+@class GCKError;
+
+@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKRequestDelegate>
+- (void)requestDidComplete:(GCKRequest * _Nonnull)request;
+- (void)request:(GCKRequest * _Nonnull)request didFailWithError:(GCKError * _Nonnull)error;
+- (void)request:(GCKRequest * _Nonnull)request didAbortWithReason:(GCKRequestAbortReason)abortReason;
+@end
+
+@class GCKSessionManager;
+@class GCKCastSession;
+@class GCKSession;
+
+@interface UZCastingManager (SWIFT_EXTENSION(UizaSDK)) <GCKSessionManagerListener>
+- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didStartCastSession:(GCKCastSession * _Nonnull)session;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didResumeCastSession:(GCKCastSession * _Nonnull)session;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager session:(GCKSession * _Nonnull)session didReceiveDeviceStatus:(NSString * _Nullable)statusText;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didEndSession:(GCKSession * _Nonnull)session withError:(NSError * _Nullable)error;
+- (void)sessionManager:(GCKSessionManager * _Nonnull)sessionManager didSuspendCastSession:(GCKCastSession * _Nonnull)session withReason:(GCKConnectionSuspendReason)reason;
 @end
 
 
